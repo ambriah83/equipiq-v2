@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import AdminDashboard from './components/AdminDashboard';
 
 // --- ICONS (Lucide-React style inline SVGs) ---
 const UserIcon = ({ className }) => (
@@ -24,6 +25,9 @@ const TicketIcon = ({ className }) => (
 );
 const SettingsIcon = ({ className }) => (
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 0 2.12l-.15.08a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l-.22-.38a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1 0-2.12l.15-.08a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"/><circle cx="12" cy="12" r="3"/></svg>
+);
+const AdminIcon = ({ className }) => (
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
 );
 const SunIcon = ({ className }) => (
   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m4.93 19.07 1.41-1.41"/><path d="m17.66 6.34 1.41-1.41"/></svg>
@@ -367,8 +371,13 @@ const AuthComponent = ({ supabase, theme }) => {
     );
 };
 
-const Sidebar = ({ activePage, setActivePage, theme, setTheme, onSignOut }) => {
+const Sidebar = ({ activePage, setActivePage, theme, setTheme, onSignOut, user }) => {
     const navItems = [{ id: 'chat', icon: MessageSquareIcon }, { id: 'tickets', icon: TicketIcon }, { id: 'settings', icon: SettingsIcon }];
+    // Only show admin button for your email
+    const isAdmin = user?.email === 'ambriahatcher@gmail.com';
+    if (isAdmin) {
+        navItems.push({ id: 'admin', icon: AdminIcon });
+    }
     return (
         <aside className="w-20 bg-white dark:bg-zinc-900 border-r border-[#E5E5EA] dark:border-zinc-800 flex flex-col items-center py-4">
             <div className="font-bold text-xl text-[#007AFF]">IQ</div>
@@ -459,13 +468,14 @@ export default function App() {
                         case 'chat': return <div className="flex-1 p-8 bg-[#F9F9F9] dark:bg-zinc-950"><div className="h-full max-w-2xl mx-auto"><ChatInterface supabase={supabase} /></div></div>;
                         case 'tickets': return <PlaceholderPage title="Tickets Dashboard" />;
                         case 'settings': return <PlaceholderPage title="Settings" />;
+                        case 'admin': return <div className="flex-1 overflow-auto"><AdminDashboard supabase={supabase} user={user} /></div>;
                         default: return <div className="flex-1 p-8 bg-[#F9F9F9] dark:bg-zinc-950"><div className="h-full max-w-2xl mx-auto"><ChatInterface supabase={supabase} /></div></div>;
                     }
                 };
                 
                 return (
                     <AppLayout>
-                        <Sidebar activePage={activePage} setActivePage={setActivePage} theme={theme} setTheme={setTheme} onSignOut={handleSignOut} />
+                        <Sidebar activePage={activePage} setActivePage={setActivePage} theme={theme} setTheme={setTheme} onSignOut={handleSignOut} user={user} />
                         {renderPage()}
                     </AppLayout>
                 );
