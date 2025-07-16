@@ -33,28 +33,28 @@ serve(async (req) => {
 
     const genAI = new GoogleGenerativeAI(apiKey)
     
-    // Try multiple models in order of preference
-    const preferredModel = Deno.env.get('GEMINI_MODEL') || "gemini-1.5-flash"
-    const modelNames = [preferredModel, "gemini-1.5-flash", "gemini-1.5-pro", "gemini-pro"]
-      .filter((v, i, a) => a.indexOf(v) === i) // Remove duplicates
+    // Use gemini-1.5-flash for faster responses
+    const modelName = "gemini-1.5-flash"
     let model = null
-    let lastError = null
     
-    for (const modelName of modelNames) {
-      try {
-        model = genAI.getGenerativeModel({ model: modelName })
-        // Test if model works by making a simple request
-        await model.generateContent("test")
-        console.log(`Using model: ${modelName}`)
-        break
-      } catch (error) {
-        console.warn(`Model ${modelName} failed:`, error.message)
-        lastError = error
-      }
+    try {
+      model = genAI.getGenerativeModel({ 
+        model: modelName,
+        generationConfig: {
+          temperature: 0.7,
+          maxOutputTokens: 500, // Limit response length for speed
+          topP: 0.8,
+          topK: 40,
+        }
+      })
+      console.log(`Using model: ${modelName}`)
+    } catch (error) {
+      console.error('Failed to initialize model:', error)
+      throw new Error('Failed to initialize AI model')
     }
     
     if (!model) {
-      throw new Error(`All models failed. Last error: ${lastError?.message}`)
+      throw new Error('Failed to initialize AI model')
     }
 
     // Create a context-aware prompt with personality

@@ -166,24 +166,15 @@ const AnimatedThinkingIcon = () => {
 
 // Thinking indicator that cycles through fun verbs
 const ThinkingIndicator = () => {
-  const [currentVerb, setCurrentVerb] = useState(0);
+  // Pick a random verb once when component mounts
+  const [currentVerb] = useState(() => Math.floor(Math.random() * thinkingVerbs.length));
   const [isVisible, setIsVisible] = useState(true);
   
   useEffect(() => {
-    // Pick a random starting verb
-    setCurrentVerb(Math.floor(Math.random() * thinkingVerbs.length));
-    
-    // Cycle through verbs every 2.5 seconds with fade effect
+    // Pulse effect without changing the verb
     const interval = setInterval(() => {
       setIsVisible(false);
       setTimeout(() => {
-        setCurrentVerb((prev) => {
-          // Sometimes jump to a random verb for variety
-          if (Math.random() > 0.7) {
-            return Math.floor(Math.random() * thinkingVerbs.length);
-          }
-          return (prev + 1) % thinkingVerbs.length;
-        });
         setIsVisible(true);
       }, 200);
     }, 2500);
@@ -254,7 +245,7 @@ const ChatInterface = ({ supabase }) => {
     const getBotResponse = async (prompt) => {
         if (!supabase) return "Error: Supabase client not available.";
         
-        const SUPABASE_URL = 'https://enpqzoeohonguemzyifo.supabase.co/functions/v1/ask-equip-iq';
+        const SUPABASE_URL = `${config.supabase.url}/functions/v1/ask-equip-iq`;
         
         try {
             const response = await fetch(SUPABASE_URL, {
@@ -279,7 +270,11 @@ const ChatInterface = ({ supabase }) => {
 
         } catch (error) {
             console.error("Error calling Edge Function:", error);
-            return `Error: ${error.message}`;
+            // More user-friendly error messages
+            if (error.message.includes('Failed to fetch')) {
+                return "I'm having trouble connecting. Please check your internet connection and try again.";
+            }
+            return "Sorry, I encountered an error. Please try again.";
         }
     };
 
@@ -353,7 +348,7 @@ const AuthComponent = ({ supabase, theme }) => {
     };
 
     return (
-        <div className={`w-full h-screen flex items-center justify-center p-4 ${theme}`}>
+        <div className="w-full h-screen flex items-center justify-center p-4 bg-white dark:bg-zinc-950">
             <div className="w-full max-w-sm mx-auto">
                 <div className="text-center mb-8">
                     <h1 className="text-4xl font-bold text-[#007AFF]">IQ</h1>
@@ -407,7 +402,7 @@ const Sidebar = ({ activePage, setActivePage, theme, setTheme, onSignOut, user }
                         <UserIcon className="h-6 w-6 text-[#86868B] dark:text-zinc-400" />
                     </button>
                     {showProfileMenu && (
-                        <div className="absolute bottom-full mb-2 left-1/2 transform -translate-x-1/2 w-48 bg-white dark:bg-zinc-900 rounded-lg shadow-lg border border-[#E5E5EA] dark:border-zinc-800 py-2">
+                        <div className="absolute bottom-full mb-2 right-0 w-48 bg-white dark:bg-zinc-900 rounded-lg shadow-lg border border-[#E5E5EA] dark:border-zinc-800 py-2 z-50">
                             <div className="px-4 py-2 border-b border-[#E5E5EA] dark:border-zinc-800">
                                 <p className="text-xs text-[#86868B] dark:text-zinc-400">Signed in as</p>
                                 <p className="text-sm font-medium text-[#1D1D1F] dark:text-gray-50 truncate">{user?.email}</p>

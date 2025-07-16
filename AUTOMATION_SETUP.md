@@ -13,25 +13,18 @@ You'll need to add two secrets to your GitHub repository:
 3. Give it a name like "GitHub Actions"
 4. Copy the token (you won't see it again!)
 
-### 2. Get your Database Password
-
-1. Go to your Supabase project dashboard
-2. Navigate to Settings → Database
-3. Find your database password
-
-## Add Secrets to GitHub
+## Add Secret to GitHub
 
 1. Go to your GitHub repository: https://github.com/ambriah83/equipiq-v2
 2. Click on **Settings** (in the repo, not your profile)
 3. In the left sidebar, click **Secrets and variables** → **Actions**
 4. Click **New repository secret**
 
-Add these two secrets:
+Add this secret:
 
 | Secret Name | Value |
 |------------|-------|
 | `SUPABASE_ACCESS_TOKEN` | Your token from step 1 |
-| `SUPABASE_DB_PASSWORD` | Your database password |
 
 ## How It Works
 
