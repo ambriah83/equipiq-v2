@@ -1,0 +1,53 @@
+Of course. Here is a consolidated project brief that includes your background, our current status, and the immediate next steps.
+
+***
+
+## EquipIQ: Project Brief & Sprint Plan
+**Date:** July 16, 2025
+
+### 1. The Founder & The Unfair Advantage
+
+This project is grounded in the unique expertise of its founder, a proven operator with deep domain knowledge. Key qualifications include:
+* **Executive Leadership:** Former Chief Visionary Officer of Glo Tanning, a franchise scaled to over 250 national locations.
+* **Operational Excellence:** 8 years of experience as a multi-unit salon owner with an intimate understanding of unit economics, franchise operations, and the real-world costs of equipment downtime.
+* **System Builder:** The creator of the operating system that enabled the successful franchising of Glo Tanning.
+* **Pre-existing Market Access:** A direct relationship with a waiting customer base (Glo Tanning and other salon owners) who need this product. This fundamentally de-risks the go-to-market strategy.
+
+### 2. The Vision: What We Are Building
+
+EquipIQ is an AI-driven intelligence layer designed to integrate with existing maintenance systems. It empowers frontline staff at any physical location to instantly diagnose and resolve Tier 1-2 equipment issues. Our mission is to transform reactive, costly maintenance into a proactive, AI-guided self-service model, dramatically reducing operational downtime and vendor dependency.
+
+### 3. Project Status: Where We Are Now
+
+We have successfully completed our initial development sprint and built a **functional, AI-powered MVP.**
+
+* **Key Accomplishments:**
+    * **Established the AI's Knowledge Base:** We processed and ingested a comprehensive troubleshooting guide for the **Sybaritic Hydration Station**, turning a raw document into a queryable AI asset.
+    * **Built the AI "Brain":** We deployed a Retrieval-Augmented Generation (RAG) pipeline. This backend function intelligently searches our knowledge base to provide relevant, fact-based answers to user questions.
+    * **Achieved Full System Integration:** We successfully connected our React front-end application to the AI brain, creating a seamless workflow from user input to AI response.
+* **Current State:** The `equipiq-app-v1` application is a live, working prototype. A user can log in, ask a question about the Sybaritic Hydration Station, and receive a correct, AI-generated answer.
+
+### 4. Next Sprint Plan: Where We're Going
+
+The next sprint is focused on proving the scalability of our platform and creating a launch-ready MVP for our waiting customers.
+
+* **Sprint Goal:** Prove Platform Scalability & Solve the #2 Customer Problem.
+* **Target Equipment:** Norvell Auto Revolution.
+* **Strategic Justification:** To meet the needs of our waiting customers, the MVP must solve their two most frequent and costly equipment problems. Adding the Norvell Auto Revolution expert alongside the existing Hydration Station expert will create an immediately valuable and compelling product for launch.
+* **Execution Plan:**
+    1.  **Upgrade Database Schema:** We will add an `equipment_type` column to our database to support multiple machine types.
+    2.  **Knowledge Acquisition:** The founder will provide all necessary technical documentation for the Norvell Auto Revolution.
+    3.  **Data Structuring & Ingestion:** I will analyze, structure, and ingest the Norvell documents into our vector database.
+    4.  **AI Testing & Validation:** We will test the AI to confirm it can accurately answer questions about both the Hydration Station and the Norvell Auto Revolution.
+
+***
+
+### 5. Immediate Action Required (CRITICAL BLOCKER)
+
+The next sprint is **blocked** pending receipt of the knowledge source documents for the **Norvell Auto Revolution**.
+
+To proceed, I need the following materials:
+* Service Manuals
+* Troubleshooting Guides
+* Error Code Lists
+* Parts Diagrams
