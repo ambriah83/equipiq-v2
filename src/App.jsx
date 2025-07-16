@@ -372,12 +372,25 @@ const AuthComponent = ({ supabase, theme }) => {
 };
 
 const Sidebar = ({ activePage, setActivePage, theme, setTheme, onSignOut, user }) => {
+    const [showProfileMenu, setShowProfileMenu] = useState(false);
     const navItems = [{ id: 'chat', icon: MessageSquareIcon }, { id: 'tickets', icon: TicketIcon }, { id: 'settings', icon: SettingsIcon }];
     // Only show admin button for your email
     const isAdmin = user?.email === 'ambriahatcher@gmail.com';
     if (isAdmin) {
         navItems.push({ id: 'admin', icon: AdminIcon });
     }
+    
+    // Close menu when clicking outside
+    useEffect(() => {
+        const handleClickOutside = (event) => {
+            if (showProfileMenu && !event.target.closest('.profile-menu-container')) {
+                setShowProfileMenu(false);
+            }
+        };
+        document.addEventListener('mousedown', handleClickOutside);
+        return () => document.removeEventListener('mousedown', handleClickOutside);
+    }, [showProfileMenu]);
+    
     return (
         <aside className="w-20 bg-white dark:bg-zinc-900 border-r border-[#E5E5EA] dark:border-zinc-800 flex flex-col items-center py-4">
             <div className="font-bold text-xl text-[#007AFF]">IQ</div>
@@ -386,7 +399,31 @@ const Sidebar = ({ activePage, setActivePage, theme, setTheme, onSignOut, user }
             </nav>
             <div className="flex flex-col items-center gap-4">
                 <button onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')} className="p-3 rounded-lg text-[#86868B] dark:text-zinc-400 hover:bg-[#F9F9F9] dark:hover:bg-zinc-800 transition-colors">{theme === 'light' ? <MoonIcon className="h-6 w-6" /> : <SunIcon className="h-6 w-6" />}</button>
-                <button onClick={onSignOut} className="p-2 rounded-full bg-[#E5E5EA] dark:bg-zinc-700"><UserIcon className="h-6 w-6 text-[#86868B] dark:text-zinc-400" /></button>
+                <div className="relative profile-menu-container">
+                    <button 
+                        onClick={() => setShowProfileMenu(!showProfileMenu)} 
+                        className="p-2 rounded-full bg-[#E5E5EA] dark:bg-zinc-700 hover:bg-[#D1D1D6] dark:hover:bg-zinc-600 transition-colors"
+                    >
+                        <UserIcon className="h-6 w-6 text-[#86868B] dark:text-zinc-400" />
+                    </button>
+                    {showProfileMenu && (
+                        <div className="absolute bottom-full mb-2 left-1/2 transform -translate-x-1/2 w-48 bg-white dark:bg-zinc-900 rounded-lg shadow-lg border border-[#E5E5EA] dark:border-zinc-800 py-2">
+                            <div className="px-4 py-2 border-b border-[#E5E5EA] dark:border-zinc-800">
+                                <p className="text-xs text-[#86868B] dark:text-zinc-400">Signed in as</p>
+                                <p className="text-sm font-medium text-[#1D1D1F] dark:text-gray-50 truncate">{user?.email}</p>
+                            </div>
+                            <button
+                                onClick={() => {
+                                    setShowProfileMenu(false);
+                                    onSignOut();
+                                }}
+                                className="w-full px-4 py-2 text-left text-sm text-[#FF3B30] hover:bg-[#F9F9F9] dark:hover:bg-zinc-800 transition-colors"
+                            >
+                                Sign Out
+                            </button>
+                        </div>
+                    )}
+                </div>
             </div>
         </aside>
     );
@@ -396,11 +433,25 @@ const AppLayout = ({ children }) => <div className="flex h-screen">{children}</d
 const PlaceholderPage = ({ title }) => <div className="flex-1 flex items-center justify-center bg-[#F9F9F9] dark:bg-zinc-950"><h1 className="text-4xl font-bold text-[#C7C7CC] dark:text-zinc-700">{title}</h1></div>;
 
 export default function App() {
-    const [theme, setTheme] = useState('light');
+    const [theme, setTheme] = useState(() => {
+        // Load theme from localStorage on initial load
+        const savedTheme = localStorage.getItem('theme');
+        return savedTheme || 'light';
+    });
     const [status, setStatus] = useState('loading'); // 'loading', 'configuring', 'ready', 'auth'
     const [supabase, setSupabase] = useState(null);
     const [user, setUser] = useState(null);
     const [activePage, setActivePage] = useState('chat');
+
+    // Save theme preference and apply it
+    useEffect(() => {
+        localStorage.setItem('theme', theme);
+        if (theme === 'dark') {
+            document.documentElement.classList.add('dark');
+        } else {
+            document.documentElement.classList.remove('dark');
+        }
+    }, [theme]);
 
     useEffect(() => {
         if (!config.supabase.url || !config.supabase.anonKey) {
