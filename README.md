@@ -1,55 +1,42 @@
 # EquipIQ v2
 
-An AI-powered equipment management assistant built with React, Supabase, and Google Gemini.
+An AI-powered equipment management assistant that helps frontline staff diagnose and resolve equipment issues instantly.
+
+🌐 **Live at**: [www.equipiq.io](https://www.equipiq.io)
+
+## Overview
+
+EquipIQ transforms reactive equipment maintenance into proactive, AI-guided self-service. Built for multi-location businesses, it empowers any staff member to troubleshoot equipment issues without waiting for specialized technicians.
 
 ## Features
 
-- AI chat interface for equipment troubleshooting
-- Authentication with Supabase
-- Dark/light theme support
-- File upload support for equipment images
-- Ticket creation system
-- Settings management
+- 🤖 **AI Diagnostic Assistant** - Chat interface powered by Google Gemini
+- 📸 **Multi-Modal Input** - Support for text, images, and voice
+- 🎫 **Smart Ticket Creation** - Seamless escalation to maintenance teams
+- 🌓 **Dark/Light Mode** - Beautiful, Apple-inspired design
+- 🔐 **Multi-Tenant Architecture** - Secure isolation between companies
+- 📱 **Mobile Responsive** - Works on any device
 
 ## Tech Stack
 
-- React 18
-- Vite
-- Tailwind CSS
-- Supabase (Auth & Edge Functions)
-- Google Gemini AI
+- **Frontend**: React 18 + Vite + Tailwind CSS
+- **Backend**: Supabase (Auth, Database, Edge Functions)
+- **AI**: Google Gemini API
+- **Hosting**: Netlify (Frontend) + Supabase (Backend)
+- **Design**: Apple-inspired UI with Inter font
 
-## Setup
+## Local Development
 
-1. Install dependencies:
 ```bash
+# Install dependencies
 npm install
-```
 
-2. Set up environment variables:
-   - Add your Supabase URL and anon key in `src/App.jsx`
-   - Configure Gemini API key in Supabase Edge Function
-
-3. Deploy the Edge Function:
-```bash
-supabase functions deploy ask-equip-iq
-```
-
-4. Set the GEMINI_API_KEY secret:
-```bash
-supabase secrets set GEMINI_API_KEY=your_api_key_here
-```
-
-5. Run the development server:
-```bash
+# Start development server
 npm run dev
+
+# Build for production
+npm run build
 ```
-
-## Development
-
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
 
 ## Project Structure
 
@@ -62,5 +49,23 @@ equipiq-v2/
 ├── supabase/
 │   └── functions/
 │       └── ask-equip-iq/  # Edge Function for AI responses
+├── docs/                # Project documentation
 └── index.html           # HTML template
 ```
+
+## Documentation
+
+- [Project Status](PROJECT_STATUS.md) - Current status and next steps
+- [Deployment Guide](DEPLOYMENT_GUIDE.md) - How to deploy
+- [Product Requirements](Product%20Requirements%20Document%20EquipIQ%20V2.txt) - Full PRD
+
+## Contributing
+
+This project uses automated deployment:
+1. Push to `main` branch
+2. Netlify auto-deploys frontend
+3. Supabase auto-deploys Edge Functions
+
+---
+
+**Mission**: Achieve >30% First Contact Resolution Rate for equipment issues
