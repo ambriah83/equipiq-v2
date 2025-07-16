@@ -1,0 +1,40 @@
+name: Deploy Supabase Edge Functions
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'supabase/functions/**'
+      - '.github/workflows/deploy-supabase.yml'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - uses: supabase/setup-cli@v1
+      with:
+        version: latest
+    
+    - name: Deploy Edge Functions
+      env:
+        SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
+        SUPABASE_DB_PASSWORD: ${{ secrets.SUPABASE_DB_PASSWORD }}
+        PROJECT_ID: enpqzoeohonguemzyifo
+      run: |
+        # Link to project
+        supabase link --project-ref $PROJECT_ID
+        
+        # Deploy all Edge Functions
+        echo "Deploying ask-equip-iq function..."
+        supabase functions deploy ask-equip-iq --project-ref $PROJECT_ID
+        
+        echo "Deploying hybrid-rag-search function..."
+        supabase functions deploy hybrid-rag-search --project-ref $PROJECT_ID
+        
+        echo "Deploying ingest-knowledge function..."
+        supabase functions deploy ingest-knowledge --project-ref $PROJECT_ID
+        
+        echo "✅ All Edge Functions deployed successfully!"
