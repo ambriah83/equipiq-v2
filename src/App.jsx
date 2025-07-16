@@ -51,7 +51,117 @@ const initialMessages = [
   { id: 1, author: 'bot', text: "Welcome to EquipIQ. I'm here to help. What seems to be the problem?", actions: [], image: null },
 ];
 
+// Fun thinking verbs for loading state
+const thinkingVerbs = [
+  "Pondering",
+  "Churning",
+  "Ruminating",
+  "Excogitating",
+  "Prognosticating",
+  "Gestating",
+  "Cogitating",
+  "Mulling",
+  "Noodling",
+  "Percolating",
+  "Marinating",
+  "Brewing",
+  "Incubating",
+  "Processing",
+  "Computing",
+  "Contemplating",
+  "Deliberating",
+  "Musing",
+  "Meditating",
+  "Brainstorming",
+  "Diagnosing",
+  "Troubleshooting",
+  "Calibrating",
+  "Analyzing",
+  "Debugging",
+  "Investigating",
+  "Decoding",
+  "Scanning databases",
+  "Consulting manuals",
+  "Cross-referencing",
+  "Running diagnostics",
+  "Checking blueprints",
+  "Perusing",
+  "Marinading",
+  "Concocting",
+  "Scheming",
+  "Divining",
+  "Spelunking",
+  "Excavating",
+  "Deciphering",
+  "Unraveling",
+  "Synthesizing",
+  "Fermenting",
+  "Distilling",
+  "Crystalizing",
+  "Germinating",
+  "Simmering",
+  "Steeping",
+  "Composting",
+  "Conjuring",
+  "Alchemizing",
+  "Torquing",
+  "Lubricating",
+  "Calibrating sensors",
+  "Greasing gears",
+  "Revving engines",
+  "Warming up",
+  "Spooling up",
+  "Booting systems",
+  "Initializing",
+  "Defragmenting"
+];
+
 // --- COMPONENTS ---
+
+// Thinking indicator that cycles through fun verbs
+const ThinkingIndicator = () => {
+  const [currentVerb, setCurrentVerb] = useState(0);
+  const [isVisible, setIsVisible] = useState(true);
+  
+  useEffect(() => {
+    // Pick a random starting verb
+    setCurrentVerb(Math.floor(Math.random() * thinkingVerbs.length));
+    
+    // Cycle through verbs every 2.5 seconds with fade effect
+    const interval = setInterval(() => {
+      setIsVisible(false);
+      setTimeout(() => {
+        setCurrentVerb((prev) => {
+          // Sometimes jump to a random verb for variety
+          if (Math.random() > 0.7) {
+            return Math.floor(Math.random() * thinkingVerbs.length);
+          }
+          return (prev + 1) % thinkingVerbs.length;
+        });
+        setIsVisible(true);
+      }, 200);
+    }, 2500);
+    
+    return () => clearInterval(interval);
+  }, []);
+  
+  return (
+    <div className="flex items-center space-x-2 min-h-[24px]">
+      <span 
+        className={`text-sm text-[#8A8A8E] dark:text-zinc-400 italic transition-opacity duration-200 ${
+          isVisible ? 'opacity-100' : 'opacity-0'
+        }`}
+      >
+        {thinkingVerbs[currentVerb]}
+      </span>
+      <div className="flex items-center space-x-1">
+        <span className="h-1.5 w-1.5 bg-[#8A8A8E] dark:bg-zinc-500 rounded-full animate-bounce [animation-delay:-0.3s]"></span>
+        <span className="h-1.5 w-1.5 bg-[#8A8A8E] dark:bg-zinc-500 rounded-full animate-bounce [animation-delay:-0.15s]"></span>
+        <span className="h-1.5 w-1.5 bg-[#8A8A8E] dark:bg-zinc-500 rounded-full animate-bounce"></span>
+      </div>
+    </div>
+  );
+};
 
 const ChatMessage = ({ message, onActionClick }) => {
   const isBot = message.author === 'bot';
@@ -62,7 +172,7 @@ const ChatMessage = ({ message, onActionClick }) => {
         <div className={`max-w-md p-3 rounded-2xl ${isBot ? 'bg-[#E5E5EA] dark:bg-zinc-800 text-[#1D1D1F] dark:text-gray-50 rounded-tl-none' : 'bg-[#007AFF] text-white rounded-br-none'}`}>
           {message.image && <img src={message.image} alt="Upload preview" className="mb-2 rounded-lg max-h-48" />}
           <p className="text-sm leading-relaxed">{message.text}</p>
-          {message.isTyping && <div className="flex items-center space-x-1 mt-2"><span className="h-1.5 w-1.5 bg-[#8A8A8E] dark:bg-zinc-500 rounded-full animate-bounce [animation-delay:-0.3s]"></span><span className="h-1.5 w-1.5 bg-[#8A8A8E] dark:bg-zinc-500 rounded-full animate-bounce [animation-delay:-0.15s]"></span><span className="h-1.5 w-1.5 bg-[#8A8A8E] dark:bg-zinc-500 rounded-full animate-bounce"></span></div>}
+          {message.isTyping && <ThinkingIndicator />}
         </div>
         {message.actions && message.actions.length > 0 && (
           <div className="flex flex-wrap gap-2">
