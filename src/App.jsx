@@ -42,11 +42,8 @@ const AlertTriangleIcon = ({ className }) => (
 // --- CONFIGURATION ---
 const config = {
     supabase: {
-        url: 'https://enpqzoeohonguemzyifo.supabase.co',
-        anonKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVucHF6b2VvaG9uZ3VlbXp5aWZvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTI2MTM1MzksImV4cCI6MjA2ODE4OTUzOX0.4jpb1342g2tlas1s6uQDLdd8nHpOQMGgDrt980uuHQo',
-    },
-    gemini: {
-        apiKey: 'AIzaSyAnFWNtjjxpWmRb76_Hs9BYbpb6y61SgtY',
+        url: import.meta.env.VITE_SUPABASE_URL || '',
+        anonKey: import.meta.env.VITE_SUPABASE_ANON_KEY || '',
     }
 };
 
@@ -108,13 +105,16 @@ const ChatInterface = ({ supabase }) => {
                 headers: {
                     'Content-Type': 'application/json',
                     'Authorization': `Bearer ${config.supabase.anonKey}`,
+                    'apikey': config.supabase.anonKey,
                 },
                 body: JSON.stringify({ query: prompt }),
             });
 
             if (!response.ok) {
-                const errorData = await response.json();
-                throw new Error(errorData.error || `Request failed with status ${response.status}`);
+                const errorText = await response.text();
+                console.error('Response status:', response.status);
+                console.error('Response text:', errorText);
+                throw new Error(`Request failed: ${response.statusText}`);
             }
             
             const result = await response.json();
