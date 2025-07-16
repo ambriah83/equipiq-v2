@@ -32,7 +32,30 @@ serve(async (req) => {
     }
 
     const genAI = new GoogleGenerativeAI(apiKey)
-    const model = genAI.getGenerativeModel({ model: "gemini-pro" })
+    
+    // Try multiple models in order of preference
+    const preferredModel = Deno.env.get('GEMINI_MODEL') || "gemini-1.5-flash"
+    const modelNames = [preferredModel, "gemini-1.5-flash", "gemini-1.5-pro", "gemini-pro"]
+      .filter((v, i, a) => a.indexOf(v) === i) // Remove duplicates
+    let model = null
+    let lastError = null
+    
+    for (const modelName of modelNames) {
+      try {
+        model = genAI.getGenerativeModel({ model: modelName })
+        // Test if model works by making a simple request
+        await model.generateContent("test")
+        console.log(`Using model: ${modelName}`)
+        break
+      } catch (error) {
+        console.warn(`Model ${modelName} failed:`, error.message)
+        lastError = error
+      }
+    }
+    
+    if (!model) {
+      throw new Error(`All models failed. Last error: ${lastError?.message}`)
+    }
 
     // Create a context-aware prompt
     const prompt = `You are EquipIQ, an AI assistant specialized in equipment maintenance and troubleshooting. 
