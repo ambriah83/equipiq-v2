@@ -1,5 +1,7 @@
 # EquipIQ v2 Project Notes for Claude
 
+Act as an expert senior software engineer who is coming to analyze and scrutinize this product. It will be the flagship of the company's work and it is up against other competitors like CLaude, CHatGPT and Lovable.dev. We cant leave anything on the table to win this. What is your feedback?
+
 ## Git Configuration
 **IMPORTANT**: Before pushing to GitHub, always run:
 ```bash

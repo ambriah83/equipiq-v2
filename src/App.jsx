@@ -209,7 +209,7 @@ const ChatMessage = ({ message, onActionClick }) => {
       <div className="flex flex-col gap-2">
         <div className={`max-w-md p-3 rounded-2xl ${isBot ? 'bg-[#E5E5EA] dark:bg-zinc-800 text-[#1D1D1F] dark:text-gray-50 rounded-tl-none' : 'bg-[#007AFF] text-white rounded-br-none'}`}>
           {message.image && <img src={message.image} alt="Upload preview" className="mb-2 rounded-lg max-h-48" />}
-          <p className="text-sm leading-relaxed">{message.text}</p>
+          <p className="text-sm leading-relaxed whitespace-pre-wrap">{message.text}</p>
           {message.isTyping && <ThinkingIndicator />}
         </div>
         {message.actions && message.actions.length > 0 && (
@@ -402,7 +402,7 @@ const Sidebar = ({ activePage, setActivePage, theme, setTheme, onSignOut, user }
                         <UserIcon className="h-6 w-6 text-[#86868B] dark:text-zinc-400" />
                     </button>
                     {showProfileMenu && (
-                        <div className="absolute bottom-full mb-2 right-0 w-48 bg-white dark:bg-zinc-900 rounded-lg shadow-lg border border-[#E5E5EA] dark:border-zinc-800 py-2 z-50">
+                        <div className="absolute bottom-full mb-2 left-0 w-48 bg-white dark:bg-zinc-900 rounded-lg shadow-lg border border-[#E5E5EA] dark:border-zinc-800 py-2 z-50">
                             <div className="px-4 py-2 border-b border-[#E5E5EA] dark:border-zinc-800">
                                 <p className="text-xs text-[#86868B] dark:text-zinc-400">Signed in as</p>
                                 <p className="text-sm font-medium text-[#1D1D1F] dark:text-gray-50 truncate">{user?.email}</p>
