@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { BarChart, Bar, LineChart, Line, PieChart, Pie, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import { AlertCircle, CheckCircle, Upload, Search, TrendingUp, Users, MessageSquare, Database, Trash2, Edit, Eye, FileText, X, ChevronRight, Filter } from 'lucide-react';
+import KnowledgeBaseManager from './KnowledgeBaseManager';
 
 const AdminDashboard = ({ supabase, user }) => {
   const [activeTab, setActiveTab] = useState('overview');
@@ -269,14 +270,7 @@ const AdminDashboard = ({ supabase, user }) => {
 
             {/* Knowledge Base Tab */}
             {activeTab === 'knowledge' && (
-              <div className="bg-white dark:bg-zinc-900 rounded-lg shadow p-6">
-                <h3 className="text-lg font-semibold text-[#1D1D1F] dark:text-gray-50 mb-4">Knowledge Base Management</h3>
-                <div className="text-center py-12">
-                  <Database className="w-16 h-16 text-[#86868B] dark:text-zinc-500 mx-auto mb-4" />
-                  <p className="text-[#86868B] dark:text-zinc-400">Knowledge base management coming soon!</p>
-                  <p className="text-sm text-[#86868B] dark:text-zinc-500 mt-2">Upload manuals, FAQs, and troubleshooting guides</p>
-                </div>
-              </div>
+              <KnowledgeBaseManager supabase={supabase} />
             )}
 
             {/* Users Tab */}

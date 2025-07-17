@@ -230,10 +230,96 @@ const ChatInterface = ({ supabase }) => {
     const [messages, setMessages] = useState(initialMessages);
     const [inputValue, setInputValue] = useState('');
     const [imagePreview, setImagePreview] = useState(null);
+    const [locations, setLocations] = useState([]);
+    const [selectedLocation, setSelectedLocation] = useState('');
+    const [equipment, setEquipment] = useState([]);
+    const [selectedEquipment, setSelectedEquipment] = useState('');
+    const [loadingLocations, setLoadingLocations] = useState(true);
+    const [loadingEquipment, setLoadingEquipment] = useState(false);
     const fileInputRef = useRef(null);
     const chatEndRef = useRef(null);
 
-    useEffect(() => { chatEndRef.current?.scrollIntoView({ behavior: 'smooth' }); }, [messages]);
+    useEffect(() => { 
+        // Slight delay to ensure DOM is updated before scrolling
+        setTimeout(() => {
+            chatEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+        }, 100);
+    }, [messages]);
+
+    // Fetch locations on mount
+    useEffect(() => {
+        fetchLocations();
+    }, []);
+
+    // Fetch equipment when location changes
+    useEffect(() => {
+        if (selectedLocation) {
+            fetchEquipment(selectedLocation);
+        } else {
+            setEquipment([]);
+            setSelectedEquipment('');
+        }
+    }, [selectedLocation]);
+
+    const fetchLocations = async () => {
+        try {
+            setLoadingLocations(true);
+            const response = await fetch('/.netlify/functions/limble-proxy?path=/locations');
+            if (response.ok) {
+                const data = await response.json();
+                // Map the locations based on the LIMBLE_API.md mapping
+                const locationMapping = {
+                    23600: 'ALL',
+                    23597: 'DC',
+                    23592: 'ES',
+                    23596: 'NW',
+                    27108: 'WH'
+                };
+                
+                const mappedLocations = data.map(loc => ({
+                    id: loc.id,
+                    name: locationMapping[loc.id] || loc.name || `Location ${loc.id}`,
+                    originalName: loc.name
+                })).filter(loc => locationMapping[loc.id]); // Only show mapped locations
+                
+                setLocations(mappedLocations);
+            }
+        } catch (error) {
+            console.error('Error fetching locations:', error);
+        } finally {
+            setLoadingLocations(false);
+        }
+    };
+
+    const fetchEquipment = async (locationId) => {
+        try {
+            setLoadingEquipment(true);
+            const response = await fetch('/.netlify/functions/limble-proxy?path=/assets');
+            if (response.ok) {
+                const data = await response.json();
+                // Filter equipment by location
+                const locationEquipment = data.filter(asset => 
+                    asset.locationID === parseInt(locationId) || 
+                    (locationId === '23600' && asset.locationID) // ALL location shows everything
+                );
+                
+                // Format equipment names to show room numbers
+                const formattedEquipment = locationEquipment.map(asset => ({
+                    id: asset.assetID,
+                    name: asset.name,
+                    locationId: asset.locationID,
+                    parentId: asset.parentAssetID,
+                    workRequestUrl: asset.workRequestPortal
+                }));
+                
+                setEquipment(formattedEquipment);
+            }
+        } catch (error) {
+            console.error('Error fetching equipment:', error);
+        } finally {
+            setLoadingEquipment(false);
+        }
+    };
 
     const handleFileChange = (event) => {
         const file = event.target.files[0];
@@ -245,9 +331,21 @@ const ChatInterface = ({ supabase }) => {
     const getBotResponse = async (prompt) => {
         if (!supabase) return "Error: Supabase client not available.";
         
-        const SUPABASE_URL = `${config.supabase.url}/functions/v1/ask-equip-iq`;
+        const SUPABASE_URL = `${config.supabase.url}/functions/v1/ask-equip-iq-v2`;
         
         try {
+            // Build context object with location and equipment info
+            const context = {};
+            if (selectedLocation) {
+                const location = locations.find(l => l.id === parseInt(selectedLocation));
+                context.location = location?.name || '';
+            }
+            if (selectedEquipment) {
+                const equip = equipment.find(e => e.id === parseInt(selectedEquipment));
+                context.equipment = equip?.name || '';
+                context.equipmentId = equip?.id;
+            }
+            
             const response = await fetch(SUPABASE_URL, {
                 method: 'POST',
                 headers: {
@@ -255,7 +353,10 @@ const ChatInterface = ({ supabase }) => {
                     'Authorization': `Bearer ${config.supabase.anonKey}`,
                     'apikey': config.supabase.anonKey,
                 },
-                body: JSON.stringify({ query: prompt }),
+                body: JSON.stringify({ 
+                    query: prompt,
+                    context: context 
+                }),
             });
 
             if (!response.ok) {
@@ -283,7 +384,15 @@ const ChatInterface = ({ supabase }) => {
         e.preventDefault();
         if (inputValue.trim() === '' && !imagePreview) return;
 
-        const userMessage = { id: Date.now(), author: 'user', text: inputValue, actions: [], image: imagePreview };
+        // Add equipment context to user message if selected
+        let messageText = inputValue;
+        if (selectedEquipment) {
+            const equip = equipment.find(e => e.id === parseInt(selectedEquipment));
+            const location = locations.find(l => l.id === parseInt(selectedLocation));
+            messageText = `[${location?.name || 'Unknown'} - ${equip?.name || 'Unknown Equipment'}] ${inputValue}`;
+        }
+
+        const userMessage = { id: Date.now(), author: 'user', text: messageText, actions: [], image: imagePreview };
         const typingIndicator = { id: Date.now() + 1, author: 'bot', text: '', isTyping: true, actions: [], image: null };
         
         setMessages((prev) => [...prev, userMessage, typingIndicator]);
@@ -311,7 +420,36 @@ const ChatInterface = ({ supabase }) => {
 
     return (
         <div className="flex flex-col h-full bg-white dark:bg-zinc-900 rounded-2xl shadow-md overflow-hidden">
-            <div className="p-4 border-b border-[#E5E5EA] dark:border-zinc-800"><h1 className="text-lg font-semibold text-[#1D1D1F] dark:text-gray-50">AI Assistant</h1></div>
+            <div className="p-4 border-b border-[#E5E5EA] dark:border-zinc-800">
+                <h1 className="text-lg font-semibold text-[#1D1D1F] dark:text-gray-50 mb-3">AI Assistant</h1>
+                
+                {/* Location and Equipment Dropdowns */}
+                <div className="flex gap-2">
+                    <select
+                        value={selectedLocation}
+                        onChange={(e) => setSelectedLocation(e.target.value)}
+                        className="flex-1 bg-[#F9F9F9] dark:bg-zinc-800 border-transparent focus:border-blue-500 focus:ring-blue-500 rounded-lg px-3 py-2 text-sm text-[#1D1D1F] dark:text-gray-50"
+                        disabled={loadingLocations}
+                    >
+                        <option value="">Select Location</option>
+                        {locations.map(loc => (
+                            <option key={loc.id} value={loc.id}>{loc.name}</option>
+                        ))}
+                    </select>
+                    
+                    <select
+                        value={selectedEquipment}
+                        onChange={(e) => setSelectedEquipment(e.target.value)}
+                        className="flex-1 bg-[#F9F9F9] dark:bg-zinc-800 border-transparent focus:border-blue-500 focus:ring-blue-500 rounded-lg px-3 py-2 text-sm text-[#1D1D1F] dark:text-gray-50"
+                        disabled={!selectedLocation || loadingEquipment}
+                    >
+                        <option value="">Select Equipment</option>
+                        {equipment.map(equip => (
+                            <option key={equip.id} value={equip.id}>{equip.name}</option>
+                        ))}
+                    </select>
+                </div>
+            </div>
             <div className="flex-1 p-4 overflow-y-auto">{messages.map((msg) => (<ChatMessage key={msg.id} message={msg} onActionClick={handleActionClick} />))}<div ref={chatEndRef} /></div>
             <div className="p-3 border-t border-[#E5E5EA] dark:border-zinc-800 bg-white dark:bg-zinc-900">
                 {imagePreview && (
