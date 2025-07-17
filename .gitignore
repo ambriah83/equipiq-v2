@@ -32,3 +32,6 @@ dist-ssr
 
 # Supabase
 .supabase
+
+# MCP configuration (contains secrets)
+.mcp.json
