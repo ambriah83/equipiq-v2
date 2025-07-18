@@ -35,7 +35,13 @@ const LOCATION_MAP = {
 // Clean HTML tags from category field
 function cleanCategory(category) {
   if (!category) return '';
-  return category.replace(/<[^>]*>/g, '').trim().toLowerCase();
+  let cleaned = category;
+  let previous;
+  do {
+    previous = cleaned;
+    cleaned = cleaned.replace(/<[^>]*>/g, '');
+  } while (cleaned !== previous);
+  return cleaned.trim().toLowerCase();
 }
 
 // Standardize asset type based on Shawnee pattern
@@ -43,7 +49,13 @@ function standardizeAssetType(assetType) {
   if (!assetType) return '';
   
   // Remove HTML tags first
-  const cleaned = assetType.replace(/<[^>]*>/g, '').trim();
+  let cleaned = assetType;
+  let previous;
+  do {
+    previous = cleaned;
+    cleaned = cleaned.replace(/<[^>]*>/g, '');
+  } while (cleaned !== previous);
+  cleaned = cleaned.trim();
   
   // Map to standard types
   const typeMap = {
