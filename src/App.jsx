@@ -263,7 +263,18 @@ const ChatInterface = ({ supabase }) => {
 
   // --- Core Chat Logic ---
   const handleSendMessage = async (messageContent) => {
-    if (!messageContent.trim() || isTyping || !selectedEquipment) return;
+    if (!messageContent.trim() || isTyping) return;
+    
+    // Ensure equipment is selected
+    if (!selectedEquipment) {
+      const errorMessage = {
+        role: 'assistant',
+        content: 'Please select a location and equipment first so I can provide specific help.',
+        quickReplies: [],
+      };
+      setMessages(prev => [...prev, errorMessage]);
+      return;
+    }
 
     // Add user message to the chat
     const newUserMessage = { role: 'user', content: messageContent };
@@ -298,6 +309,13 @@ const ChatInterface = ({ supabase }) => {
       // Get the proper equipment type using our mapping
       const equipmentType = getEquipmentType(selectedEquip?.id, selectedEquip);
       
+      console.log('Sending to API:', {
+        selectedEquipment,
+        selectedEquip,
+        equipmentType,
+        equipmentName: selectedEquip?.name
+      });
+      
       // Prepare messages for the API (only role and content)
       const apiMessages = updatedMessages.map(({ role, content }) => ({ role, content }));
 
@@ -325,9 +343,23 @@ const ChatInterface = ({ supabase }) => {
 
     } catch (error) {
       console.error('Error calling ask-equip-iq-v2 function:', error);
+      console.error('Error details:', {
+        message: error.message,
+        data: error.data,
+        error: error
+      });
+      
+      // More specific error messages
+      let errorContent = 'Sorry, I encountered an error. Please try again.';
+      if (error.message?.includes('Failed to fetch')) {
+        errorContent = 'Connection error. Please check your internet and try again.';
+      } else if (error.message?.includes('equipment_type_id')) {
+        errorContent = 'Equipment type error. Please select valid equipment.';
+      }
+      
       const errorMessage = {
         role: 'assistant',
-        content: 'Sorry, I seem to be having some trouble connecting. Please try again in a moment.',
+        content: errorContent,
         quickReplies: [],
       };
       setMessages(prev => [...prev, errorMessage]);
