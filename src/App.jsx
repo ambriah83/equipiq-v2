@@ -257,7 +257,13 @@ const ChatInterface = ({ supabase }) => {
   const handleFileChange = (event) => {
     const file = event.target.files[0];
     if (file) {
-      setImagePreview(URL.createObjectURL(file));
+      const allowedTypes = ['image/jpeg', 'image/png', 'image/gif'];
+      if (allowedTypes.includes(file.type)) {
+        setImagePreview(URL.createObjectURL(file));
+      } else {
+        console.warn('Unsupported file type:', file.type);
+        setImagePreview(null); // Clear preview for unsupported types
+      }
     }
   };
 
