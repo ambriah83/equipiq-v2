@@ -1,5 +1,8 @@
 name: Deploy Supabase Edge Functions
 
+permissions:
+  contents: read
+
 on:
   push:
     branches: [ main ]
