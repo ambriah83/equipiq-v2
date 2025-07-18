@@ -1,0 +1,87 @@
+🔴 Level 1 Blockers: Core Functionality & Trust
+These are non-negotiable issues that directly impact the product's primary function and user trust.
+
+Incomplete AI Integration in the Frontend:
+
+Problem: The main chat interface in src/App.jsx still calls the old ask-equip-iq-v2 function. It does not use the far more powerful hybrid-rag-search function, nor does it pass the required equipment_model_id to get context-specific answers.
+
+Impact: Your core value proposition—getting specific answers about specific equipment—is not functional in the UI. The RAG pipeline exists but is orphaned.
+
+Action Step: Modify the getBotResponse function in src/App.jsx to call the hybrid-rag-search Supabase function. Pass the selectedEquipment ID to the function call.
+
+Manual Knowledge Ingestion Pipeline:
+
+Problem: The KnowledgeBaseManager.jsx component allows admins to upload documents. This triggers a generate-embedding function, but the text is limited to the first 8,000 characters. For any real manual, this is insufficient. The ingest-knowledge function, which properly chunks documents, is not being used by the frontend.
+
+Impact: You cannot ingest real-world equipment manuals effectively, crippling your AI's knowledge before it even starts.
+
+Action Step: Refactor the handleFileUpload function in KnowledgeBaseManager.jsx to call the ingest-knowledge Edge Function instead of generate-embedding. This will process the full document text in properly sized chunks.
+
+🟡 Level 2 Gaps: Scaling & Competitive Edge
+These issues will prevent you from scaling past a single-user demo and competing effectively.
+
+Feedback Loop is Not Closed:
+
+Problem: You've built an excellent feedback and improvement case system (MessageFeedback.jsx, ImprovementCaseManager.jsx, 002_fine_tuning_system.sql). However, there is no fine-tuning job runner implemented. Approved cases are correctly stored in the training_examples table, but nothing ever uses that data.
+
+Impact: The "learning loop," a key feature you've designed, is currently a dead end. The system cannot get smarter over time.
+
+Action Step: Create the "Async Task Runner" mentioned in your Knowledge Base_Gemini.txt document. This worker needs to:
+
+Poll the fine_tuning_jobs table for 'pending' jobs.
+
+Fetch all approved examples from the training_examples table.
+
+Execute a fine-tuning job via the OpenAI (or other) API.
+
+Update the ai_models table with the new model ID upon completion.
+
+Hardcoded Admin Access:
+
+Problem: The admin check in AdminDashboard.jsx is user?.email === 'ambriahatcher@gmail.com'. This is brittle and unscalable.
+
+Impact: You cannot onboard new companies or delegate admin tasks. This is a critical blocker for any multi-tenant or team-based product.
+
+Action Step: Implement the role-based access control (RBAC) you've designed in 20250716_create_rag_schema.sql. Create a function is_admin() in Supabase and call it from the frontend to determine user roles based on the profiles table, not a hardcoded email.
+
+🟢 Level 3 Enhancements: Polish & Professionalism
+These are smaller, but important, details that separate a prototype from a professional product.
+
+Missing UI Feedback:
+
+Problem: The UI lacks loading states for most async operations (e.g., fetching equipment after selecting a location). The user is left wondering if the system is working.
+
+Impact: The application feels unresponsive and can lead to user confusion or repeated clicks.
+
+Action Step: Add loading spinners and disable dropdowns while data is being fetched in ChatInterface within App.jsx. Provide immediate visual feedback for all user actions that trigger a backend call.
+
+No Error Boundaries:
+
+Problem: There are no error boundaries in your React components. A single JavaScript error in a component can crash the entire application.
+
+Impact: A minor, non-critical bug could render the entire platform unusable for a user.
+
+Action Step: Implement a top-level React Error Boundary around your main App component to catch unexpected errors and display a graceful fallback UI instead of a white screen.
+
+Updated Strategic Roadmap
+Your immediate priority is to make the core product loop functional.
+
+Sprint 1 (This Week): Achieve End-to-End Core Functionality.
+
+Goal: A user can select a piece of equipment, ask a specific question, and get an answer from the knowledge base for that specific machine.
+
+Tasks: Fix the frontend API call to use hybrid-rag-search and fix the file upload to use ingest-knowledge.
+
+Sprint 2 (Next Week): Implement Scalable User & Knowledge Management.
+
+Goal: You can onboard a new user and they can manage their own knowledge base.
+
+Tasks: Implement true Role-Based Access Control. Test the full knowledge ingestion pipeline with a complete, multi-page manual.
+
+Sprint 3: Close the Learning Loop.
+
+Goal: The system can improve itself based on user feedback.
+
+Tasks: Build and deploy the async worker for running fine-tuning jobs.
+
+You have all the necessary components designed and, in many cases, already built. The task now is to connect them correctly. Focus on the Level 1 Blockers immediately.

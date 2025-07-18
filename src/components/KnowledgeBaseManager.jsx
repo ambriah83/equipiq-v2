@@ -63,40 +63,145 @@ const KnowledgeBaseManager = ({ supabase }) => {
 
     setLoading(true);
     try {
-      // Read file content
-      const text = await file.text();
+      let text;
       
-      // Create document record
-      const { data: doc, error: docError } = await supabase
-        .from('knowledge_documents')
-        .insert({
-          equipment_model_id: selectedModel.id,
-          title: file.name,
-          content: text,
-          document_type: documentType,
-          metadata: {
-            file_size: file.size,
-            file_type: file.type
+      // Check if file is PDF - use special extraction
+      if (file.type === 'application/pdf') {
+        try {
+          // Create FormData to send the PDF file
+          const formData = new FormData();
+          formData.append('file', file);
+          
+          // Call the PDF extraction function
+          const { data: pdfData, error: pdfError } = await supabase.functions.invoke('extract-pdf-text', {
+            body: formData
+          });
+          
+          if (pdfError) {
+            throw new Error(pdfError.message || 'Failed to extract text from PDF');
           }
-        })
-        .select()
-        .single();
+          
+          if (!pdfData?.text || pdfData.text.length < 50) {
+            throw new Error('Could not extract sufficient text from PDF. The file may be image-based or corrupted.');
+          }
+          
+          text = pdfData.text;
+          console.log(`Extracted ${text.length} characters from PDF with ${pdfData.metadata?.pages || 'unknown'} pages`);
+          
+        } catch (pdfError) {
+          console.error('PDF extraction error:', pdfError);
+          alert(`PDF extraction failed: ${pdfError.message}\n\nPlease try uploading a text-based PDF or convert it to a text document.`);
+          setLoading(false);
+          return;
+        }
+      } else {
+        // Read other file types as text
+        try {
+          text = await file.text();
+        } catch (readError) {
+          console.error('Error reading file:', readError);
+          throw new Error('Failed to read file content. Please ensure the file is a text-based document.');
+        }
+      }
+      
+      // First check if we have equipment_types table or need to use equipment_models
+      const { data: equipmentTypeData, error: typeCheckError } = await supabase
+        .from('equipment_types')
+        .select('id')
+        .limit(1);
+      
+      let useRAGSchema = !typeCheckError; // If no error, the table exists
+      
+      if (useRAGSchema) {
+        // Check if this equipment model has a corresponding equipment type
+        const { data: typeMapping, error: mappingError } = await supabase
+          .from('equipment_types')
+          .select('id')
+          .ilike('name', `%${selectedModel.model_name}%`)
+          .single();
+        
+        if (typeMapping && !mappingError) {
+          // Use the ingest-knowledge function with equipment_type_id
+          const { data, error: ingestError } = await supabase.functions.invoke('ingest-knowledge', {
+            body: { 
+              equipment_type_id: typeMapping.id,
+              content: text,
+              title: file.name,
+              source: documentType,
+              chunk_type: documentType,
+              process_type: 'chunk'
+            }
+          });
 
-      if (docError) throw docError;
+          if (ingestError) {
+            console.error('Ingest error:', ingestError);
+            throw new Error(ingestError.message || 'Failed to process document');
+          }
 
-      // Generate embedding via edge function
-      const { error: embedError } = await supabase.functions.invoke('generate-embedding', {
-        body: { text: text.substring(0, 8000), documentId: doc.id } // Limit text for embedding
-      });
+          // Show success message with chunk count
+          alert(`Document uploaded successfully! Created ${data?.chunks_created || 0} knowledge chunks.`);
+        } else {
+          // No equipment type found, fall back to old schema
+          useRAGSchema = false;
+        }
+      }
+      
+      if (!useRAGSchema) {
+        // Use the original schema - directly insert into knowledge_documents
+        // First, generate embedding for the document
+        const { data: embeddingData, error: embeddingError } = await supabase.functions.invoke('generate-embedding', {
+          body: { text: text.substring(0, 8000) } // Limit text for embedding
+        });
 
-      if (embedError) throw embedError;
+        if (embeddingError) {
+          console.error('Embedding error:', embeddingError);
+          // Continue without embedding if it fails
+        }
+
+        const { error: docError } = await supabase
+          .from('knowledge_documents')
+          .insert({
+            equipment_model_id: selectedModel.id,
+            title: file.name,
+            content: text,
+            document_type: documentType,
+            embedding: embeddingData?.embedding || null,
+            metadata: {
+              file_size: file.size,
+              file_type: file.type,
+              uploaded_at: new Date().toISOString(),
+              is_pdf: file.type === 'application/pdf'
+            }
+          });
+
+        if (docError) {
+          console.error('Document insert error:', docError);
+          throw new Error(docError.message || 'Failed to save document');
+        }
+
+        alert('Document uploaded successfully!');
+      }
 
       // Refresh documents
       await fetchDocuments();
       setUploadModalOpen(false);
+      
     } catch (error) {
       console.error('Error uploading document:', error);
-      alert('Failed to upload document');
+      
+      // Provide more specific error messages
+      let errorMessage = 'Failed to upload document';
+      if (error.message) {
+        if (error.message.includes('OPENAI_API_KEY')) {
+          errorMessage = 'AI processing is not configured. Document saved without AI features.';
+        } else if (error.message.includes('equipment_type_id')) {
+          errorMessage = 'Equipment type not found. Please contact support.';
+        } else {
+          errorMessage = error.message;
+        }
+      }
+      
+      alert(errorMessage);
     } finally {
       setLoading(false);
     }
@@ -329,11 +434,19 @@ const UploadForm = ({ onUpload, onCancel, loading }) => {
           </label>
           <input
             type="file"
-            accept=".txt,.pdf,.doc,.docx,.md"
+            accept=".txt,.pdf,.md,.doc,.docx"
             onChange={(e) => setFile(e.target.files[0])}
             className="w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100"
             required
           />
+          <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">
+            Supported formats: .txt, .pdf, .md, .doc, .docx
+          </p>
+          {file && file.type === 'application/pdf' && (
+            <p className="text-xs text-blue-600 dark:text-blue-400 mt-1">
+              PDF detected - text will be extracted automatically
+            </p>
+          )}
         </div>
       </div>
 

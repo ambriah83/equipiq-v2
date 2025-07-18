@@ -14,7 +14,7 @@ serve(async (req) => {
   }
 
   try {
-    const { query, equipment_type_id, session_id } = await req.json()
+    const { query, equipment_type_id, session_id, image, video_url } = await req.json()
     
     if (!query) {
       return new Response(
@@ -141,8 +141,9 @@ serve(async (req) => {
 
     const genAI = new GoogleGenerativeAI(geminiKey)
     
-    // Try multiple models with fallback
-    const preferredModel = Deno.env.get('GEMINI_MODEL') || "gemini-1.5-flash"
+    // Try multiple models with fallback (use vision models if image/video provided)
+    const hasVisualContent = image || video_url
+    const preferredModel = Deno.env.get('GEMINI_MODEL') || (hasVisualContent ? "gemini-1.5-flash" : "gemini-1.5-flash")
     const modelNames = [preferredModel, "gemini-1.5-flash", "gemini-1.5-pro", "gemini-pro"]
       .filter((v, i, a) => a.indexOf(v) === i)
     
@@ -217,7 +218,41 @@ Remember: Be the calm in their storm. Make them feel like they just texted their
 
 Provide your response now:`
 
-    const result = await model.generateContent(synthesisPrompt)
+    // Handle visual content if provided
+    let result
+    if (image || video_url) {
+      const parts = [synthesisPrompt]
+      
+      if (image) {
+        // Add visual context to prompt
+        parts[0] = `VISUAL CONTENT PROVIDED: The user has uploaded an image showing their equipment issue.
+        
+${synthesisPrompt}
+
+IMPORTANT: Analyze the image carefully and reference specific visual details in your response. Point out what you see that's relevant to the problem.`
+        
+        // Add image data
+        parts.push({
+          inlineData: {
+            mimeType: image.mimeType || 'image/jpeg',
+            data: image.data // Assuming base64 encoded
+          }
+        })
+      }
+      
+      if (video_url) {
+        parts[0] = `VIDEO CONTENT PROVIDED: The user has shared a video of their equipment issue.
+        
+${synthesisPrompt}
+
+Note: I'll analyze the video content to help diagnose the issue.`
+      }
+      
+      result = await model.generateContent(parts)
+    } else {
+      result = await model.generateContent(synthesisPrompt)
+    }
+    
     const response = await result.response
     const aiResponse = response.text()
 

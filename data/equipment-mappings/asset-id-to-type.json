@@ -1,0 +1,8246 @@
+{
+  "212": {
+    "type": "general_equipment",
+    "name": "#17 ALL"
+  },
+  "214": {
+    "type": "general_equipment",
+    "name": "#18 ALL"
+  },
+  "215": {
+    "type": "sun_bed",
+    "name": "P90 #18 ALL"
+  },
+  "216": {
+    "type": "general_equipment",
+    "name": "#19 ALL"
+  },
+  "218": {
+    "type": "general_equipment",
+    "name": "#20 ALL"
+  },
+  "219": {
+    "type": "sun_bed",
+    "name": "Magic 636 #20 ALL"
+  },
+  "220": {
+    "type": "general_equipment",
+    "name": "#21 ALL"
+  },
+  "221": {
+    "type": "spray_booth",
+    "name": "Versa Pro #21 ALL"
+  },
+  "222": {
+    "type": "general_equipment",
+    "name": "#22 ALL"
+  },
+  "224": {
+    "type": "general_equipment",
+    "name": "#23 ALL"
+  },
+  "225": {
+    "type": "spray_booth",
+    "name": "VersaSpa Pro #23 ALL"
+  },
+  "226": {
+    "type": "general_equipment",
+    "name": "#24 ALL"
+  },
+  "227": {
+    "type": "sun_bed",
+    "name": "Sun Angel 1400 #24 ALL"
+  },
+  "228": {
+    "type": "general_equipment",
+    "name": "#25 ALL"
+  },
+  "229": {
+    "type": "sun_bed",
+    "name": "Sun Select 48 #25 ALL"
+  },
+  "230": {
+    "type": "general_equipment",
+    "name": "#26 ALL"
+  },
+  "231": {
+    "type": "sun_bed",
+    "name": "Charming Cherry (REDLIGHT) #26 ALL"
+  },
+  "232": {
+    "type": "general_equipment",
+    "name": "#27 ALL"
+  },
+  "233": {
+    "type": "sun_bed",
+    "name": "Sunrise 7200 Hybrid Stand Up #27 ALL"
+  },
+  "234": {
+    "type": "general_equipment",
+    "name": "#28 ALL"
+  },
+  "235": {
+    "type": "sun_bed",
+    "name": "KBL 6800 #28 ALL"
+  },
+  "236": {
+    "type": "general_equipment",
+    "name": "#29 ALL"
+  },
+  "237": {
+    "type": "spray_booth",
+    "name": "Beauty Angel 7200 #29 ALL"
+  },
+  "238": {
+    "type": "general_equipment",
+    "name": "#30 ALL"
+  },
+  "239": {
+    "type": "sun_bed",
+    "name": "Sunrise 480 Stand Up #30 ALL"
+  },
+  "240": {
+    "type": "general_equipment",
+    "name": "#32 ALL"
+  },
+  "241": {
+    "type": "spray_booth",
+    "name": "Cocoon #32 ALL"
+  },
+  "242": {
+    "type": "general_equipment",
+    "name": "#33 ALL"
+  },
+  "243": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #33 ALL"
+  },
+  "244": {
+    "type": "general_equipment",
+    "name": "#34 ALL"
+  },
+  "245": {
+    "type": "spray_booth",
+    "name": "Cocoon #34 ALL"
+  },
+  "246": {
+    "type": "general_equipment",
+    "name": "#35 ALL"
+  },
+  "247": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #35 ALL"
+  },
+  "248": {
+    "type": "general_equipment",
+    "name": "#36 ALL"
+  },
+  "249": {
+    "type": "spray_booth",
+    "name": "Omni Chair #36 ALL"
+  },
+  "250": {
+    "type": "general_equipment",
+    "name": "#37 ALL"
+  },
+  "251": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #37 ALL"
+  },
+  "252": {
+    "type": "general_equipment",
+    "name": "#38 ALL"
+  },
+  "253": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #38 ALL"
+  },
+  "287": {
+    "type": "general_equipment",
+    "name": "#11 DC"
+  },
+  "288": {
+    "type": "spray_booth",
+    "name": "Norvell Auto Rev #11 DC"
+  },
+  "289": {
+    "type": "general_equipment",
+    "name": "#12 DC"
+  },
+  "290": {
+    "type": "sun_bed",
+    "name": "Sunrise 480 #12 DC"
+  },
+  "291": {
+    "type": "general_equipment",
+    "name": "#13 DC"
+  },
+  "292": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #13 DC"
+  },
+  "293": {
+    "type": "general_equipment",
+    "name": "#14 DC"
+  },
+  "294": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #14 DC"
+  },
+  "295": {
+    "type": "general_equipment",
+    "name": "#15 DC"
+  },
+  "296": {
+    "type": "sun_bed",
+    "name": "KBL 7900 #15 DC"
+  },
+  "297": {
+    "type": "general_equipment",
+    "name": "#16 DC"
+  },
+  "298": {
+    "type": "spray_booth",
+    "name": "Cocoon #16 DC"
+  },
+  "299": {
+    "type": "general_equipment",
+    "name": "#17 DC"
+  },
+  "300": {
+    "type": "spray_booth",
+    "name": "VersaSpa Pro #17 DC"
+  },
+  "301": {
+    "type": "general_equipment",
+    "name": "#19 DC"
+  },
+  "302": {
+    "type": "sun_bed",
+    "name": "Prestige 1100 #19 DC-WH"
+  },
+  "303": {
+    "type": "general_equipment",
+    "name": "#20 DC"
+  },
+  "304": {
+    "type": "sun_bed",
+    "name": "Prestige 1100 #20 DC"
+  },
+  "305": {
+    "type": "general_equipment",
+    "name": "#21 DC"
+  },
+  "306": {
+    "type": "spray_booth",
+    "name": "Beauty Angel #21 DC"
+  },
+  "307": {
+    "type": "general_equipment",
+    "name": "#22 DC"
+  },
+  "308": {
+    "type": "sun_bed",
+    "name": "Sunrise 480 Stand Up #22 DC"
+  },
+  "309": {
+    "type": "general_equipment",
+    "name": "#23 DC"
+  },
+  "310": {
+    "type": "sun_bed",
+    "name": "Sun Angel S52 #23 DC"
+  },
+  "311": {
+    "type": "general_equipment",
+    "name": "#24 DC"
+  },
+  "312": {
+    "type": "sun_bed",
+    "name": "Blueberry #22 CA"
+  },
+  "313": {
+    "type": "general_equipment",
+    "name": "#25 DC"
+  },
+  "316": {
+    "type": "general_equipment",
+    "name": "#10 ES"
+  },
+  "317": {
+    "type": "spray_booth",
+    "name": "Norvell Auto Rev #10 EE"
+  },
+  "318": {
+    "type": "general_equipment",
+    "name": "#11 ES"
+  },
+  "319": {
+    "type": "spray_booth",
+    "name": "Beauty Angel #11 EE"
+  },
+  "320": {
+    "type": "general_equipment",
+    "name": "#12 ES"
+  },
+  "321": {
+    "type": "spray_booth",
+    "name": "Beauty Angel #12 EE"
+  },
+  "322": {
+    "type": "general_equipment",
+    "name": "#13 ES"
+  },
+  "323": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #14 ES"
+  },
+  "324": {
+    "type": "general_equipment",
+    "name": "#14 ES"
+  },
+  "325": {
+    "type": "spray_booth",
+    "name": "Cocoon #11 ES"
+  },
+  "326": {
+    "type": "general_equipment",
+    "name": "#15 ES"
+  },
+  "327": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #10 ES"
+  },
+  "328": {
+    "type": "general_equipment",
+    "name": "#16 ES"
+  },
+  "329": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #13 ES"
+  },
+  "331": {
+    "type": "sun_bed",
+    "name": "Citrus City #16 ES"
+  },
+  "334": {
+    "type": "general_equipment",
+    "name": "#19 NW"
+  },
+  "335": {
+    "type": "sun_bed",
+    "name": "Ergoline Affinity 800 (REDLIGHT) #18 ES"
+  },
+  "336": {
+    "type": "general_equipment",
+    "name": "#20 ES"
+  },
+  "337": {
+    "type": "sun_bed",
+    "name": "KBL 7900 #26 NW"
+  },
+  "338": {
+    "type": "general_equipment",
+    "name": "#21 ES"
+  },
+  "339": {
+    "type": "spray_booth",
+    "name": "VersaSpa Pro #21 ES"
+  },
+  "340": {
+    "type": "general_equipment",
+    "name": "#22 ES"
+  },
+  "341": {
+    "type": "sun_bed",
+    "name": "Sun Angel S52 #22 EE"
+  },
+  "342": {
+    "type": "general_equipment",
+    "name": "#23 ES"
+  },
+  "344": {
+    "type": "general_equipment",
+    "name": "#24 ES"
+  },
+  "346": {
+    "type": "general_equipment",
+    "name": "#25 ES"
+  },
+  "347": {
+    "type": "sun_bed",
+    "name": "Prestige 1100 #25 ES"
+  },
+  "375": {
+    "type": "general_equipment",
+    "name": "#27 EW"
+  },
+  "376": {
+    "type": "sun_bed",
+    "name": "Ergoline Affinity 950 (UV only) #25 EW"
+  },
+  "377": {
+    "type": "general_equipment",
+    "name": "#26 EW"
+  },
+  "378": {
+    "type": "sun_bed",
+    "name": "Sunrise 480 Stand Up #19 EW"
+  },
+  "379": {
+    "type": "general_equipment",
+    "name": "#13 EW"
+  },
+  "380": {
+    "type": "sun_bed",
+    "name": "Sunrise 7200 Hybrid #13 EW"
+  },
+  "381": {
+    "type": "general_equipment",
+    "name": "#14 EW"
+  },
+  "382": {
+    "type": "spray_booth",
+    "name": "Beauty Angel 7200#14 EW"
+  },
+  "383": {
+    "type": "general_equipment",
+    "name": "#15 EW - Empty"
+  },
+  "384": {
+    "type": "sun_bed",
+    "name": "Prestige 1100 #23 EW"
+  },
+  "385": {
+    "type": "general_equipment",
+    "name": "#16 EW"
+  },
+  "386": {
+    "type": "spray_booth",
+    "name": "VersaSpa Pro #16 EW"
+  },
+  "387": {
+    "type": "general_equipment",
+    "name": "#17 EW"
+  },
+  "388": {
+    "type": "spray_booth",
+    "name": "Norvell Auto Rev #17 EW"
+  },
+  "389": {
+    "type": "general_equipment",
+    "name": "#18 EW"
+  },
+  "390": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #18 EW"
+  },
+  "391": {
+    "type": "general_equipment",
+    "name": "#19 EW"
+  },
+  "392": {
+    "type": "spray_booth",
+    "name": "Cocoon #16 EW"
+  },
+  "393": {
+    "type": "general_equipment",
+    "name": "#20 EW"
+  },
+  "394": {
+    "type": "sun_bed",
+    "name": "KBL 8000ES #27 EW"
+  },
+  "395": {
+    "type": "general_equipment",
+    "name": "#21 EW"
+  },
+  "396": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #20 EW"
+  },
+  "397": {
+    "type": "general_equipment",
+    "name": "#22 EW"
+  },
+  "398": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #22 EW"
+  },
+  "399": {
+    "type": "general_equipment",
+    "name": "#23 EW"
+  },
+  "400": {
+    "type": "sun_bed",
+    "name": "Prestige 1100 #23 HP"
+  },
+  "401": {
+    "type": "general_equipment",
+    "name": "#24 EW"
+  },
+  "402": {
+    "type": "sun_bed",
+    "name": "Vitality TLT3 #28 EW"
+  },
+  "403": {
+    "type": "general_equipment",
+    "name": "#25 EW"
+  },
+  "404": {
+    "type": "sun_bed",
+    "name": "Vitality TLT3 #30 EW"
+  },
+  "407": {
+    "type": "general_equipment",
+    "name": "#14 LA"
+  },
+  "408": {
+    "type": "spray_booth",
+    "name": "Cocoon #14 LA"
+  },
+  "409": {
+    "type": "general_equipment",
+    "name": "#15 LA"
+  },
+  "410": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #15 LA"
+  },
+  "411": {
+    "type": "general_equipment",
+    "name": "#16 LA"
+  },
+  "412": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #16 LA"
+  },
+  "413": {
+    "type": "general_equipment",
+    "name": "#17 LA"
+  },
+  "414": {
+    "type": "spray_booth",
+    "name": "Cocoon #17 LA"
+  },
+  "417": {
+    "type": "general_equipment",
+    "name": "#19 LA"
+  },
+  "418": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #19 LA"
+  },
+  "419": {
+    "type": "general_equipment",
+    "name": "#21 LA"
+  },
+  "420": {
+    "type": "sun_bed",
+    "name": "Passion #21 LA"
+  },
+  "421": {
+    "type": "general_equipment",
+    "name": "#23 LA"
+  },
+  "422": {
+    "type": "spray_booth",
+    "name": "Norvell Auto Rev #23 LA"
+  },
+  "423": {
+    "type": "general_equipment",
+    "name": "#24 LA"
+  },
+  "424": {
+    "type": "spray_booth",
+    "name": "Norvell Auto Rev #24 LA"
+  },
+  "425": {
+    "type": "general_equipment",
+    "name": "#25 LA"
+  },
+  "426": {
+    "type": "sun_bed",
+    "name": "Sun Angel S52 Duo #25 LA"
+  },
+  "427": {
+    "type": "general_equipment",
+    "name": "#26 LA"
+  },
+  "428": {
+    "type": "sun_bed",
+    "name": "Sunrise 480 Stand Up #26 LA"
+  },
+  "429": {
+    "type": "general_equipment",
+    "name": "#27 LA"
+  },
+  "430": {
+    "type": "spray_booth",
+    "name": "VersaSpa Pro #27 LA"
+  },
+  "431": {
+    "type": "general_equipment",
+    "name": "#28 LA"
+  },
+  "432": {
+    "type": "sun_bed",
+    "name": "Open Sun 1050 #28 LA"
+  },
+  "433": {
+    "type": "general_equipment",
+    "name": "#29 LA"
+  },
+  "434": {
+    "type": "sun_bed",
+    "name": "Sun Select #29 LA"
+  },
+  "435": {
+    "type": "general_equipment",
+    "name": "#30 LA"
+  },
+  "436": {
+    "type": "sun_bed",
+    "name": "KBL 6800 #30 LA"
+  },
+  "437": {
+    "type": "general_equipment",
+    "name": "#31 LA"
+  },
+  "438": {
+    "type": "sun_bed",
+    "name": "Prestige 1100 #31 LA"
+  },
+  "439": {
+    "type": "general_equipment",
+    "name": "#32 LA"
+  },
+  "440": {
+    "type": "sun_bed",
+    "name": "KBL 8000 #32 LA"
+  },
+  "441": {
+    "type": "general_equipment",
+    "name": "#33 LA"
+  },
+  "442": {
+    "type": "sun_bed",
+    "name": "Prestige 1600 #33 LA"
+  },
+  "443": {
+    "type": "general_equipment",
+    "name": "#34 LA"
+  },
+  "444": {
+    "type": "sun_bed",
+    "name": "Sunrise Hybrid 7200 Stand Up #34 LA"
+  },
+  "445": {
+    "type": "general_equipment",
+    "name": "#35 LA"
+  },
+  "446": {
+    "type": "spray_booth",
+    "name": "Beauty Angel 7200 #35 LA"
+  },
+  "449": {
+    "type": "general_equipment",
+    "name": "#16 MO"
+  },
+  "450": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #16 MO"
+  },
+  "451": {
+    "type": "general_equipment",
+    "name": "#24 MO"
+  },
+  "452": {
+    "type": "sun_bed",
+    "name": "Sun Angel S52 #23"
+  },
+  "455": {
+    "type": "general_equipment",
+    "name": "#21 MO"
+  },
+  "456": {
+    "type": "sun_bed",
+    "name": "Sunrise 480 Stand Up #21 MO"
+  },
+  "457": {
+    "type": "general_equipment",
+    "name": "#14 MO"
+  },
+  "458": {
+    "type": "spray_booth",
+    "name": "Beauty Angel #14 MO"
+  },
+  "459": {
+    "type": "general_equipment",
+    "name": "#18 MO"
+  },
+  "460": {
+    "type": "spray_booth",
+    "name": "Cocoon #18 MO"
+  },
+  "462": {
+    "type": "sun_bed",
+    "name": "Sunrise 480 Stand Up #18 MO"
+  },
+  "463": {
+    "type": "general_equipment",
+    "name": "#17 MO"
+  },
+  "464": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #17 MO"
+  },
+  "465": {
+    "type": "general_equipment",
+    "name": "#20 MO"
+  },
+  "466": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #20 MO"
+  },
+  "467": {
+    "type": "general_equipment",
+    "name": "#26 MO"
+  },
+  "468": {
+    "type": "sun_bed",
+    "name": "Sun Select 52 #26 MO"
+  },
+  "469": {
+    "type": "general_equipment",
+    "name": "#22 MO"
+  },
+  "470": {
+    "type": "spray_booth",
+    "name": "VersaSpa Pro #22 MO"
+  },
+  "471": {
+    "type": "general_equipment",
+    "name": "#25 MO"
+  },
+  "472": {
+    "type": "sun_bed",
+    "name": "Open Sun 1050 #25 MO"
+  },
+  "473": {
+    "type": "general_equipment",
+    "name": "#28 MO"
+  },
+  "474": {
+    "type": "sun_bed",
+    "name": "KBL 8000ES #28 MO"
+  },
+  "475": {
+    "type": "general_equipment",
+    "name": "#30 MO"
+  },
+  "476": {
+    "type": "sun_bed",
+    "name": "Prestige 1600 #30 MO"
+  },
+  "478": {
+    "type": "general_equipment",
+    "name": "#21 NH"
+  },
+  "479": {
+    "type": "sun_bed",
+    "name": "Prestige 1100 #21 NH"
+  },
+  "480": {
+    "type": "general_equipment",
+    "name": "#20 NH"
+  },
+  "482": {
+    "type": "general_equipment",
+    "name": "#14 NH"
+  },
+  "483": {
+    "type": "spray_booth",
+    "name": "Versa Spa Pro #14 NH"
+  },
+  "486": {
+    "type": "general_equipment",
+    "name": "#27 NH"
+  },
+  "487": {
+    "type": "sun_bed",
+    "name": "Sunrise 7200 Hybrid #27 NH"
+  },
+  "488": {
+    "type": "general_equipment",
+    "name": "#18 NH"
+  },
+  "489": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #18 NH"
+  },
+  "490": {
+    "type": "general_equipment",
+    "name": "#17 NH"
+  },
+  "491": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #17 NH"
+  },
+  "492": {
+    "type": "general_equipment",
+    "name": "#19 NH"
+  },
+  "493": {
+    "type": "spray_booth",
+    "name": "Cocoon #19 NH"
+  },
+  "494": {
+    "type": "general_equipment",
+    "name": "#16 NH"
+  },
+  "495": {
+    "type": "spray_booth",
+    "name": "Beauty Angel #16 NH"
+  },
+  "496": {
+    "type": "general_equipment",
+    "name": "#28 NH"
+  },
+  "497": {
+    "type": "sun_bed",
+    "name": "Vitality TLT #28 NH"
+  },
+  "498": {
+    "type": "general_equipment",
+    "name": "#25 NH"
+  },
+  "499": {
+    "type": "sun_bed",
+    "name": "Open Sun 1050 #25 NH"
+  },
+  "500": {
+    "type": "general_equipment",
+    "name": "#26NH"
+  },
+  "501": {
+    "type": "sun_bed",
+    "name": "KBL 8000H #26 NH"
+  },
+  "502": {
+    "type": "general_equipment",
+    "name": "#30NH"
+  },
+  "503": {
+    "type": "sun_bed",
+    "name": "Sun Angel 1400 #30 NH"
+  },
+  "507": {
+    "type": "sun_bed",
+    "name": "Passion 40/3 #1 NE"
+  },
+  "512": {
+    "type": "general_equipment",
+    "name": "#12 NE"
+  },
+  "513": {
+    "type": "sun_bed",
+    "name": "Sunrise 7200#12 NE"
+  },
+  "514": {
+    "type": "general_equipment",
+    "name": "#13 NE"
+  },
+  "515": {
+    "type": "spray_booth",
+    "name": "Beauty Angel 7200 #13 NE"
+  },
+  "516": {
+    "type": "general_equipment",
+    "name": "#14 NE"
+  },
+  "517": {
+    "type": "spray_booth",
+    "name": "Cocoon #14 NE"
+  },
+  "518": {
+    "type": "general_equipment",
+    "name": "#15 NE"
+  },
+  "519": {
+    "type": "spray_booth",
+    "name": "Beauty Angel 7200#15 NE"
+  },
+  "520": {
+    "type": "general_equipment",
+    "name": "#16 NE"
+  },
+  "521": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #16 NE"
+  },
+  "522": {
+    "type": "general_equipment",
+    "name": "#17 NE"
+  },
+  "523": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #17 NE"
+  },
+  "524": {
+    "type": "general_equipment",
+    "name": "#18 NE"
+  },
+  "525": {
+    "type": "spray_booth",
+    "name": "Versa Pro #18 NE"
+  },
+  "526": {
+    "type": "general_equipment",
+    "name": "#19 NE"
+  },
+  "528": {
+    "type": "general_equipment",
+    "name": "#20 NE"
+  },
+  "529": {
+    "type": "sun_bed",
+    "name": "Prestige 1100 #20 NE"
+  },
+  "530": {
+    "type": "general_equipment",
+    "name": "#21 NE"
+  },
+  "531": {
+    "type": "sun_bed",
+    "name": "Prestige 1600 #21 NE"
+  },
+  "532": {
+    "type": "general_equipment",
+    "name": "#22 NE"
+  },
+  "533": {
+    "type": "spray_booth",
+    "name": "Versa Pro #22 NE"
+  },
+  "534": {
+    "type": "general_equipment",
+    "name": "#23 NE"
+  },
+  "535": {
+    "type": "sun_bed",
+    "name": "Vitality TLT3 #23 NE"
+  },
+  "536": {
+    "type": "general_equipment",
+    "name": "#25 NE"
+  },
+  "537": {
+    "type": "sun_bed",
+    "name": "KBL P9 HybridSun #25 NE"
+  },
+  "542": {
+    "type": "general_equipment",
+    "name": "#13 NW"
+  },
+  "544": {
+    "type": "general_equipment",
+    "name": "#14 NW"
+  },
+  "545": {
+    "type": "spray_booth",
+    "name": "Beauty Angel #3 NW"
+  },
+  "546": {
+    "type": "general_equipment",
+    "name": "#18 NW"
+  },
+  "547": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #18 NW"
+  },
+  "548": {
+    "type": "general_equipment",
+    "name": "#28 NW"
+  },
+  "551": {
+    "type": "spray_booth",
+    "name": "VersaSpa Pro #13 NW"
+  },
+  "552": {
+    "type": "general_equipment",
+    "name": "#29 NW"
+  },
+  "558": {
+    "type": "general_equipment",
+    "name": "#16 NW"
+  },
+  "559": {
+    "type": "spray_booth",
+    "name": "Cocoon #22 NW"
+  },
+  "560": {
+    "type": "general_equipment",
+    "name": "#18 NW"
+  },
+  "561": {
+    "type": "spray_booth",
+    "name": "Cocoon #18 NW"
+  },
+  "562": {
+    "type": "general_equipment",
+    "name": "#17 NW"
+  },
+  "563": {
+    "type": "sun_bed",
+    "name": "Sunrise 480 Stand Up #17 NW"
+  },
+  "564": {
+    "type": "general_equipment",
+    "name": "#23 NW"
+  },
+  "565": {
+    "type": "sun_bed",
+    "name": "Sun Angel  S-52 #23 NW"
+  },
+  "566": {
+    "type": "general_equipment",
+    "name": "#21 NW"
+  },
+  "567": {
+    "type": "sun_bed",
+    "name": "KBL P9 #21 NW"
+  },
+  "568": {
+    "type": "general_equipment",
+    "name": "#24 NW"
+  },
+  "569": {
+    "type": "sun_bed",
+    "name": "Sun Select #24 NW"
+  },
+  "649": {
+    "type": "general_equipment",
+    "name": "#15 SH"
+  },
+  "650": {
+    "type": "sun_bed",
+    "name": "Prestige 1100 #15 SH"
+  },
+  "653": {
+    "type": "general_equipment",
+    "name": "#27 SH"
+  },
+  "654": {
+    "type": "spray_booth",
+    "name": "Cocoon #27 SH"
+  },
+  "655": {
+    "type": "general_equipment",
+    "name": "#13 SH"
+  },
+  "656": {
+    "type": "sun_bed",
+    "name": "KBL 7900 #13 SH"
+  },
+  "657": {
+    "type": "general_equipment",
+    "name": "#14 SH"
+  },
+  "658": {
+    "type": "sun_bed",
+    "name": "Prestige Celebration #14 SH"
+  },
+  "663": {
+    "type": "general_equipment",
+    "name": "#17 SH"
+  },
+  "664": {
+    "type": "sun_bed",
+    "name": "Sunrise 480 Standup #17 SH"
+  },
+  "667": {
+    "type": "general_equipment",
+    "name": "#19 SH"
+  },
+  "668": {
+    "type": "sun_bed",
+    "name": "Sunrise 480 standup #19 SH"
+  },
+  "671": {
+    "type": "general_equipment",
+    "name": "#21 SH"
+  },
+  "673": {
+    "type": "general_equipment",
+    "name": "#22 SH"
+  },
+  "674": {
+    "type": "spray_booth",
+    "name": "Versa Pro  #22 SH"
+  },
+  "675": {
+    "type": "general_equipment",
+    "name": "#18 SH"
+  },
+  "676": {
+    "type": "spray_booth",
+    "name": "VersaSpa Pro #18 SH"
+  },
+  "677": {
+    "type": "general_equipment",
+    "name": "#26 SH"
+  },
+  "678": {
+    "type": "spray_booth",
+    "name": "Skin Wellness Pod #26 SH"
+  },
+  "679": {
+    "type": "general_equipment",
+    "name": "#25 SH"
+  },
+  "680": {
+    "type": "sun_bed",
+    "name": "Sun Angel S52 #25 SH"
+  },
+  "685": {
+    "type": "general_equipment",
+    "name": "#12 SOKC"
+  },
+  "686": {
+    "type": "spray_booth",
+    "name": "VersaSpa Pro #12 SOKC"
+  },
+  "687": {
+    "type": "general_equipment",
+    "name": "#11 SOKC"
+  },
+  "688": {
+    "type": "spray_booth",
+    "name": "Norvell Auto Rev #11 SOKC"
+  },
+  "689": {
+    "type": "general_equipment",
+    "name": "#13 SOKC"
+  },
+  "691": {
+    "type": "general_equipment",
+    "name": "#14 SOKC"
+  },
+  "692": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #14 SOKC"
+  },
+  "693": {
+    "type": "general_equipment",
+    "name": "#15 SOKC"
+  },
+  "694": {
+    "type": "sun_bed",
+    "name": "KBL 8000es #15 SOKC"
+  },
+  "695": {
+    "type": "general_equipment",
+    "name": "#16 SOKC"
+  },
+  "696": {
+    "type": "spray_booth",
+    "name": "Cocoon #16 SOKC"
+  },
+  "697": {
+    "type": "general_equipment",
+    "name": "#17 SOKC"
+  },
+  "698": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #17 SOKC"
+  },
+  "699": {
+    "type": "general_equipment",
+    "name": "#18 SOKC"
+  },
+  "700": {
+    "type": "sun_bed",
+    "name": "Prestige 1100 #18 SOKC"
+  },
+  "701": {
+    "type": "general_equipment",
+    "name": "#19 SOKC"
+  },
+  "702": {
+    "type": "spray_booth",
+    "name": "Beauty Angel #19 SOKC"
+  },
+  "703": {
+    "type": "general_equipment",
+    "name": "#20 SOKC"
+  },
+  "704": {
+    "type": "sun_bed",
+    "name": "Sunrise 480 Stand Up #20 SOKC"
+  },
+  "705": {
+    "type": "general_equipment",
+    "name": "#21 SOKC"
+  },
+  "706": {
+    "type": "sun_bed",
+    "name": "Ergoline Affinity 800 (REDLIGHT) #21 SOKC"
+  },
+  "707": {
+    "type": "general_equipment",
+    "name": "#22 SOKC"
+  },
+  "708": {
+    "type": "spray_booth",
+    "name": "Beauty Angel #22 SOKC"
+  },
+  "709": {
+    "type": "general_equipment",
+    "name": "#23 SOKC"
+  },
+  "710": {
+    "type": "sun_bed",
+    "name": "Prestige 1600 #23 SOKC"
+  },
+  "711": {
+    "type": "general_equipment",
+    "name": "#24 SOKC"
+  },
+  "712": {
+    "type": "sun_bed",
+    "name": "Sun Angel 1400 #24 SOKC"
+  },
+  "713": {
+    "type": "general_equipment",
+    "name": "#25 SOKC"
+  },
+  "714": {
+    "type": "sun_bed",
+    "name": "Open Sun 1050 #25 SOKC"
+  },
+  "717": {
+    "type": "general_equipment",
+    "name": "#8 TPA"
+  },
+  "718": {
+    "type": "sun_bed",
+    "name": "KBL 7000 #8 TPA"
+  },
+  "719": {
+    "type": "general_equipment",
+    "name": "#9 TPA"
+  },
+  "720": {
+    "type": "sun_bed",
+    "name": "Open Sun 1050 #9 TPA"
+  },
+  "721": {
+    "type": "general_equipment",
+    "name": "#10 TPA"
+  },
+  "722": {
+    "type": "spray_booth",
+    "name": "VersaSpa Pro #10 TPA"
+  },
+  "723": {
+    "type": "general_equipment",
+    "name": "#11 TPA"
+  },
+  "724": {
+    "type": "spray_booth",
+    "name": "VersaSpa Pro #11 TPA"
+  },
+  "725": {
+    "type": "general_equipment",
+    "name": "#12 TPA"
+  },
+  "726": {
+    "type": "sun_bed",
+    "name": "Prestige 1600 #12 TPA"
+  },
+  "727": {
+    "type": "general_equipment",
+    "name": "#13 TPA"
+  },
+  "728": {
+    "type": "sun_bed",
+    "name": "Sunrise 7200 Hybrid Stand Up #13 TPA"
+  },
+  "729": {
+    "type": "general_equipment",
+    "name": "#14 TPA"
+  },
+  "730": {
+    "type": "spray_booth",
+    "name": "Cocoon #14 TPA"
+  },
+  "731": {
+    "type": "general_equipment",
+    "name": "#15 TPA"
+  },
+  "732": {
+    "type": "spray_booth",
+    "name": "Beauty Angel 7200 #15 TPA"
+  },
+  "733": {
+    "type": "general_equipment",
+    "name": "#16 TPA"
+  },
+  "734": {
+    "type": "spray_booth",
+    "name": "Cocoon #16 TPA"
+  },
+  "735": {
+    "type": "general_equipment",
+    "name": "#17 TPA"
+  },
+  "736": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #17 TPA"
+  },
+  "737": {
+    "type": "general_equipment",
+    "name": "#18 TPA"
+  },
+  "738": {
+    "type": "spray_booth",
+    "name": "Skin Wellness 18 TPA"
+  },
+  "739": {
+    "type": "general_equipment",
+    "name": "#19 TPA"
+  },
+  "740": {
+    "type": "spray_booth",
+    "name": "Norvell Auto Rev #19 TPA"
+  },
+  "741": {
+    "type": "general_equipment",
+    "name": "#20 TPA"
+  },
+  "742": {
+    "type": "spray_booth",
+    "name": "Beauty Angel 7200 #20 TPA"
+  },
+  "745": {
+    "type": "general_equipment",
+    "name": "#1 YM"
+  },
+  "746": {
+    "type": "spray_booth",
+    "name": "Cocoon #14 YM"
+  },
+  "748": {
+    "type": "sun_bed",
+    "name": "Sunrise 480 Stand Up #23 YM"
+  },
+  "750": {
+    "type": "spray_booth",
+    "name": "Beauty Angel #3 YM"
+  },
+  "752": {
+    "type": "sun_bed",
+    "name": "Ergoline Espirit 770 #4 YM"
+  },
+  "754": {
+    "type": "sun_bed",
+    "name": "Sunrise 7200 Hybrid Stand Up #27 YM"
+  },
+  "756": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #16 YM"
+  },
+  "758": {
+    "type": "spray_booth",
+    "name": "Norvell Auto Rev #8 YM"
+  },
+  "760": {
+    "type": "sun_bed",
+    "name": "KBL P9 hybridSun #25 YM"
+  },
+  "762": {
+    "type": "spray_booth",
+    "name": "VersaSpa Pro #18 YM"
+  },
+  "764": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #15 YM"
+  },
+  "765": {
+    "type": "general_equipment",
+    "name": "#14 YM"
+  },
+  "766": {
+    "type": "sun_bed",
+    "name": "Sun Angel 1400 #21 YM"
+  },
+  "767": {
+    "type": "general_equipment",
+    "name": "#15 YM"
+  },
+  "768": {
+    "type": "sun_bed",
+    "name": "KBL 8000 alpha hybridSun #22 YM"
+  },
+  "770": {
+    "type": "sun_bed",
+    "name": "Prestige 1600 #24 YM"
+  },
+  "917": {
+    "type": "general_equipment",
+    "name": "#20 SP"
+  },
+  "919": {
+    "type": "general_equipment",
+    "name": "#21 SP"
+  },
+  "920": {
+    "type": "spray_booth",
+    "name": "Beauty Angel 7200 Stand Up #21 SP"
+  },
+  "922": {
+    "type": "spray_booth",
+    "name": "Well System Wave #22 SP"
+  },
+  "923": {
+    "type": "general_equipment",
+    "name": "#23 SP"
+  },
+  "924": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #23 SP"
+  },
+  "925": {
+    "type": "general_equipment",
+    "name": "#24 SP"
+  },
+  "926": {
+    "type": "spray_booth",
+    "name": "Skin Wellness  #24 SP"
+  },
+  "927": {
+    "type": "general_equipment",
+    "name": "#26 SP"
+  },
+  "928": {
+    "type": "sun_bed",
+    "name": "Sunrise 7200 Hybrid Stand Up #26 SP"
+  },
+  "929": {
+    "type": "general_equipment",
+    "name": "#27 SP"
+  },
+  "930": {
+    "type": "sun_bed",
+    "name": "Sunrise 480 Stand Up #27 SP"
+  },
+  "931": {
+    "type": "general_equipment",
+    "name": "#28 SP"
+  },
+  "932": {
+    "type": "spray_booth",
+    "name": "VersaSpa Pro #28 SP"
+  },
+  "933": {
+    "type": "general_equipment",
+    "name": "#30 SP"
+  },
+  "935": {
+    "type": "general_equipment",
+    "name": "#31 SP"
+  },
+  "936": {
+    "type": "sun_bed",
+    "name": "Vitality TLT #31 SP"
+  },
+  "937": {
+    "type": "general_equipment",
+    "name": "#32 SP"
+  },
+  "938": {
+    "type": "sun_bed",
+    "name": "Vitality TLT #32 SP"
+  },
+  "939": {
+    "type": "general_equipment",
+    "name": "#33 SP"
+  },
+  "940": {
+    "type": "spray_booth",
+    "name": "Versa pro #33 SP"
+  },
+  "941": {
+    "type": "general_equipment",
+    "name": "#34 SP"
+  },
+  "942": {
+    "type": "spray_booth",
+    "name": "Cocoon #34 SP"
+  },
+  "985": {
+    "type": "general_equipment",
+    "name": "#10 ROC"
+  },
+  "986": {
+    "type": "sun_bed",
+    "name": "Prestige 1100 #10 ROC"
+  },
+  "987": {
+    "type": "general_equipment",
+    "name": "#11 ROC"
+  },
+  "988": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #11 ROC"
+  },
+  "989": {
+    "type": "general_equipment",
+    "name": "#12 ROC"
+  },
+  "990": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #12 ROC"
+  },
+  "991": {
+    "type": "general_equipment",
+    "name": "#13 ROC"
+  },
+  "992": {
+    "type": "spray_booth",
+    "name": "Cocoon #13 ROC"
+  },
+  "993": {
+    "type": "general_equipment",
+    "name": "#14 ROC"
+  },
+  "994": {
+    "type": "sun_bed",
+    "name": "Sunrise 480 Stand Up #14 ROC"
+  },
+  "995": {
+    "type": "general_equipment",
+    "name": "#15 ROC"
+  },
+  "996": {
+    "type": "spray_booth",
+    "name": "Beauty Angel #15 CA"
+  },
+  "997": {
+    "type": "general_equipment",
+    "name": "#16 ROC"
+  },
+  "998": {
+    "type": "spray_booth",
+    "name": "VersaSpa Pro #16 ROC"
+  },
+  "999": {
+    "type": "general_equipment",
+    "name": "#17 ROC"
+  },
+  "1000": {
+    "type": "spray_booth",
+    "name": "VersaSpa Pro #17 ROC"
+  },
+  "1001": {
+    "type": "general_equipment",
+    "name": "#18 ROC"
+  },
+  "1002": {
+    "type": "spray_booth",
+    "name": "Norvell Auto Rev #18 ROC"
+  },
+  "1003": {
+    "type": "general_equipment",
+    "name": "#19 ROC"
+  },
+  "1004": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #19 ROC"
+  },
+  "1005": {
+    "type": "general_equipment",
+    "name": "#20 ROC"
+  },
+  "1006": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #20 ROC"
+  },
+  "1007": {
+    "type": "general_equipment",
+    "name": "#21 ROC"
+  },
+  "1008": {
+    "type": "sun_bed",
+    "name": "Sunrise 480 Stand Up #21 ROC"
+  },
+  "1009": {
+    "type": "general_equipment",
+    "name": "#23 ROC"
+  },
+  "1011": {
+    "type": "general_equipment",
+    "name": "#25 ROC"
+  },
+  "1012": {
+    "type": "sun_bed",
+    "name": "Open Sun 1050 #25 ROC"
+  },
+  "1013": {
+    "type": "general_equipment",
+    "name": "#26 ROC"
+  },
+  "1016": {
+    "type": "general_equipment",
+    "name": "#27 ROC"
+  },
+  "1017": {
+    "type": "spray_booth",
+    "name": "Beauty Angel 7200 #27 ROC"
+  },
+  "1018": {
+    "type": "general_equipment",
+    "name": "#28 ROC"
+  },
+  "1019": {
+    "type": "sun_bed",
+    "name": "KBL 8000 #28 ROC"
+  },
+  "1020": {
+    "type": "general_equipment",
+    "name": "#29 ROC"
+  },
+  "1021": {
+    "type": "sun_bed",
+    "name": "Sun Angel 1400 #29 ROC"
+  },
+  "1022": {
+    "type": "general_equipment",
+    "name": "#30 ROC"
+  },
+  "1023": {
+    "type": "sun_bed",
+    "name": "Prestige 1600 #30 ROC"
+  },
+  "1024": {
+    "type": "sun_bed",
+    "name": "KBL P9 #25 TY"
+  },
+  "1040": {
+    "type": "general_equipment",
+    "name": "Technology ALL"
+  },
+  "1041": {
+    "type": "general_equipment",
+    "name": "Cameras ALL"
+  },
+  "1042": {
+    "type": "general_equipment",
+    "name": "TMAX ALL"
+  },
+  "1043": {
+    "type": "general_equipment",
+    "name": "Internet ALL"
+  },
+  "1044": {
+    "type": "general_equipment",
+    "name": "Computers ALL"
+  },
+  "1045": {
+    "type": "general_equipment",
+    "name": "Phones ALL"
+  },
+  "1054": {
+    "type": "general_equipment",
+    "name": "Technology DC"
+  },
+  "1055": {
+    "type": "general_equipment",
+    "name": "Cameras DC"
+  },
+  "1056": {
+    "type": "general_equipment",
+    "name": "TMAX DC"
+  },
+  "1057": {
+    "type": "general_equipment",
+    "name": "Internet DC"
+  },
+  "1058": {
+    "type": "general_equipment",
+    "name": "Computers DC"
+  },
+  "1059": {
+    "type": "general_equipment",
+    "name": "Phones DC"
+  },
+  "1060": {
+    "type": "general_equipment",
+    "name": "Technology ES"
+  },
+  "1061": {
+    "type": "general_equipment",
+    "name": "Cameras ES"
+  },
+  "1062": {
+    "type": "general_equipment",
+    "name": "TMAX ES"
+  },
+  "1063": {
+    "type": "general_equipment",
+    "name": "Internet ES"
+  },
+  "1064": {
+    "type": "general_equipment",
+    "name": "Computers ES"
+  },
+  "1065": {
+    "type": "general_equipment",
+    "name": "Phones ES"
+  },
+  "1072": {
+    "type": "general_equipment",
+    "name": "Technology EW"
+  },
+  "1073": {
+    "type": "general_equipment",
+    "name": "Cameras EW"
+  },
+  "1074": {
+    "type": "general_equipment",
+    "name": "TMAX EW"
+  },
+  "1075": {
+    "type": "general_equipment",
+    "name": "Internet EW"
+  },
+  "1076": {
+    "type": "general_equipment",
+    "name": "Computers EW"
+  },
+  "1077": {
+    "type": "general_equipment",
+    "name": "Phones EW"
+  },
+  "1078": {
+    "type": "general_equipment",
+    "name": "Technology LA"
+  },
+  "1079": {
+    "type": "general_equipment",
+    "name": "Cameras LA"
+  },
+  "1080": {
+    "type": "general_equipment",
+    "name": "TMAX LA"
+  },
+  "1081": {
+    "type": "general_equipment",
+    "name": "Internet LA"
+  },
+  "1082": {
+    "type": "general_equipment",
+    "name": "Computers LA"
+  },
+  "1083": {
+    "type": "general_equipment",
+    "name": "Phones LA"
+  },
+  "1084": {
+    "type": "general_equipment",
+    "name": "Technology MO"
+  },
+  "1085": {
+    "type": "general_equipment",
+    "name": "Cameras MO"
+  },
+  "1086": {
+    "type": "general_equipment",
+    "name": "TMAX MO"
+  },
+  "1087": {
+    "type": "general_equipment",
+    "name": "Internet MO"
+  },
+  "1088": {
+    "type": "general_equipment",
+    "name": "Computers MO"
+  },
+  "1089": {
+    "type": "general_equipment",
+    "name": "Phones MO"
+  },
+  "1090": {
+    "type": "general_equipment",
+    "name": "Technology NH"
+  },
+  "1091": {
+    "type": "general_equipment",
+    "name": "Cameras NH"
+  },
+  "1092": {
+    "type": "general_equipment",
+    "name": "TMAX NH"
+  },
+  "1093": {
+    "type": "general_equipment",
+    "name": "Internet NH"
+  },
+  "1094": {
+    "type": "general_equipment",
+    "name": "Computer 3 NH"
+  },
+  "1095": {
+    "type": "general_equipment",
+    "name": "Phones NH"
+  },
+  "1096": {
+    "type": "general_equipment",
+    "name": "Technology NE"
+  },
+  "1097": {
+    "type": "general_equipment",
+    "name": "Cameras NE"
+  },
+  "1098": {
+    "type": "general_equipment",
+    "name": "TMAX NE"
+  },
+  "1099": {
+    "type": "general_equipment",
+    "name": "Internet NE"
+  },
+  "1100": {
+    "type": "general_equipment",
+    "name": "Computers NE"
+  },
+  "1101": {
+    "type": "general_equipment",
+    "name": "Phones NE"
+  },
+  "1102": {
+    "type": "general_equipment",
+    "name": "Technology NW"
+  },
+  "1103": {
+    "type": "general_equipment",
+    "name": "Cameras NW"
+  },
+  "1104": {
+    "type": "general_equipment",
+    "name": "TMAX NW"
+  },
+  "1105": {
+    "type": "general_equipment",
+    "name": "Internet NW"
+  },
+  "1106": {
+    "type": "general_equipment",
+    "name": "Computers NW"
+  },
+  "1107": {
+    "type": "general_equipment",
+    "name": "Phones NW"
+  },
+  "1114": {
+    "type": "general_equipment",
+    "name": "Technology ROC"
+  },
+  "1115": {
+    "type": "general_equipment",
+    "name": "Cameras ROC"
+  },
+  "1116": {
+    "type": "general_equipment",
+    "name": "TMAX ROC"
+  },
+  "1117": {
+    "type": "general_equipment",
+    "name": "Internet ROC"
+  },
+  "1118": {
+    "type": "general_equipment",
+    "name": "Computers ROC"
+  },
+  "1119": {
+    "type": "general_equipment",
+    "name": "Phones ROC"
+  },
+  "1126": {
+    "type": "general_equipment",
+    "name": "Technology SH"
+  },
+  "1127": {
+    "type": "general_equipment",
+    "name": "Cameras SH"
+  },
+  "1128": {
+    "type": "general_equipment",
+    "name": "TMAX SH"
+  },
+  "1129": {
+    "type": "general_equipment",
+    "name": "Internet SH"
+  },
+  "1130": {
+    "type": "general_equipment",
+    "name": "Computers SH"
+  },
+  "1131": {
+    "type": "general_equipment",
+    "name": "Phones SH"
+  },
+  "1132": {
+    "type": "general_equipment",
+    "name": "Technology SOKC"
+  },
+  "1133": {
+    "type": "general_equipment",
+    "name": "Cameras SOKC"
+  },
+  "1134": {
+    "type": "general_equipment",
+    "name": "TMAX SOKC"
+  },
+  "1135": {
+    "type": "general_equipment",
+    "name": "Computers SOKC"
+  },
+  "1136": {
+    "type": "general_equipment",
+    "name": "Internet SOKC"
+  },
+  "1137": {
+    "type": "general_equipment",
+    "name": "Phones SOKC"
+  },
+  "1138": {
+    "type": "general_equipment",
+    "name": "Technology SP"
+  },
+  "1139": {
+    "type": "general_equipment",
+    "name": "Cameras SP"
+  },
+  "1140": {
+    "type": "general_equipment",
+    "name": "TMAX SP"
+  },
+  "1141": {
+    "type": "general_equipment",
+    "name": "Internet SP"
+  },
+  "1142": {
+    "type": "general_equipment",
+    "name": "Computers SP"
+  },
+  "1143": {
+    "type": "general_equipment",
+    "name": "Phones SP"
+  },
+  "1144": {
+    "type": "general_equipment",
+    "name": "Technology TPA"
+  },
+  "1145": {
+    "type": "general_equipment",
+    "name": "Cameras TPA"
+  },
+  "1146": {
+    "type": "general_equipment",
+    "name": "TMAX TPA"
+  },
+  "1147": {
+    "type": "general_equipment",
+    "name": "Computers TPA"
+  },
+  "1148": {
+    "type": "general_equipment",
+    "name": "Phones TPA"
+  },
+  "1149": {
+    "type": "general_equipment",
+    "name": "Technology YM"
+  },
+  "1151": {
+    "type": "general_equipment",
+    "name": "TMAX YM"
+  },
+  "1152": {
+    "type": "general_equipment",
+    "name": "Internet YM"
+  },
+  "1153": {
+    "type": "general_equipment",
+    "name": "Computer #1 YM"
+  },
+  "1154": {
+    "type": "general_equipment",
+    "name": "Phones YM"
+  },
+  "1155": {
+    "type": "general_equipment",
+    "name": "Corporate Office"
+  },
+  "1157": {
+    "type": "general_equipment",
+    "name": "Big White Van"
+  },
+  "1158": {
+    "type": "general_equipment",
+    "name": "Little White Van"
+  },
+  "1159": {
+    "type": "general_equipment",
+    "name": "Little Black Van"
+  },
+  "1161": {
+    "type": "general_equipment",
+    "name": "Warehouse"
+  },
+  "1163": {
+    "type": "spray_booth",
+    "name": "Poly #34 ALL"
+  },
+  "1164": {
+    "type": "spray_booth",
+    "name": "Poly #32 ALL"
+  },
+  "1166": {
+    "type": "spray_booth",
+    "name": "Poly #16 DC"
+  },
+  "1167": {
+    "type": "spray_booth",
+    "name": "Poly #11 ES"
+  },
+  "1169": {
+    "type": "spray_booth",
+    "name": "Poly #16 EW"
+  },
+  "1170": {
+    "type": "spray_booth",
+    "name": "Poly #14 LA"
+  },
+  "1171": {
+    "type": "spray_booth",
+    "name": "Poly #17 LA"
+  },
+  "1172": {
+    "type": "spray_booth",
+    "name": "Poly #18 MO"
+  },
+  "1173": {
+    "type": "spray_booth",
+    "name": "Poly #19 NH"
+  },
+  "1179": {
+    "type": "spray_booth",
+    "name": "Poly #13 ROC"
+  },
+  "1181": {
+    "type": "spray_booth",
+    "name": "Poly #27 SH"
+  },
+  "1183": {
+    "type": "spray_booth",
+    "name": "Poly #16 SOKC"
+  },
+  "1184": {
+    "type": "spray_booth",
+    "name": "Poly #34 SP"
+  },
+  "1185": {
+    "type": "spray_booth",
+    "name": "Poly #14 TPA"
+  },
+  "1186": {
+    "type": "spray_booth",
+    "name": "Poly #16 TPA"
+  },
+  "1187": {
+    "type": "spray_booth",
+    "name": "Poly #14 YM"
+  },
+  "1188": {
+    "type": "sun_bed",
+    "name": "Affinity 800 (REDLIGHT) #25 DC"
+  },
+  "1192": {
+    "type": "general_equipment",
+    "name": "AC/Heat SOKC -To be serviced by Property Management company ONLY! - create request here- 1"
+  },
+  "1193": {
+    "type": "general_equipment",
+    "name": "#39 ALL"
+  },
+  "1194": {
+    "type": "sun_bed",
+    "name": "KBL P9 #30 Pro"
+  },
+  "1195": {
+    "type": "general_equipment",
+    "name": "#40 ALL"
+  },
+  "1196": {
+    "type": "sun_bed",
+    "name": "Prestige 1600 #40 ALL"
+  },
+  "1198": {
+    "type": "spray_booth",
+    "name": "Norvell #19 ALL"
+  },
+  "1199": {
+    "type": "sun_bed",
+    "name": "Passion #17 ALL"
+  },
+  "1200": {
+    "type": "general_equipment",
+    "name": "#31 ALL"
+  },
+  "1201": {
+    "type": "general_equipment",
+    "name": "#16 ALL"
+  },
+  "1202": {
+    "type": "spray_booth",
+    "name": "Fit Burn Sauna #16 ALL"
+  },
+  "1204": {
+    "type": "general_equipment",
+    "name": "#18 LA"
+  },
+  "1205": {
+    "type": "spray_booth",
+    "name": "Beauty Angel 7200 #18 LA"
+  },
+  "1206": {
+    "type": "general_equipment",
+    "name": "#20 LA"
+  },
+  "1207": {
+    "type": "general_equipment",
+    "name": "#10 KLR"
+  },
+  "1208": {
+    "type": "general_equipment",
+    "name": "#11 KLR"
+  },
+  "1209": {
+    "type": "general_equipment",
+    "name": "#12 KLR"
+  },
+  "1210": {
+    "type": "general_equipment",
+    "name": "#13 KLR"
+  },
+  "1211": {
+    "type": "general_equipment",
+    "name": "#14 KLR"
+  },
+  "1212": {
+    "type": "general_equipment",
+    "name": "#15 KLR"
+  },
+  "1213": {
+    "type": "general_equipment",
+    "name": "#17 KLR"
+  },
+  "1214": {
+    "type": "general_equipment",
+    "name": "#18 KLR"
+  },
+  "1215": {
+    "type": "general_equipment",
+    "name": "#19 KLR"
+  },
+  "1216": {
+    "type": "general_equipment",
+    "name": "#20 KLR"
+  },
+  "1217": {
+    "type": "general_equipment",
+    "name": "#21 KLR"
+  },
+  "1218": {
+    "type": "general_equipment",
+    "name": "#22 KLR"
+  },
+  "1219": {
+    "type": "general_equipment",
+    "name": "#23 KLR"
+  },
+  "1220": {
+    "type": "general_equipment",
+    "name": "#24 KLR"
+  },
+  "1221": {
+    "type": "general_equipment",
+    "name": "#25 KLR"
+  },
+  "1222": {
+    "type": "spray_booth",
+    "name": "Cocoon #10 KLR"
+  },
+  "1223": {
+    "type": "spray_booth",
+    "name": "Poly #10 KLR"
+  },
+  "1224": {
+    "type": "spray_booth",
+    "name": "Beauty Angel 7200 #11 KLR"
+  },
+  "1225": {
+    "type": "spray_booth",
+    "name": "Beauty Angel 7200 #27 WL"
+  },
+  "1226": {
+    "type": "spray_booth",
+    "name": "VersaSpa Pro #14 KLR"
+  },
+  "1228": {
+    "type": "spray_booth",
+    "name": "Norvell Auto Rev #15 KLR"
+  },
+  "1229": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #17 KLR"
+  },
+  "1230": {
+    "type": "sun_bed",
+    "name": "P90 #18 KLR"
+  },
+  "1231": {
+    "type": "sun_bed",
+    "name": "Sunrise 480 #19 KLR"
+  },
+  "1232": {
+    "type": "sun_bed",
+    "name": "Sunrise Hybrid 7200 Stand Up #20 KLR"
+  },
+  "1233": {
+    "type": "sun_bed",
+    "name": "Sun Angel 1400 #21 KLR"
+  },
+  "1234": {
+    "type": "sun_bed",
+    "name": "Prestige 1600 #23 KLR"
+  },
+  "1235": {
+    "type": "sun_bed",
+    "name": "Vitality TLT #24 KLR"
+  },
+  "1236": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #22 KLR"
+  },
+  "1237": {
+    "type": "sun_bed",
+    "name": "Vitality TLT3 #25 KLR"
+  },
+  "1249": {
+    "type": "general_equipment",
+    "name": "AC/ Heat SH - 1"
+  },
+  "1250": {
+    "type": "general_equipment",
+    "name": "Washer/Dryer SH - 1"
+  },
+  "1251": {
+    "type": "general_equipment",
+    "name": "AC/Heat ES - 1"
+  },
+  "1252": {
+    "type": "general_equipment",
+    "name": "Washer/Dryer ES"
+  },
+  "1253": {
+    "type": "general_equipment",
+    "name": "AC/Heat EW- 1"
+  },
+  "1254": {
+    "type": "general_equipment",
+    "name": "Washer/Dryer EW"
+  },
+  "1255": {
+    "type": "general_equipment",
+    "name": "AC/Heat NH - 1"
+  },
+  "1256": {
+    "type": "general_equipment",
+    "name": "Washer/Dryer NH"
+  },
+  "1257": {
+    "type": "general_equipment",
+    "name": "Cameras YM"
+  },
+  "1258": {
+    "type": "general_equipment",
+    "name": "AC/Heat YM #1"
+  },
+  "1259": {
+    "type": "general_equipment",
+    "name": "Washer/Dryer YM"
+  },
+  "1261": {
+    "type": "general_equipment",
+    "name": "AC/Heat DC - 1"
+  },
+  "1262": {
+    "type": "general_equipment",
+    "name": "Washer/Dryer DC"
+  },
+  "1263": {
+    "type": "general_equipment",
+    "name": "AC/Heat MO - 1"
+  },
+  "1264": {
+    "type": "general_equipment",
+    "name": "Washer/Dryer MO"
+  },
+  "1265": {
+    "type": "general_equipment",
+    "name": "AC/Heat NE - 1"
+  },
+  "1266": {
+    "type": "general_equipment",
+    "name": "Washer/Dryer NE"
+  },
+  "1267": {
+    "type": "general_equipment",
+    "name": "AC/Heat NW - 1"
+  },
+  "1268": {
+    "type": "general_equipment",
+    "name": "Washer/Dryer NW 2 "
+  },
+  "1269": {
+    "type": "general_equipment",
+    "name": "AC/Heat ROC - 1"
+  },
+  "1270": {
+    "type": "general_equipment",
+    "name": "Washer ROC"
+  },
+  "1271": {
+    "type": "general_equipment",
+    "name": "Washer/Dryer SOKC"
+  },
+  "1272": {
+    "type": "general_equipment",
+    "name": "AC/Heat ALL - 1"
+  },
+  "1273": {
+    "type": "general_equipment",
+    "name": "Washer/Dryer ALL"
+  },
+  "1278": {
+    "type": "general_equipment",
+    "name": "AC/Heat LA"
+  },
+  "1279": {
+    "type": "general_equipment",
+    "name": "Washer/Dryer LA"
+  },
+  "1280": {
+    "type": "general_equipment",
+    "name": "AC/Heat SP - 1"
+  },
+  "1281": {
+    "type": "general_equipment",
+    "name": "Washer/Dryer SP"
+  },
+  "1283": {
+    "type": "general_equipment",
+    "name": "AC/Heat TPA - 1"
+  },
+  "1284": {
+    "type": "general_equipment",
+    "name": "Washer/Dryer TPA"
+  },
+  "1287": {
+    "type": "general_equipment",
+    "name": "AC/Heat - 1 Over Guest Services Warranty until 2/24/26"
+  },
+  "1291": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #20 LA"
+  },
+  "1293": {
+    "type": "general_equipment",
+    "name": "#9 SAG"
+  },
+  "1294": {
+    "type": "general_equipment",
+    "name": "#11 SAG"
+  },
+  "1295": {
+    "type": "general_equipment",
+    "name": "#12 SAG"
+  },
+  "1296": {
+    "type": "general_equipment",
+    "name": "#13 SAG"
+  },
+  "1297": {
+    "type": "general_equipment",
+    "name": "#14 SAG"
+  },
+  "1298": {
+    "type": "general_equipment",
+    "name": "#15 SAG"
+  },
+  "1299": {
+    "type": "general_equipment",
+    "name": "#16 SAG"
+  },
+  "1300": {
+    "type": "general_equipment",
+    "name": "#17 SAG"
+  },
+  "1301": {
+    "type": "general_equipment",
+    "name": "#18 SAG"
+  },
+  "1302": {
+    "type": "general_equipment",
+    "name": "#19 SAG"
+  },
+  "1303": {
+    "type": "general_equipment",
+    "name": "#20 SAG"
+  },
+  "1304": {
+    "type": "spray_booth",
+    "name": "Versa Spa #9 SAG"
+  },
+  "1305": {
+    "type": "sun_bed",
+    "name": "Sunrise 480 Stand Up #11 SAG"
+  },
+  "1306": {
+    "type": "spray_booth",
+    "name": "Norvell Auto Rev #12 SAG"
+  },
+  "1307": {
+    "type": "spray_booth",
+    "name": "Beauty Angel #13 SAG"
+  },
+  "1308": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #14 SAG"
+  },
+  "1309": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #15 SAG"
+  },
+  "1310": {
+    "type": "spray_booth",
+    "name": "Cocoon #17 SAG"
+  },
+  "1311": {
+    "type": "sun_bed",
+    "name": "Excellence 880 #16 SAG"
+  },
+  "1312": {
+    "type": "sun_bed",
+    "name": "Prestige 1600 #18 SAG"
+  },
+  "1313": {
+    "type": "sun_bed",
+    "name": "Open Sun 1050 #19 SAG"
+  },
+  "1314": {
+    "type": "sun_bed",
+    "name": "KBL 8000 #20 SAG"
+  },
+  "1317": {
+    "type": "general_equipment",
+    "name": "Technology SAG"
+  },
+  "1318": {
+    "type": "general_equipment",
+    "name": "Cameras SAG"
+  },
+  "1319": {
+    "type": "general_equipment",
+    "name": "TMAX SAG"
+  },
+  "1320": {
+    "type": "general_equipment",
+    "name": "Internet SAG"
+  },
+  "1321": {
+    "type": "general_equipment",
+    "name": "Computers SAG"
+  },
+  "1322": {
+    "type": "general_equipment",
+    "name": "Phones SAG"
+  },
+  "1323": {
+    "type": "general_equipment",
+    "name": "Washer/Dryer SAG"
+  },
+  "1324": {
+    "type": "spray_booth",
+    "name": "Poly #17 SAG"
+  },
+  "1326": {
+    "type": "general_equipment",
+    "name": "#1 ROA"
+  },
+  "1327": {
+    "type": "sun_bed",
+    "name": "KBL 8000 #29 LE"
+  },
+  "1328": {
+    "type": "general_equipment",
+    "name": "#2 ROA"
+  },
+  "1329": {
+    "type": "sun_bed",
+    "name": "Prestige 1600 #2 ROA"
+  },
+  "1330": {
+    "type": "general_equipment",
+    "name": "#3 ROA"
+  },
+  "1331": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #3 ROA"
+  },
+  "1332": {
+    "type": "general_equipment",
+    "name": "#4 ROA"
+  },
+  "1333": {
+    "type": "sun_bed",
+    "name": "Sun Angel S-52 #16 Pro"
+  },
+  "1334": {
+    "type": "general_equipment",
+    "name": "#5 ROA"
+  },
+  "1335": {
+    "type": "sun_bed",
+    "name": "P90 #5 ROA"
+  },
+  "1336": {
+    "type": "general_equipment",
+    "name": "#6 ROA"
+  },
+  "1337": {
+    "type": "sun_bed",
+    "name": "Charming Cherry (REDLIGHT) #6 ROA"
+  },
+  "1338": {
+    "type": "general_equipment",
+    "name": "#7 ROA"
+  },
+  "1339": {
+    "type": "spray_booth",
+    "name": "Beauty Angel #7 ROA"
+  },
+  "1340": {
+    "type": "general_equipment",
+    "name": "#8 ROA"
+  },
+  "1341": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #8 ROA"
+  },
+  "1342": {
+    "type": "spray_booth",
+    "name": "Cocoon #9 ROA"
+  },
+  "1343": {
+    "type": "general_equipment",
+    "name": "#9 ROA"
+  },
+  "1344": {
+    "type": "spray_booth",
+    "name": "Poly #9 ROA"
+  },
+  "1345": {
+    "type": "general_equipment",
+    "name": "#10 ROA"
+  },
+  "1346": {
+    "type": "spray_booth",
+    "name": "VersaSpa Pro #10 ROA"
+  },
+  "1347": {
+    "type": "general_equipment",
+    "name": "#11 ROA"
+  },
+  "1348": {
+    "type": "sun_bed",
+    "name": "Sunrise 480 Stand Up #11 ROA"
+  },
+  "1349": {
+    "type": "general_equipment",
+    "name": "#12 ROA"
+  },
+  "1350": {
+    "type": "spray_booth",
+    "name": "Norvell Auto Rev #12 ROA"
+  },
+  "1352": {
+    "type": "general_equipment",
+    "name": "Technology ROA"
+  },
+  "1353": {
+    "type": "general_equipment",
+    "name": "Cameras ROA"
+  },
+  "1354": {
+    "type": "general_equipment",
+    "name": "TMAX ROA"
+  },
+  "1355": {
+    "type": "general_equipment",
+    "name": "Internet ROA"
+  },
+  "1356": {
+    "type": "general_equipment",
+    "name": "Computers ROA"
+  },
+  "1357": {
+    "type": "general_equipment",
+    "name": "Phones ROA"
+  },
+  "1358": {
+    "type": "general_equipment",
+    "name": "AC/Heat ROA"
+  },
+  "1359": {
+    "type": "general_equipment",
+    "name": "Washer ROA"
+  },
+  "1362": {
+    "type": "general_equipment",
+    "name": "Technology KLR"
+  },
+  "1363": {
+    "type": "general_equipment",
+    "name": "Cameras KLR"
+  },
+  "1364": {
+    "type": "general_equipment",
+    "name": "TMAX KLR"
+  },
+  "1365": {
+    "type": "general_equipment",
+    "name": "Internet KLR"
+  },
+  "1366": {
+    "type": "general_equipment",
+    "name": "Computers KLR"
+  },
+  "1367": {
+    "type": "general_equipment",
+    "name": "Phones KLR"
+  },
+  "1368": {
+    "type": "general_equipment",
+    "name": "AC/Heat KLR"
+  },
+  "1369": {
+    "type": "general_equipment",
+    "name": "Washer/Dryer KLR - #1"
+  },
+  "1370": {
+    "type": "general_equipment",
+    "name": "AC/Heat SAG"
+  },
+  "1403": {
+    "type": "general_equipment",
+    "name": "#12 HV"
+  },
+  "1404": {
+    "type": "general_equipment",
+    "name": "#13 HV"
+  },
+  "1405": {
+    "type": "general_equipment",
+    "name": "#14 HV"
+  },
+  "1406": {
+    "type": "general_equipment",
+    "name": "#15 HV"
+  },
+  "1407": {
+    "type": "general_equipment",
+    "name": "#16 HV"
+  },
+  "1408": {
+    "type": "general_equipment",
+    "name": "#17 HV"
+  },
+  "1409": {
+    "type": "general_equipment",
+    "name": "#18 HV"
+  },
+  "1410": {
+    "type": "general_equipment",
+    "name": "#19 HV"
+  },
+  "1411": {
+    "type": "general_equipment",
+    "name": "#20 HV"
+  },
+  "1412": {
+    "type": "general_equipment",
+    "name": "#21 HV"
+  },
+  "1413": {
+    "type": "general_equipment",
+    "name": "#22 HV"
+  },
+  "1414": {
+    "type": "general_equipment",
+    "name": "#23 HV"
+  },
+  "1415": {
+    "type": "general_equipment",
+    "name": "#24 HV"
+  },
+  "1416": {
+    "type": "general_equipment",
+    "name": "#25 HV"
+  },
+  "1418": {
+    "type": "spray_booth",
+    "name": "VersaSpa Pro #13 HV"
+  },
+  "1419": {
+    "type": "sun_bed",
+    "name": "Sunrise 480 Stand Up #14 HV"
+  },
+  "1420": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #16 HV"
+  },
+  "1421": {
+    "type": "spray_booth",
+    "name": "Beauty Angel #17 HV"
+  },
+  "1422": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #18 HV"
+  },
+  "1423": {
+    "type": "sun_bed",
+    "name": "Open Sun 1050 #19 HV"
+  },
+  "1424": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #20 HV"
+  },
+  "1426": {
+    "type": "spray_booth",
+    "name": "Well system #21 HV"
+  },
+  "1427": {
+    "type": "spray_booth",
+    "name": "Poly #21 HV - Remove?"
+  },
+  "1428": {
+    "type": "sun_bed",
+    "name": "Sun Angel S52 #22 HV"
+  },
+  "1429": {
+    "type": "sun_bed",
+    "name": "Sunrise Hybrid 7200 Stand Up #23 HV"
+  },
+  "1430": {
+    "type": "sun_bed",
+    "name": "KBL P9 HybridSun #24 HV"
+  },
+  "1431": {
+    "type": "sun_bed",
+    "name": "Prestige 1600 #29 Pro"
+  },
+  "1432": {
+    "type": "spray_booth",
+    "name": "Norvell #11 HV"
+  },
+  "1434": {
+    "type": "general_equipment",
+    "name": "Technology HV"
+  },
+  "1435": {
+    "type": "general_equipment",
+    "name": "Cameras HV"
+  },
+  "1436": {
+    "type": "general_equipment",
+    "name": "TMAX HV"
+  },
+  "1437": {
+    "type": "general_equipment",
+    "name": "Internet HV"
+  },
+  "1438": {
+    "type": "general_equipment",
+    "name": "Computers HV"
+  },
+  "1439": {
+    "type": "general_equipment",
+    "name": "Phones HV"
+  },
+  "1440": {
+    "type": "general_equipment",
+    "name": "AC/Heat HV #1"
+  },
+  "1441": {
+    "type": "general_equipment",
+    "name": "Washer/Dryer HV"
+  },
+  "1448": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher #1 NH"
+  },
+  "1449": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher #1 ES"
+  },
+  "1450": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher #2 ES"
+  },
+  "1451": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher #1 EW"
+  },
+  "1452": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher #2 NH"
+  },
+  "1453": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher #1 YM"
+  },
+  "1457": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher #1 LA"
+  },
+  "1458": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher #1 SH"
+  },
+  "1459": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher #1 DC"
+  },
+  "1460": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher #1 MO"
+  },
+  "1461": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher #2 MO"
+  },
+  "1462": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher #1 NE"
+  },
+  "1463": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher #1 NW"
+  },
+  "1464": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher #2 NW"
+  },
+  "1465": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher #1 SOKC"
+  },
+  "1466": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher #2 SOKC"
+  },
+  "1467": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher #1 KLR"
+  },
+  "1468": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher #2 KLR"
+  },
+  "1469": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher #1 ROA"
+  },
+  "1470": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher #2 LA"
+  },
+  "1471": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher #3 LA"
+  },
+  "1472": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher #4 LA"
+  },
+  "1473": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher #5 LA"
+  },
+  "1474": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher #6 LA"
+  },
+  "1475": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher #1 SAG"
+  },
+  "1476": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher #2 SAG"
+  },
+  "1477": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher #1 TPA"
+  },
+  "1478": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher #2 TPA"
+  },
+  "1479": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher #1 HV"
+  },
+  "1482": {
+    "type": "general_equipment",
+    "name": "#13 FS"
+  },
+  "1483": {
+    "type": "spray_booth",
+    "name": "Cocoon #13 FS"
+  },
+  "1484": {
+    "type": "spray_booth",
+    "name": "Poly #13 FS"
+  },
+  "1485": {
+    "type": "general_equipment",
+    "name": "#14 FS"
+  },
+  "1486": {
+    "type": "general_equipment",
+    "name": "#15 FS"
+  },
+  "1487": {
+    "type": "spray_booth",
+    "name": "Cocoon #15 FS"
+  },
+  "1488": {
+    "type": "spray_booth",
+    "name": "Poly #15 FS"
+  },
+  "1489": {
+    "type": "general_equipment",
+    "name": "#16 FS"
+  },
+  "1490": {
+    "type": "spray_booth",
+    "name": "Beauty Angel rvt30 #16 FS"
+  },
+  "1491": {
+    "type": "general_equipment",
+    "name": "#17 FS"
+  },
+  "1492": {
+    "type": "general_equipment",
+    "name": "#18 FS"
+  },
+  "1493": {
+    "type": "general_equipment",
+    "name": "#19 FS"
+  },
+  "1494": {
+    "type": "general_equipment",
+    "name": "#20 FS"
+  },
+  "1495": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #17 FS"
+  },
+  "1496": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #18 FS"
+  },
+  "1498": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #19 FS"
+  },
+  "1499": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #20 FS"
+  },
+  "1500": {
+    "type": "general_equipment",
+    "name": "#21 FS"
+  },
+  "1501": {
+    "type": "general_equipment",
+    "name": "#22 FS"
+  },
+  "1502": {
+    "type": "general_equipment",
+    "name": "#23 FS"
+  },
+  "1503": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #23 FS"
+  },
+  "1504": {
+    "type": "spray_booth",
+    "name": "Beauty Angel #21 FS"
+  },
+  "1505": {
+    "type": "spray_booth",
+    "name": "Beauty Angel #22 FS"
+  },
+  "1506": {
+    "type": "general_equipment",
+    "name": "#24 FS"
+  },
+  "1507": {
+    "type": "general_equipment",
+    "name": "#25 FS"
+  },
+  "1508": {
+    "type": "general_equipment",
+    "name": "#26 FS"
+  },
+  "1509": {
+    "type": "sun_bed",
+    "name": "Passion 40/3 #24 FS"
+  },
+  "1511": {
+    "type": "spray_booth",
+    "name": "VersaSpa Pro #25 FS"
+  },
+  "1512": {
+    "type": "general_equipment",
+    "name": "#27 FS"
+  },
+  "1513": {
+    "type": "general_equipment",
+    "name": "#28 FS"
+  },
+  "1514": {
+    "type": "spray_booth",
+    "name": "Norvell Auto Rev #26 FS"
+  },
+  "1515": {
+    "type": "spray_booth",
+    "name": "Norvell Auto Rev #27 FS"
+  },
+  "1516": {
+    "type": "general_equipment",
+    "name": "#29 FS"
+  },
+  "1517": {
+    "type": "general_equipment",
+    "name": "#30 FS"
+  },
+  "1518": {
+    "type": "spray_booth",
+    "name": "VersaSpa Pro #28 FS"
+  },
+  "1519": {
+    "type": "sun_bed",
+    "name": "Ergoline Excellence 880 Redlight #29 FS"
+  },
+  "1520": {
+    "type": "general_equipment",
+    "name": "#31 FS"
+  },
+  "1521": {
+    "type": "general_equipment",
+    "name": "#32 FS"
+  },
+  "1522": {
+    "type": "sun_bed",
+    "name": "Sunrise 480 Stand Up #30 FS"
+  },
+  "1523": {
+    "type": "sun_bed",
+    "name": "KBL 6800 #31 FS"
+  },
+  "1524": {
+    "type": "general_equipment",
+    "name": "#33 FS"
+  },
+  "1525": {
+    "type": "general_equipment",
+    "name": "#34 FS"
+  },
+  "1526": {
+    "type": "sun_bed",
+    "name": "Open Sun 1050 #32 FS"
+  },
+  "1527": {
+    "type": "sun_bed",
+    "name": "Sunrise 480 Stand Up #33 FS"
+  },
+  "1528": {
+    "type": "general_equipment",
+    "name": "#35 FS"
+  },
+  "1529": {
+    "type": "general_equipment",
+    "name": "#36 FS"
+  },
+  "1530": {
+    "type": "sun_bed",
+    "name": "Sunrise Hybrid 7200 Stand Up #34 FS"
+  },
+  "1531": {
+    "type": "sun_bed",
+    "name": "Sun Angel 4200#35 FS"
+  },
+  "1532": {
+    "type": "general_equipment",
+    "name": "#37 FS"
+  },
+  "1533": {
+    "type": "general_equipment",
+    "name": "#38 FS"
+  },
+  "1534": {
+    "type": "sun_bed",
+    "name": "Prestige 1400 #36 FS"
+  },
+  "1535": {
+    "type": "sun_bed",
+    "name": "KBL 7900 #37 FS"
+  },
+  "1536": {
+    "type": "general_equipment",
+    "name": "#39 FS"
+  },
+  "1537": {
+    "type": "general_equipment",
+    "name": "#40 FS"
+  },
+  "1538": {
+    "type": "sun_bed",
+    "name": "Prestige 1400 #38 FS"
+  },
+  "1539": {
+    "type": "sun_bed",
+    "name": "Prestige 1600 #39 FS"
+  },
+  "1540": {
+    "type": "sun_bed",
+    "name": "KBL P9 #40 FS"
+  },
+  "1544": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher #1 FS - Copy"
+  },
+  "1545": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher #2 FS- Copy"
+  },
+  "1546": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher #3 FS - Copy"
+  },
+  "1547": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher #4 FS - Copy"
+  },
+  "1548": {
+    "type": "general_equipment",
+    "name": "Technology FS"
+  },
+  "1549": {
+    "type": "general_equipment",
+    "name": "Cameras FS"
+  },
+  "1550": {
+    "type": "general_equipment",
+    "name": "TMAX FS"
+  },
+  "1551": {
+    "type": "general_equipment",
+    "name": "Internet FS"
+  },
+  "1552": {
+    "type": "general_equipment",
+    "name": "Computers FS"
+  },
+  "1553": {
+    "type": "general_equipment",
+    "name": "Phones FS"
+  },
+  "1554": {
+    "type": "general_equipment",
+    "name": "AC/Heat FS - 1"
+  },
+  "1555": {
+    "type": "general_equipment",
+    "name": "Washer/Dryer FS"
+  },
+  "1556": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher #1 ROC"
+  },
+  "1557": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher #1 SP"
+  },
+  "1558": {
+    "type": "general_equipment",
+    "name": "#18 ES"
+  },
+  "1560": {
+    "type": "sun_bed",
+    "name": "Prestige 1100 #19 NW"
+  },
+  "1561": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #13 KLR"
+  },
+  "1562": {
+    "type": "spray_booth",
+    "name": "Beauty Angel 7200 #31 ALL"
+  },
+  "1563": {
+    "type": "general_equipment",
+    "name": "AC/Heat - 2"
+  },
+  "1564": {
+    "type": "general_equipment",
+    "name": "AC/Heat - 3"
+  },
+  "1565": {
+    "type": "general_equipment",
+    "name": "AC/Heat - 4"
+  },
+  "1566": {
+    "type": "general_equipment",
+    "name": "AC/Heat ROC - 2"
+  },
+  "1568": {
+    "type": "general_equipment",
+    "name": "AC/Heat DC - 2"
+  },
+  "1569": {
+    "type": "general_equipment",
+    "name": "AC/Heat DC - 3"
+  },
+  "1570": {
+    "type": "general_equipment",
+    "name": "AC/Heat DC - 4"
+  },
+  "1571": {
+    "type": "general_equipment",
+    "name": "AC/Heat DC - 5"
+  },
+  "1572": {
+    "type": "general_equipment",
+    "name": "AC/Heat ALL - 2"
+  },
+  "1573": {
+    "type": "general_equipment",
+    "name": "AC/Heat ALL - 3"
+  },
+  "1574": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher #2 DC - Copy"
+  },
+  "1575": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher #3 DC - Copy - Copy"
+  },
+  "1576": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher #1 ROC - "
+  },
+  "1577": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher #1 ROC "
+  },
+  "1578": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher"
+  },
+  "1579": {
+    "type": "sun_bed",
+    "name": "Sun Angel Duo FS"
+  },
+  "1580": {
+    "type": "general_equipment",
+    "name": "AC/ Heat SH - 2"
+  },
+  "1581": {
+    "type": "general_equipment",
+    "name": "AC/ Heat SH - 3"
+  },
+  "1582": {
+    "type": "general_equipment",
+    "name": "AC/Heat ES - 2"
+  },
+  "1583": {
+    "type": "general_equipment",
+    "name": "AC/Heat ES - 3 "
+  },
+  "1587": {
+    "type": "general_equipment",
+    "name": "AC/Heat HP - 2"
+  },
+  "1588": {
+    "type": "general_equipment",
+    "name": "AC/Heat HP - 3"
+  },
+  "1589": {
+    "type": "general_equipment",
+    "name": "AC/Heat HP - 4"
+  },
+  "1590": {
+    "type": "general_equipment",
+    "name": "AC/Heat NH - 2"
+  },
+  "1591": {
+    "type": "general_equipment",
+    "name": "AC/Heat NH - 3"
+  },
+  "1592": {
+    "type": "general_equipment",
+    "name": "AC/Heat YM #2"
+  },
+  "1594": {
+    "type": "general_equipment",
+    "name": "AC/Heat MO - 2"
+  },
+  "1596": {
+    "type": "general_equipment",
+    "name": "AC/Heat MO - 3"
+  },
+  "1597": {
+    "type": "general_equipment",
+    "name": "AC/Heat NE - 2"
+  },
+  "1598": {
+    "type": "general_equipment",
+    "name": "AC/Heat NE - 3"
+  },
+  "1600": {
+    "type": "general_equipment",
+    "name": "AC/Heat NW - 2"
+  },
+  "1601": {
+    "type": "general_equipment",
+    "name": "AC/Heat NW - 3"
+  },
+  "1602": {
+    "type": "general_equipment",
+    "name": "AC/Heat SOKC - To be serviced by Property Management company ONLY! - create request here - 4"
+  },
+  "1603": {
+    "type": "general_equipment",
+    "name": "AC/Heat SOKC - To be serviced by Property Management company ONLY! - create request here - 3"
+  },
+  "1604": {
+    "type": "general_equipment",
+    "name": "AC/Heat SOKC - To be serviced by Property Management company ONLY! - create request here - 4"
+  },
+  "1605": {
+    "type": "general_equipment",
+    "name": "AC/Heat SOKC - To be serviced by Property Management company ONLY! - create request here - 5"
+  },
+  "1606": {
+    "type": "general_equipment",
+    "name": "AC/Heat SP - 2"
+  },
+  "1607": {
+    "type": "general_equipment",
+    "name": "AC/Heat TPA - 2"
+  },
+  "1609": {
+    "type": "general_equipment",
+    "name": "AC/Heat FS - 2"
+  },
+  "1610": {
+    "type": "general_equipment",
+    "name": "AC/Heat FS - 3"
+  },
+  "1613": {
+    "type": "general_equipment",
+    "name": "#22 BF"
+  },
+  "1614": {
+    "type": "sun_bed",
+    "name": "Magic 636 #11 BF - removed "
+  },
+  "1615": {
+    "type": "general_equipment",
+    "name": "#23 BF"
+  },
+  "1616": {
+    "type": "sun_bed",
+    "name": "IDome #2 BF"
+  },
+  "1617": {
+    "type": "general_equipment",
+    "name": "#24 BF"
+  },
+  "1619": {
+    "type": "general_equipment",
+    "name": "#25 BF"
+  },
+  "1620": {
+    "type": "sun_bed",
+    "name": "KBL 6800 #25 BF"
+  },
+  "1621": {
+    "type": "general_equipment",
+    "name": "#26 BF"
+  },
+  "1622": {
+    "type": "spray_booth",
+    "name": "Norvell Auto Rev #17 BF"
+  },
+  "1623": {
+    "type": "general_equipment",
+    "name": "#27 BF"
+  },
+  "1624": {
+    "type": "spray_booth",
+    "name": "Versa Spa Pro #16 BF"
+  },
+  "1625": {
+    "type": "general_equipment",
+    "name": "#28 BF"
+  },
+  "1626": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #19 BF"
+  },
+  "1627": {
+    "type": "general_equipment",
+    "name": "#29 BF"
+  },
+  "1628": {
+    "type": "sun_bed",
+    "name": "Blueberry #28 BF"
+  },
+  "1629": {
+    "type": "general_equipment",
+    "name": "#30 BF"
+  },
+  "1630": {
+    "type": "sun_bed",
+    "name": "Charming Cherry (REDLIGHT) #23 BF"
+  },
+  "1632": {
+    "type": "spray_booth",
+    "name": "Beauty Angel 7200 #24 BF"
+  },
+  "1633": {
+    "type": "general_equipment",
+    "name": "#11 BF"
+  },
+  "1634": {
+    "type": "sun_bed",
+    "name": "Affinity 950 #11 BF"
+  },
+  "1635": {
+    "type": "general_equipment",
+    "name": "#12 BF"
+  },
+  "1636": {
+    "type": "spray_booth",
+    "name": "Cocoon #20 BF"
+  },
+  "1637": {
+    "type": "general_equipment",
+    "name": "#13 BF"
+  },
+  "1638": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #12 BF"
+  },
+  "1639": {
+    "type": "general_equipment",
+    "name": "#14 BF"
+  },
+  "1640": {
+    "type": "sun_bed",
+    "name": "Sunrise 480 #27 BF"
+  },
+  "1641": {
+    "type": "general_equipment",
+    "name": "#15 BF"
+  },
+  "1642": {
+    "type": "sun_bed",
+    "name": "Passion #18 BF"
+  },
+  "1643": {
+    "type": "general_equipment",
+    "name": "#16 BF"
+  },
+  "1644": {
+    "type": "sun_bed",
+    "name": "Silver Bullet #26 BF"
+  },
+  "1645": {
+    "type": "general_equipment",
+    "name": "#17 BF"
+  },
+  "1646": {
+    "type": "spray_booth",
+    "name": "VersaSpa Pro #15 BF"
+  },
+  "1647": {
+    "type": "general_equipment",
+    "name": "#18 BF"
+  },
+  "1648": {
+    "type": "spray_booth",
+    "name": "Poly #14 BF"
+  },
+  "1649": {
+    "type": "general_equipment",
+    "name": "#19 BF"
+  },
+  "1650": {
+    "type": "spray_booth",
+    "name": "Poly #13 BF"
+  },
+  "1651": {
+    "type": "general_equipment",
+    "name": "#20 BF"
+  },
+  "1653": {
+    "type": "general_equipment",
+    "name": "#21 BF"
+  },
+  "1654": {
+    "type": "sun_bed",
+    "name": "P90 #21 BF"
+  },
+  "1656": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher #1 BF"
+  },
+  "1657": {
+    "type": "general_equipment",
+    "name": "Technology BF"
+  },
+  "1658": {
+    "type": "general_equipment",
+    "name": "Cameras BF"
+  },
+  "1659": {
+    "type": "general_equipment",
+    "name": "TMAX BF"
+  },
+  "1660": {
+    "type": "general_equipment",
+    "name": "Internet BF"
+  },
+  "1661": {
+    "type": "general_equipment",
+    "name": "Computers BF"
+  },
+  "1662": {
+    "type": "general_equipment",
+    "name": "Phones BF"
+  },
+  "1663": {
+    "type": "general_equipment",
+    "name": "AC/Heat BF -1"
+  },
+  "1664": {
+    "type": "general_equipment",
+    "name": "Washer/Dryer BF"
+  },
+  "1665": {
+    "type": "general_equipment",
+    "name": "Eco Washer FS #1 Pro"
+  },
+  "1666": {
+    "type": "general_equipment",
+    "name": "Eco Washer SH - 1"
+  },
+  "1667": {
+    "type": "general_equipment",
+    "name": "Eco Washer ES"
+  },
+  "1668": {
+    "type": "general_equipment",
+    "name": "Eco Washer EW"
+  },
+  "1669": {
+    "type": "general_equipment",
+    "name": "Eco Washer NH"
+  },
+  "1670": {
+    "type": "general_equipment",
+    "name": "Eco Washer ROC"
+  },
+  "1671": {
+    "type": "general_equipment",
+    "name": "Eco Washer YM #1 - Label unit on wall #1"
+  },
+  "1672": {
+    "type": "general_equipment",
+    "name": "Eco Washer DC"
+  },
+  "1673": {
+    "type": "general_equipment",
+    "name": "Eco Washer LA"
+  },
+  "1674": {
+    "type": "general_equipment",
+    "name": "Eco Washer MO"
+  },
+  "1675": {
+    "type": "general_equipment",
+    "name": "Eco Washer NE"
+  },
+  "1676": {
+    "type": "general_equipment",
+    "name": "Eco Washer NW 2 "
+  },
+  "1677": {
+    "type": "general_equipment",
+    "name": "Eco Washer SOKC"
+  },
+  "1678": {
+    "type": "general_equipment",
+    "name": "Eco Washer ALL"
+  },
+  "1679": {
+    "type": "general_equipment",
+    "name": "Eco Washer BF"
+  },
+  "1680": {
+    "type": "general_equipment",
+    "name": "Eco Washer HV"
+  },
+  "1681": {
+    "type": "general_equipment",
+    "name": "Eco Washer KLR - #1"
+  },
+  "1682": {
+    "type": "general_equipment",
+    "name": "Eco Washer ROA"
+  },
+  "1683": {
+    "type": "general_equipment",
+    "name": "Eco Washer SAG"
+  },
+  "1684": {
+    "type": "general_equipment",
+    "name": "Eco Washer SP"
+  },
+  "1685": {
+    "type": "general_equipment",
+    "name": "Eco Washer TPA"
+  },
+  "1687": {
+    "type": "sun_bed",
+    "name": "Prestige 1600 #19 DC"
+  },
+  "1688": {
+    "type": "sun_bed",
+    "name": "Prestige 1600 #29 NW"
+  },
+  "1689": {
+    "type": "general_equipment",
+    "name": "AC/Heat SP - 3"
+  },
+  "1690": {
+    "type": "general_equipment",
+    "name": "Washer/Dryer KLR - #2"
+  },
+  "1691": {
+    "type": "general_equipment",
+    "name": "Eco Washer KLR - #2"
+  },
+  "1692": {
+    "type": "sun_bed",
+    "name": "Sunrise 480 Stand Up #13 SOKC"
+  },
+  "1694": {
+    "type": "sun_bed",
+    "name": "Sunrise 480 #20 NE"
+  },
+  "1695": {
+    "type": "sun_bed",
+    "name": "Prestige 1600 #29 EW"
+  },
+  "1697": {
+    "type": "sun_bed",
+    "name": "Prestige 1600 #30 BF"
+  },
+  "1698": {
+    "type": "sun_bed",
+    "name": "Sunrise Hybrid 7200 Stand Up #29 BF"
+  },
+  "1699": {
+    "type": "spray_booth",
+    "name": "Beauty Angel 7200 #22 BF"
+  },
+  "1700": {
+    "type": "sun_bed",
+    "name": "Sun Angel #26 BF"
+  },
+  "1701": {
+    "type": "sun_bed",
+    "name": "Silver Bullet #16 BF - Copy"
+  },
+  "1702": {
+    "type": "sun_bed",
+    "name": "Titan Massage Chair #14 BF"
+  },
+  "1703": {
+    "type": "general_equipment",
+    "name": "Breaker Panels SOKC"
+  },
+  "1704": {
+    "type": "general_equipment",
+    "name": "Panel 1 (Panel BP-1A) SOKC"
+  },
+  "1705": {
+    "type": "general_equipment",
+    "name": "Panel 2 (Panel P-1) SOKC"
+  },
+  "1706": {
+    "type": "general_equipment",
+    "name": "Break Panels NH"
+  },
+  "1707": {
+    "type": "general_equipment",
+    "name": "Panel 1 NH"
+  },
+  "1708": {
+    "type": "general_equipment",
+    "name": "Panel 2 NH"
+  },
+  "1709": {
+    "type": "general_equipment",
+    "name": "Breaker Panels DC"
+  },
+  "1710": {
+    "type": "general_equipment",
+    "name": "Panel 1 (Panel BP-1)"
+  },
+  "1711": {
+    "type": "general_equipment",
+    "name": "Panel 2 (Panel P-1) DC"
+  },
+  "1712": {
+    "type": "general_equipment",
+    "name": "Panel 3 (Panel MDP) DC"
+  },
+  "1713": {
+    "type": "general_equipment",
+    "name": "Breaker Panels NW"
+  },
+  "1714": {
+    "type": "general_equipment",
+    "name": "Panel 1 NW"
+  },
+  "1715": {
+    "type": "general_equipment",
+    "name": "Panel 2 NW"
+  },
+  "1716": {
+    "type": "general_equipment",
+    "name": "Panel 3 NW"
+  },
+  "1717": {
+    "type": "general_equipment",
+    "name": "Breaker Panels"
+  },
+  "1718": {
+    "type": "general_equipment",
+    "name": "Panel 1 YM"
+  },
+  "1719": {
+    "type": "general_equipment",
+    "name": "Panel 2 YM"
+  },
+  "1720": {
+    "type": "general_equipment",
+    "name": "Panel 3 YM"
+  },
+  "1721": {
+    "type": "general_equipment",
+    "name": "Breaker Panels ES"
+  },
+  "1722": {
+    "type": "general_equipment",
+    "name": "Panel 1 (BP-1) ES"
+  },
+  "1723": {
+    "type": "general_equipment",
+    "name": "Panel 2 (P1) ES"
+  },
+  "1724": {
+    "type": "general_equipment",
+    "name": "Breaker Panels SH"
+  },
+  "1725": {
+    "type": "general_equipment",
+    "name": "Panel 1 SH"
+  },
+  "1726": {
+    "type": "general_equipment",
+    "name": "Breaker Panels NE"
+  },
+  "1727": {
+    "type": "general_equipment",
+    "name": "Panel 1 NE"
+  },
+  "1728": {
+    "type": "general_equipment",
+    "name": "Panel 2 NE"
+  },
+  "1729": {
+    "type": "general_equipment",
+    "name": "Breaker Panels EW"
+  },
+  "1730": {
+    "type": "general_equipment",
+    "name": "Panel 1 EW"
+  },
+  "1731": {
+    "type": "general_equipment",
+    "name": "Breaker Panels FS"
+  },
+  "1732": {
+    "type": "general_equipment",
+    "name": "Panel 1 (Panel A) FS"
+  },
+  "1733": {
+    "type": "general_equipment",
+    "name": "Panel 2 (Panel B) FS"
+  },
+  "1734": {
+    "type": "general_equipment",
+    "name": "Panel 3 (Panel C) FS"
+  },
+  "1735": {
+    "type": "general_equipment",
+    "name": "Break Panels LW"
+  },
+  "1736": {
+    "type": "general_equipment",
+    "name": "Panel 1 LW"
+  },
+  "1737": {
+    "type": "general_equipment",
+    "name": "Panel 2 LW"
+  },
+  "1738": {
+    "type": "general_equipment",
+    "name": "Panel 3 LW"
+  },
+  "1739": {
+    "type": "general_equipment",
+    "name": "Panel 4 LW"
+  },
+  "1740": {
+    "type": "general_equipment",
+    "name": "Panel 5 LW"
+  },
+  "1741": {
+    "type": "general_equipment",
+    "name": "Panel 6 LW"
+  },
+  "1763": {
+    "type": "spray_booth",
+    "name": "Massage Chair 1 MO"
+  },
+  "1764": {
+    "type": "spray_booth",
+    "name": "Massage Chair 2 MO"
+  },
+  "1765": {
+    "type": "spray_booth",
+    "name": "Massage Chair 1 ES"
+  },
+  "1766": {
+    "type": "spray_booth",
+    "name": "Massage Chair 2 ES"
+  },
+  "1767": {
+    "type": "spray_booth",
+    "name": "Massage Chair 1 EW"
+  },
+  "1768": {
+    "type": "spray_booth",
+    "name": "Massage Chair 2"
+  },
+  "1769": {
+    "type": "spray_booth",
+    "name": "Massage Chair 1 NE"
+  },
+  "1770": {
+    "type": "spray_booth",
+    "name": "Massage Chair 2 NE"
+  },
+  "1771": {
+    "type": "spray_booth",
+    "name": "Massage Chair 3 NE"
+  },
+  "1772": {
+    "type": "spray_booth",
+    "name": "Massage Chair 1 YM"
+  },
+  "1773": {
+    "type": "spray_booth",
+    "name": "Massage Chair 1 NH"
+  },
+  "1774": {
+    "type": "spray_booth",
+    "name": "Massage Chair 2 NH"
+  },
+  "1775": {
+    "type": "spray_booth",
+    "name": "Massage Chair 3 NH"
+  },
+  "1776": {
+    "type": "general_equipment",
+    "name": "Massage Chair 1 ROC"
+  },
+  "1777": {
+    "type": "spray_booth",
+    "name": "Massage Chair 2 ROC"
+  },
+  "1778": {
+    "type": "spray_booth",
+    "name": "Massage Chair 3 ROC"
+  },
+  "1779": {
+    "type": "spray_booth",
+    "name": "Massage Chair 4 ROC"
+  },
+  "1780": {
+    "type": "general_equipment",
+    "name": "Massage Chair 1 SH"
+  },
+  "1781": {
+    "type": "general_equipment",
+    "name": "Massage Chair 2 SH"
+  },
+  "1783": {
+    "type": "spray_booth",
+    "name": "Massage Chair 1 LA"
+  },
+  "1784": {
+    "type": "spray_booth",
+    "name": "Massage Chair 2 LA"
+  },
+  "1785": {
+    "type": "spray_booth",
+    "name": "Massage Chair 3 LA"
+  },
+  "1786": {
+    "type": "spray_booth",
+    "name": "Massage Chair 4 LA"
+  },
+  "1787": {
+    "type": "general_equipment",
+    "name": "Massage Chair 1 SOKC"
+  },
+  "1788": {
+    "type": "general_equipment",
+    "name": "Massage Chair 2 SOKC"
+  },
+  "1789": {
+    "type": "sun_bed",
+    "name": " Vitality TLT #30 SP"
+  },
+  "1790": {
+    "type": "spray_booth",
+    "name": "Beauty Angel 7200 #20"
+  },
+  "1791": {
+    "type": "general_equipment",
+    "name": "Massage Chair 1 DC"
+  },
+  "1792": {
+    "type": "general_equipment",
+    "name": "Massage Chair 2 DC"
+  },
+  "1793": {
+    "type": "general_equipment",
+    "name": "Breaker Panels CO"
+  },
+  "1794": {
+    "type": "general_equipment",
+    "name": "Breaker Panel 1 CO"
+  },
+  "1795": {
+    "type": "general_equipment",
+    "name": "Breaker Panel 2 CO"
+  },
+  "1796": {
+    "type": "spray_booth",
+    "name": "Massage Chair 1 NW"
+  },
+  "1797": {
+    "type": "spray_booth",
+    "name": "Massage Chair 2 NW"
+  },
+  "1798": {
+    "type": "spray_booth",
+    "name": "Massage Chair 1 FS"
+  },
+  "1799": {
+    "type": "spray_booth",
+    "name": "Massage Chair 2 FS"
+  },
+  "1800": {
+    "type": "spray_booth",
+    "name": "Massage Chair 3 FS"
+  },
+  "1801": {
+    "type": "spray_booth",
+    "name": "Massage Chair 4 FS"
+  },
+  "1803": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #10 HUL"
+  },
+  "1804": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #12 HUL"
+  },
+  "1805": {
+    "type": "spray_booth",
+    "name": "Cocoon #20 HUL"
+  },
+  "1806": {
+    "type": "spray_booth",
+    "name": "Poly #20 HUL"
+  },
+  "1807": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #18 HUL"
+  },
+  "1808": {
+    "type": "sun_bed",
+    "name": "Open Sun 1050 #21 HUL"
+  },
+  "1814": {
+    "type": "spray_booth",
+    "name": "Beauty Angel 7200 #17 HUL"
+  },
+  "1815": {
+    "type": "spray_booth",
+    "name": "Beauty Angel 7200 #16 HUL"
+  },
+  "1816": {
+    "type": "sun_bed",
+    "name": "Sunrise Hybrid 7200 Stand Up #22 HUL"
+  },
+  "1817": {
+    "type": "sun_bed",
+    "name": "Prestige 1600 #26 WL"
+  },
+  "1819": {
+    "type": "general_equipment",
+    "name": "#10 HUL"
+  },
+  "1820": {
+    "type": "general_equipment",
+    "name": "#11 HUL"
+  },
+  "1821": {
+    "type": "general_equipment",
+    "name": "#12 HUL"
+  },
+  "1822": {
+    "type": "general_equipment",
+    "name": "#13 HUL"
+  },
+  "1823": {
+    "type": "general_equipment",
+    "name": "#14 HUL"
+  },
+  "1824": {
+    "type": "general_equipment",
+    "name": "#15 HUL"
+  },
+  "1825": {
+    "type": "general_equipment",
+    "name": "#16 HUL"
+  },
+  "1826": {
+    "type": "general_equipment",
+    "name": "#17 HUL"
+  },
+  "1827": {
+    "type": "general_equipment",
+    "name": "#18 HUL"
+  },
+  "1828": {
+    "type": "general_equipment",
+    "name": "#19 HUL"
+  },
+  "1829": {
+    "type": "general_equipment",
+    "name": "#20 HUL"
+  },
+  "1830": {
+    "type": "general_equipment",
+    "name": "#21 HUL"
+  },
+  "1831": {
+    "type": "general_equipment",
+    "name": "#22 HUL"
+  },
+  "1832": {
+    "type": "general_equipment",
+    "name": "#23 HUL"
+  },
+  "1833": {
+    "type": "general_equipment",
+    "name": "#24 HUL"
+  },
+  "1834": {
+    "type": "general_equipment",
+    "name": "#25 HUL"
+  },
+  "1835": {
+    "type": "spray_booth",
+    "name": "Massage Chair #11 HUL - 1"
+  },
+  "1839": {
+    "type": "spray_booth",
+    "name": "VersaSpa Pro#14 HUL"
+  },
+  "1840": {
+    "type": "sun_bed",
+    "name": "Passion 40/3 #19 HUL"
+  },
+  "1841": {
+    "type": "sun_bed",
+    "name": "Affinity 900 (UV Only) #19 WF"
+  },
+  "1842": {
+    "type": "sun_bed",
+    "name": "KBL P9 #24 HUL"
+  },
+  "1843": {
+    "type": "spray_booth",
+    "name": "VersaSpa Pro #15 HUL"
+  },
+  "1844": {
+    "type": "spray_booth",
+    "name": "VersaSpa Pro #13 HUL"
+  },
+  "1846": {
+    "type": "spray_booth",
+    "name": "Massage Chair #11 HUL - 2"
+  },
+  "1847": {
+    "type": "general_equipment",
+    "name": "AC/Heat HUL"
+  },
+  "1849": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher #1 HUL"
+  },
+  "1852": {
+    "type": "general_equipment",
+    "name": "Technology HUL"
+  },
+  "1853": {
+    "type": "general_equipment",
+    "name": "Cameras HUL"
+  },
+  "1854": {
+    "type": "general_equipment",
+    "name": "TMAX HUL"
+  },
+  "1855": {
+    "type": "general_equipment",
+    "name": "Internet HUL"
+  },
+  "1856": {
+    "type": "general_equipment",
+    "name": "Computers HUL"
+  },
+  "1857": {
+    "type": "general_equipment",
+    "name": "Phones HUL"
+  },
+  "1858": {
+    "type": "general_equipment",
+    "name": "Washer/Dryer HUL"
+  },
+  "1859": {
+    "type": "general_equipment",
+    "name": "Eco Washer HUL"
+  },
+  "1860": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher #2 BF"
+  },
+  "1861": {
+    "type": "general_equipment",
+    "name": "AC/Heat BF -2"
+  },
+  "1862": {
+    "type": "general_equipment",
+    "name": "AC/Heat BF -3"
+  },
+  "1863": {
+    "type": "general_equipment",
+    "name": "AC/Heat BF -4"
+  },
+  "1864": {
+    "type": "general_equipment",
+    "name": "AC/Heat BF -5"
+  },
+  "1866": {
+    "type": "general_equipment",
+    "name": "Fujimi Massage Chair #1"
+  },
+  "1867": {
+    "type": "general_equipment",
+    "name": "Fujimi Massage Chair #2"
+  },
+  "1868": {
+    "type": "general_equipment",
+    "name": "Fujimi Massage Chair #3"
+  },
+  "1870": {
+    "type": "general_equipment",
+    "name": "#25 CA"
+  },
+  "1871": {
+    "type": "sun_bed",
+    "name": "KBL 7900 #25 CA"
+  },
+  "1872": {
+    "type": "general_equipment",
+    "name": "#24 CA"
+  },
+  "1873": {
+    "type": "sun_bed",
+    "name": "P90 #24 CA"
+  },
+  "1874": {
+    "type": "general_equipment",
+    "name": "#23 CA"
+  },
+  "1875": {
+    "type": "sun_bed",
+    "name": "Blueberry #23 CA"
+  },
+  "1876": {
+    "type": "general_equipment",
+    "name": "#22 CA"
+  },
+  "1878": {
+    "type": "general_equipment",
+    "name": "#21 CA"
+  },
+  "1879": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #21 CA"
+  },
+  "1880": {
+    "type": "general_equipment",
+    "name": "#20 CA"
+  },
+  "1881": {
+    "type": "spray_booth",
+    "name": "Cocoon #20 CA"
+  },
+  "1882": {
+    "type": "general_equipment",
+    "name": "#19 CA"
+  },
+  "1883": {
+    "type": "sun_bed",
+    "name": "Open Sun 1050 #19 CA"
+  },
+  "1884": {
+    "type": "general_equipment",
+    "name": "#18 CA"
+  },
+  "1885": {
+    "type": "spray_booth",
+    "name": "Beauty Angel 7200 #18 CA"
+  },
+  "1886": {
+    "type": "general_equipment",
+    "name": "#17 CA"
+  },
+  "1887": {
+    "type": "spray_booth",
+    "name": "Versa Pro #17 CA"
+  },
+  "1888": {
+    "type": "general_equipment",
+    "name": "#16 CA"
+  },
+  "1889": {
+    "type": "spray_booth",
+    "name": "Versa Pro #16 CA"
+  },
+  "1890": {
+    "type": "general_equipment",
+    "name": "#15 CA"
+  },
+  "1891": {
+    "type": "general_equipment",
+    "name": "#14 CA"
+  },
+  "1892": {
+    "type": "sun_bed",
+    "name": "Sunrise 480 #14 CA"
+  },
+  "1893": {
+    "type": "general_equipment",
+    "name": "#13 CA"
+  },
+  "1894": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #13 CA"
+  },
+  "1898": {
+    "type": "general_equipment",
+    "name": "Technology CA"
+  },
+  "1899": {
+    "type": "general_equipment",
+    "name": "Washer/Dryer CA"
+  },
+  "1901": {
+    "type": "general_equipment",
+    "name": "Cameras CA"
+  },
+  "1902": {
+    "type": "general_equipment",
+    "name": "TMAX CA"
+  },
+  "1903": {
+    "type": "general_equipment",
+    "name": "Internet CA"
+  },
+  "1904": {
+    "type": "general_equipment",
+    "name": "Computers CA"
+  },
+  "1905": {
+    "type": "general_equipment",
+    "name": "Phone CA"
+  },
+  "1906": {
+    "type": "spray_booth",
+    "name": "Poly #20 CA"
+  },
+  "1907": {
+    "type": "spray_booth",
+    "name": "Massage Chair 1 ALL"
+  },
+  "1908": {
+    "type": "spray_booth",
+    "name": "Massage Chair 2 ALL"
+  },
+  "1909": {
+    "type": "spray_booth",
+    "name": "Massage Chair 3 ALL"
+  },
+  "1910": {
+    "type": "spray_booth",
+    "name": "Massage Chair 4 ALL"
+  },
+  "1911": {
+    "type": "sun_bed",
+    "name": "Prestige 1400 #20 AD"
+  },
+  "1912": {
+    "type": "sun_bed",
+    "name": "Sun Angel Duo 1400 #29 AD"
+  },
+  "1913": {
+    "type": "sun_bed",
+    "name": "Open Sun #21 AD"
+  },
+  "1914": {
+    "type": "spray_booth",
+    "name": "Beauty Angel #28 AD"
+  },
+  "1915": {
+    "type": "spray_booth",
+    "name": "Versa Pro #16 AD"
+  },
+  "1916": {
+    "type": "spray_booth",
+    "name": "Versa Pro #17 AD"
+  },
+  "1918": {
+    "type": "sun_bed",
+    "name": "Sunrise 480 #10 AD"
+  },
+  "1919": {
+    "type": "sun_bed",
+    "name": "Affinity #19 AD"
+  },
+  "1920": {
+    "type": "sun_bed",
+    "name": "Sunrise 480 Turbo #24 AD"
+  },
+  "1921": {
+    "type": "general_equipment",
+    "name": "Affinity #9 AD"
+  },
+  "1923": {
+    "type": "general_equipment",
+    "name": "#20 AD"
+  },
+  "1924": {
+    "type": "general_equipment",
+    "name": "#29 AD"
+  },
+  "1925": {
+    "type": "general_equipment",
+    "name": " #21 AD"
+  },
+  "1926": {
+    "type": "general_equipment",
+    "name": "#28 AD"
+  },
+  "1927": {
+    "type": "general_equipment",
+    "name": "#16 AD"
+  },
+  "1928": {
+    "type": "general_equipment",
+    "name": "#17 AD"
+  },
+  "1929": {
+    "type": "general_equipment",
+    "name": "#18 AD - Empty"
+  },
+  "1930": {
+    "type": "general_equipment",
+    "name": "#19 AD"
+  },
+  "1931": {
+    "type": "general_equipment",
+    "name": "#23 AD"
+  },
+  "1934": {
+    "type": "general_equipment",
+    "name": "#24 AD"
+  },
+  "1935": {
+    "type": "spray_booth",
+    "name": "Beauty Angel #18 DT"
+  },
+  "1936": {
+    "type": "spray_booth",
+    "name": "Beauty Angel 7200 #15 ROC"
+  },
+  "1938": {
+    "type": "spray_booth",
+    "name": "Beauty Angel 7200 #20 NH"
+  },
+  "1939": {
+    "type": "general_equipment",
+    "name": "AC/Heat DAL #1 "
+  },
+  "1942": {
+    "type": "general_equipment",
+    "name": "#1 DAL"
+  },
+  "1943": {
+    "type": "spray_booth",
+    "name": "Beauty Angel 7200 #1 DAL"
+  },
+  "1944": {
+    "type": "general_equipment",
+    "name": "#2 DAL"
+  },
+  "1945": {
+    "type": "sun_bed",
+    "name": "Open Sun 1050 #2 DAL"
+  },
+  "1946": {
+    "type": "general_equipment",
+    "name": "#3 DAL"
+  },
+  "1947": {
+    "type": "sun_bed",
+    "name": "Prestige 1600  #3 DAL"
+  },
+  "1948": {
+    "type": "general_equipment",
+    "name": "#4 DAL"
+  },
+  "1949": {
+    "type": "sun_bed",
+    "name": "Prestige 1400 #4 DAL"
+  },
+  "1950": {
+    "type": "general_equipment",
+    "name": "#5 DAL"
+  },
+  "1951": {
+    "type": "sun_bed",
+    "name": "Affinity 900 (UV Only) #5 DAL"
+  },
+  "1952": {
+    "type": "general_equipment",
+    "name": "#6 DAL"
+  },
+  "1953": {
+    "type": "spray_booth",
+    "name": "Skin Wellness Pro #6 DAL"
+  },
+  "1954": {
+    "type": "general_equipment",
+    "name": "#7 DAL"
+  },
+  "1955": {
+    "type": "spray_booth",
+    "name": "Skin Wellness Pro #7 DAL"
+  },
+  "1956": {
+    "type": "general_equipment",
+    "name": "#8 DAL"
+  },
+  "1957": {
+    "type": "spray_booth",
+    "name": "VersaSpa Pro #8 DAL"
+  },
+  "1958": {
+    "type": "general_equipment",
+    "name": "#9 DAL"
+  },
+  "1959": {
+    "type": "spray_booth",
+    "name": "VersaSpa Pro #9 DAL"
+  },
+  "1960": {
+    "type": "general_equipment",
+    "name": "#10 DAL"
+  },
+  "1961": {
+    "type": "spray_booth",
+    "name": "Beauty Angel 7200 #10 DAL"
+  },
+  "1962": {
+    "type": "general_equipment",
+    "name": "#11 DAL"
+  },
+  "1963": {
+    "type": "sun_bed",
+    "name": "Sunrise Hybrid 7200#11 DAL"
+  },
+  "1965": {
+    "type": "general_equipment",
+    "name": "Technology DAL"
+  },
+  "1966": {
+    "type": "general_equipment",
+    "name": "Washer/Dryer DAL"
+  },
+  "1967": {
+    "type": "general_equipment",
+    "name": "Cameras DAL"
+  },
+  "1968": {
+    "type": "general_equipment",
+    "name": "Computers DAL"
+  },
+  "1969": {
+    "type": "general_equipment",
+    "name": "Internet DAL"
+  },
+  "1970": {
+    "type": "general_equipment",
+    "name": "Phones DAL"
+  },
+  "1971": {
+    "type": "general_equipment",
+    "name": "TMAX DAL"
+  },
+  "1972": {
+    "type": "general_equipment",
+    "name": "Eco Washer DAL"
+  },
+  "1973": {
+    "type": "general_equipment",
+    "name": "Vitality TLT #24 DC"
+  },
+  "1974": {
+    "type": "spray_booth",
+    "name": "Wellsystem #23 ROC"
+  },
+  "1975": {
+    "type": "general_equipment",
+    "name": "#22 LA"
+  },
+  "1976": {
+    "type": "spray_booth",
+    "name": "880 (REDLIGHT) #22 LA"
+  },
+  "1978": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #23 AD"
+  },
+  "1979": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #10 AD"
+  },
+  "1980": {
+    "type": "spray_booth",
+    "name": "Beauty Angel 7200 #16 NW"
+  },
+  "1983": {
+    "type": "general_equipment",
+    "name": "#16 KLR"
+  },
+  "1984": {
+    "type": "spray_booth",
+    "name": "VersaSpa #16 KLR"
+  },
+  "1985": {
+    "type": "general_equipment",
+    "name": "AC/Heat CS - 1"
+  },
+  "1986": {
+    "type": "sun_bed",
+    "name": "Prestige 1600 #25 GL"
+  },
+  "1987": {
+    "type": "sun_bed",
+    "name": "Excellence 800 #24 GL"
+  },
+  "1988": {
+    "type": "sun_bed",
+    "name": "Sunrise Hybrid 7200 Stand up #23 GL"
+  },
+  "1989": {
+    "type": "spray_booth",
+    "name": "Wave #22 GL"
+  },
+  "1990": {
+    "type": "sun_bed",
+    "name": "Sunrise 480 #21 GL"
+  },
+  "1991": {
+    "type": "spray_booth",
+    "name": "Versa Pro #20 GL"
+  },
+  "1992": {
+    "type": "spray_booth",
+    "name": "Versa Pro #19 GL"
+  },
+  "1993": {
+    "type": "sun_bed",
+    "name": "Passion #15 GL"
+  },
+  "1994": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #16 GL"
+  },
+  "1996": {
+    "type": "spray_booth",
+    "name": "Cocoon #18 GL"
+  },
+  "1997": {
+    "type": "spray_booth",
+    "name": "Poly #18 GL"
+  },
+  "1999": {
+    "type": "spray_booth",
+    "name": "Beauty Angel 7200 #17 GL"
+  },
+  "2000": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #14 GL"
+  },
+  "2002": {
+    "type": "general_equipment",
+    "name": "#25 GL"
+  },
+  "2003": {
+    "type": "general_equipment",
+    "name": "#24 GL"
+  },
+  "2004": {
+    "type": "general_equipment",
+    "name": "#23 GL"
+  },
+  "2005": {
+    "type": "general_equipment",
+    "name": "#22 GL"
+  },
+  "2006": {
+    "type": "general_equipment",
+    "name": "#21 GL"
+  },
+  "2007": {
+    "type": "general_equipment",
+    "name": "#20 GL"
+  },
+  "2008": {
+    "type": "general_equipment",
+    "name": "#19 GL"
+  },
+  "2009": {
+    "type": "general_equipment",
+    "name": "#15 GL"
+  },
+  "2010": {
+    "type": "general_equipment",
+    "name": "#16 GL"
+  },
+  "2011": {
+    "type": "general_equipment",
+    "name": "#17 GL"
+  },
+  "2012": {
+    "type": "general_equipment",
+    "name": "#18 GL"
+  },
+  "2013": {
+    "type": "general_equipment",
+    "name": "#14 GL"
+  },
+  "2015": {
+    "type": "sun_bed",
+    "name": "Prestige 1600 #21 DT"
+  },
+  "2016": {
+    "type": "sun_bed",
+    "name": "Sunrise Hybrid 7200 Stand-Up #18 WW"
+  },
+  "2017": {
+    "type": "sun_bed",
+    "name": "Open Sun 1050 #15 WW"
+  },
+  "2018": {
+    "type": "sun_bed",
+    "name": "Passion #14 WW"
+  },
+  "2019": {
+    "type": "spray_booth",
+    "name": "Versa Pro #10 WW"
+  },
+  "2020": {
+    "type": "spray_booth",
+    "name": "Versa Pro #12 WW"
+  },
+  "2022": {
+    "type": "spray_booth",
+    "name": "Skin Wellness WW #16"
+  },
+  "2025": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #13 WW"
+  },
+  "2026": {
+    "type": "spray_booth",
+    "name": "Beauty Angel 7200 #22 WF"
+  },
+  "2028": {
+    "type": "sun_bed",
+    "name": "Beauty Angel 7200 #17 WW"
+  },
+  "2029": {
+    "type": "general_equipment",
+    "name": "Technology AD"
+  },
+  "2030": {
+    "type": "general_equipment",
+    "name": "Cameras AD"
+  },
+  "2031": {
+    "type": "general_equipment",
+    "name": "TMAX AD"
+  },
+  "2032": {
+    "type": "general_equipment",
+    "name": "Internet AD"
+  },
+  "2033": {
+    "type": "general_equipment",
+    "name": "Computers AD"
+  },
+  "2034": {
+    "type": "general_equipment",
+    "name": "Phones AD"
+  },
+  "2035": {
+    "type": "general_equipment",
+    "name": "Technology GL"
+  },
+  "2036": {
+    "type": "general_equipment",
+    "name": "Cameras GL"
+  },
+  "2037": {
+    "type": "general_equipment",
+    "name": "TMAX GL"
+  },
+  "2038": {
+    "type": "general_equipment",
+    "name": "Internet GL"
+  },
+  "2039": {
+    "type": "general_equipment",
+    "name": "Computers GL"
+  },
+  "2040": {
+    "type": "general_equipment",
+    "name": "Phone GL"
+  },
+  "2041": {
+    "type": "general_equipment",
+    "name": "Technology WW"
+  },
+  "2042": {
+    "type": "general_equipment",
+    "name": "Cameras WW"
+  },
+  "2043": {
+    "type": "general_equipment",
+    "name": "TMAX WW"
+  },
+  "2044": {
+    "type": "general_equipment",
+    "name": "Internet WW"
+  },
+  "2045": {
+    "type": "general_equipment",
+    "name": "Computers WW"
+  },
+  "2046": {
+    "type": "general_equipment",
+    "name": "Phone WW"
+  },
+  "2101": {
+    "type": "general_equipment",
+    "name": "Amana Washer"
+  },
+  "2102": {
+    "type": "general_equipment",
+    "name": "Roper Dryer"
+  },
+  "2103": {
+    "type": "general_equipment",
+    "name": "Computer 1"
+  },
+  "2104": {
+    "type": "general_equipment",
+    "name": "Computer 2"
+  },
+  "2105": {
+    "type": "general_equipment",
+    "name": "Computer 3"
+  },
+  "2106": {
+    "type": "general_equipment",
+    "name": "Speed Queen Washer"
+  },
+  "2107": {
+    "type": "general_equipment",
+    "name": "LG Washer (3/2025)"
+  },
+  "2108": {
+    "type": "general_equipment",
+    "name": "Whirlpool Dryer"
+  },
+  "2109": {
+    "type": "general_equipment",
+    "name": "Amana Dryer"
+  },
+  "2110": {
+    "type": "general_equipment",
+    "name": "Computer 1"
+  },
+  "2111": {
+    "type": "general_equipment",
+    "name": "Computer 2"
+  },
+  "2112": {
+    "type": "general_equipment",
+    "name": "Computer 3"
+  },
+  "2113": {
+    "type": "general_equipment",
+    "name": "Amana Washer"
+  },
+  "2114": {
+    "type": "general_equipment",
+    "name": "Roper Dryer"
+  },
+  "2115": {
+    "type": "general_equipment",
+    "name": "Computer 1 NH"
+  },
+  "2116": {
+    "type": "general_equipment",
+    "name": "Computer 2 NH"
+  },
+  "2117": {
+    "type": "general_equipment",
+    "name": "LG - Thin Q Washer"
+  },
+  "2118": {
+    "type": "general_equipment",
+    "name": "LG - Thin Q Dryer"
+  },
+  "2119": {
+    "type": "general_equipment",
+    "name": "Computer 1"
+  },
+  "2120": {
+    "type": "general_equipment",
+    "name": "Computer 2"
+  },
+  "2121": {
+    "type": "general_equipment",
+    "name": "Computer 3"
+  },
+  "2122": {
+    "type": "general_equipment",
+    "name": "Whirlpool Washer"
+  },
+  "2123": {
+    "type": "general_equipment",
+    "name": "Speed Queen Dryer"
+  },
+  "2124": {
+    "type": "general_equipment",
+    "name": "Computer 1"
+  },
+  "2125": {
+    "type": "general_equipment",
+    "name": "Computer 2"
+  },
+  "2126": {
+    "type": "general_equipment",
+    "name": "Computer 3"
+  },
+  "2127": {
+    "type": "general_equipment",
+    "name": "LG Washer"
+  },
+  "2128": {
+    "type": "general_equipment",
+    "name": "LG Dryer"
+  },
+  "2129": {
+    "type": "general_equipment",
+    "name": "Whirlpool Dryer"
+  },
+  "2130": {
+    "type": "general_equipment",
+    "name": "Computer 1"
+  },
+  "2131": {
+    "type": "general_equipment",
+    "name": "Computer 2"
+  },
+  "2132": {
+    "type": "general_equipment",
+    "name": "Computer 3"
+  },
+  "2133": {
+    "type": "general_equipment",
+    "name": "Computer 4"
+  },
+  "2134": {
+    "type": "spray_booth",
+    "name": "Massage Chair 1"
+  },
+  "2135": {
+    "type": "spray_booth",
+    "name": "Massage Chair 2"
+  },
+  "2136": {
+    "type": "general_equipment",
+    "name": "Amana Dryer"
+  },
+  "2137": {
+    "type": "general_equipment",
+    "name": "Hot point dryer"
+  },
+  "2138": {
+    "type": "general_equipment",
+    "name": "Amana Washer"
+  },
+  "2139": {
+    "type": "general_equipment",
+    "name": "Washer"
+  },
+  "2140": {
+    "type": "general_equipment",
+    "name": "Dryer"
+  },
+  "2142": {
+    "type": "spray_booth",
+    "name": "Skin Wellness Pod"
+  },
+  "2144": {
+    "type": "general_equipment",
+    "name": "#28"
+  },
+  "2147": {
+    "type": "spray_booth",
+    "name": "Beauty Angel 7200 #28 SH"
+  },
+  "2151": {
+    "type": "general_equipment",
+    "name": "#29 SH"
+  },
+  "2152": {
+    "type": "sun_bed",
+    "name": "Vitality TLT #29 SH"
+  },
+  "2153": {
+    "type": "general_equipment",
+    "name": "#30 SH"
+  },
+  "2154": {
+    "type": "sun_bed",
+    "name": "Vitality TLT #30 SH"
+  },
+  "2155": {
+    "type": "general_equipment",
+    "name": "Maytag Dryer"
+  },
+  "2156": {
+    "type": "general_equipment",
+    "name": "Speed Queen Dryer"
+  },
+  "2157": {
+    "type": "general_equipment",
+    "name": "Maytag Washer"
+  },
+  "2158": {
+    "type": "general_equipment",
+    "name": "Maytag Washer"
+  },
+  "2159": {
+    "type": "general_equipment",
+    "name": "AC/Heat- 1 CP"
+  },
+  "2161": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher #1 CP - Copy"
+  },
+  "2162": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher #2 CP"
+  },
+  "2163": {
+    "type": "general_equipment",
+    "name": "Breaker Panels CP"
+  },
+  "2165": {
+    "type": "general_equipment",
+    "name": "Washer/Dryer CP"
+  },
+  "2166": {
+    "type": "general_equipment",
+    "name": "MAYTAG"
+  },
+  "2167": {
+    "type": "general_equipment",
+    "name": "# 25 CP"
+  },
+  "2168": {
+    "type": "general_equipment",
+    "name": "# 24 CP"
+  },
+  "2170": {
+    "type": "general_equipment",
+    "name": "#11 CP"
+  },
+  "2172": {
+    "type": "general_equipment",
+    "name": "# 22 CP"
+  },
+  "2173": {
+    "type": "general_equipment",
+    "name": "# 10 CP"
+  },
+  "2174": {
+    "type": "general_equipment",
+    "name": "# 21 CP"
+  },
+  "2175": {
+    "type": "general_equipment",
+    "name": "# 18 CP"
+  },
+  "2178": {
+    "type": "general_equipment",
+    "name": "# 12 CP"
+  },
+  "2179": {
+    "type": "general_equipment",
+    "name": "# 19 CP"
+  },
+  "2181": {
+    "type": "general_equipment",
+    "name": "#14 CP"
+  },
+  "2182": {
+    "type": "general_equipment",
+    "name": "# 16 CP"
+  },
+  "2183": {
+    "type": "general_equipment",
+    "name": "# 15 CP"
+  },
+  "2184": {
+    "type": "sun_bed",
+    "name": "Magic 636 #15  CP"
+  },
+  "2185": {
+    "type": "spray_booth",
+    "name": "Versa Pro #13 CP"
+  },
+  "2186": {
+    "type": "spray_booth",
+    "name": "Versa Pro #14 CP"
+  },
+  "2188": {
+    "type": "sun_bed",
+    "name": "Sundash 332 #19 CP"
+  },
+  "2189": {
+    "type": "spray_booth",
+    "name": "Cocoon # 12 CP"
+  },
+  "2192": {
+    "type": "sun_bed",
+    "name": "Sun Select 48 #18 CP"
+  },
+  "2193": {
+    "type": "sun_bed",
+    "name": "Revive Pro Standup #21 CP"
+  },
+  "2194": {
+    "type": "sun_bed",
+    "name": "UWE iBed Swing (REDLIGHT) #10 CP"
+  },
+  "2195": {
+    "type": "sun_bed",
+    "name": "P90 #22 CP"
+  },
+  "2197": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #11 CP"
+  },
+  "2199": {
+    "type": "sun_bed",
+    "name": "7200 Hybrid Standup #24 CP"
+  },
+  "2200": {
+    "type": "sun_bed",
+    "name": "KBL P9 #25 CP"
+  },
+  "2201": {
+    "type": "spray_booth",
+    "name": "Beauty Angel #21 SH"
+  },
+  "2205": {
+    "type": "general_equipment",
+    "name": "#16 SH"
+  },
+  "2206": {
+    "type": "sun_bed",
+    "name": "Inspiration 600 #16 SH"
+  },
+  "2207": {
+    "type": "general_equipment",
+    "name": "SKIN WELLNESS POD #21BF"
+  },
+  "2208": {
+    "type": "general_equipment",
+    "name": "CROSS OVER 2.0 to CROSS OVER 2.0 WASHER"
+  },
+  "2209": {
+    "type": "general_equipment",
+    "name": "SPEED QUEEN DRYER"
+  },
+  "2210": {
+    "type": "general_equipment",
+    "name": "CROSS OVER 2.0 DRYER"
+  },
+  "2212": {
+    "type": "general_equipment",
+    "name": "Thermostats"
+  },
+  "2213": {
+    "type": "general_equipment",
+    "name": "# 13 NH"
+  },
+  "2214": {
+    "type": "spray_booth",
+    "name": "Versa Spa Pro #13 NH"
+  },
+  "2215": {
+    "type": "general_equipment",
+    "name": "# 12 NH"
+  },
+  "2216": {
+    "type": "spray_booth",
+    "name": "Versa Pro # 12 NH"
+  },
+  "2217": {
+    "type": "general_equipment",
+    "name": "# 15 NH"
+  },
+  "2218": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #15 NH"
+  },
+  "2219": {
+    "type": "general_equipment",
+    "name": "#22 NH"
+  },
+  "2220": {
+    "type": "sun_bed",
+    "name": "Prestige 1100 #22 NH"
+  },
+  "2221": {
+    "type": "general_equipment",
+    "name": "#23 NH"
+  },
+  "2222": {
+    "type": "sun_bed",
+    "name": "Sunrise 480 Stand up #23 NH"
+  },
+  "2223": {
+    "type": "sun_bed",
+    "name": "Affinity  (Redlight) 900 #22 DT"
+  },
+  "2224": {
+    "type": "general_equipment",
+    "name": "#19 WW"
+  },
+  "2225": {
+    "type": "general_equipment",
+    "name": "#11 WW"
+  },
+  "2226": {
+    "type": "general_equipment",
+    "name": "#17 WW"
+  },
+  "2227": {
+    "type": "general_equipment",
+    "name": "#12 WW"
+  },
+  "2228": {
+    "type": "general_equipment",
+    "name": "#10 WW"
+  },
+  "2229": {
+    "type": "general_equipment",
+    "name": "#18 WW"
+  },
+  "2230": {
+    "type": "general_equipment",
+    "name": "#20 WW"
+  },
+  "2231": {
+    "type": "general_equipment",
+    "name": "#15 WW"
+  },
+  "2232": {
+    "type": "general_equipment",
+    "name": "#14 WW"
+  },
+  "2233": {
+    "type": "general_equipment",
+    "name": "#13 WW"
+  },
+  "2234": {
+    "type": "general_equipment",
+    "name": "#16 WW"
+  },
+  "2235": {
+    "type": "general_equipment",
+    "name": "#29 NH"
+  },
+  "2236": {
+    "type": "sun_bed",
+    "name": "Vitality TLT3 #29 NH"
+  },
+  "2237": {
+    "type": "general_equipment",
+    "name": "Thermostats"
+  },
+  "2238": {
+    "type": "general_equipment",
+    "name": "Thermostats"
+  },
+  "2239": {
+    "type": "general_equipment",
+    "name": "Thermostat"
+  },
+  "2240": {
+    "type": "general_equipment",
+    "name": "Eco washer"
+  },
+  "2242": {
+    "type": "general_equipment",
+    "name": "Eco washer - PW"
+  },
+  "2243": {
+    "type": "general_equipment",
+    "name": "Washer - PW"
+  },
+  "2244": {
+    "type": "general_equipment",
+    "name": "Dryer - PW"
+  },
+  "2245": {
+    "type": "general_equipment",
+    "name": "AC/Heat - PW #1"
+  },
+  "2248": {
+    "type": "general_equipment",
+    "name": "Technology PW"
+  },
+  "2249": {
+    "type": "general_equipment",
+    "name": "Cameras PW"
+  },
+  "2250": {
+    "type": "general_equipment",
+    "name": "TMAX PW"
+  },
+  "2251": {
+    "type": "general_equipment",
+    "name": "Internet PW"
+  },
+  "2252": {
+    "type": "general_equipment",
+    "name": "Computers PW"
+  },
+  "2253": {
+    "type": "general_equipment",
+    "name": "Phone PW"
+  },
+  "2254": {
+    "type": "sun_bed",
+    "name": "Inspiration 550 #15 PW"
+  },
+  "2255": {
+    "type": "sun_bed",
+    "name": "Prestige 1100 #16 PW"
+  },
+  "2256": {
+    "type": "sun_bed",
+    "name": "Sunrise 480 Standup #17 PW"
+  },
+  "2257": {
+    "type": "sun_bed",
+    "name": "Open Sun 1050 #18 PW"
+  },
+  "2258": {
+    "type": "spray_booth",
+    "name": "Versa Spa Pro #19 PW"
+  },
+  "2259": {
+    "type": "sun_bed",
+    "name": "Sundash #20 PW"
+  },
+  "2260": {
+    "type": "spray_booth",
+    "name": "Skin wellness #21 PW"
+  },
+  "2261": {
+    "type": "spray_booth",
+    "name": "Skin wellness #22 PW"
+  },
+  "2262": {
+    "type": "spray_booth",
+    "name": "Beauty Angel #23 PW"
+  },
+  "2263": {
+    "type": "spray_booth",
+    "name": "Versa Pro#24 PW"
+  },
+  "2264": {
+    "type": "spray_booth",
+    "name": "Beauty Angel #25 PW"
+  },
+  "2265": {
+    "type": "spray_booth",
+    "name": "Versa Pro #26 PW"
+  },
+  "2266": {
+    "type": "spray_booth",
+    "name": "Wellness System #27 PW"
+  },
+  "2267": {
+    "type": "sun_bed",
+    "name": "Sunrise 7200 Hybrid Standup #28 PW"
+  },
+  "2268": {
+    "type": "sun_bed",
+    "name": "Vitality TLT3 #29 PW"
+  },
+  "2269": {
+    "type": "sun_bed",
+    "name": "Vitality TLT3 #30 PW"
+  },
+  "2271": {
+    "type": "general_equipment",
+    "name": "#15 PW"
+  },
+  "2272": {
+    "type": "general_equipment",
+    "name": "#16 PW"
+  },
+  "2273": {
+    "type": "general_equipment",
+    "name": "#17 PW"
+  },
+  "2274": {
+    "type": "general_equipment",
+    "name": "#18 PW"
+  },
+  "2275": {
+    "type": "general_equipment",
+    "name": "#19 PW"
+  },
+  "2276": {
+    "type": "general_equipment",
+    "name": "#20 PW"
+  },
+  "2277": {
+    "type": "general_equipment",
+    "name": "#21 PW"
+  },
+  "2279": {
+    "type": "general_equipment",
+    "name": "#22 PW"
+  },
+  "2280": {
+    "type": "general_equipment",
+    "name": "#23 PW"
+  },
+  "2281": {
+    "type": "general_equipment",
+    "name": "#24 PW"
+  },
+  "2282": {
+    "type": "general_equipment",
+    "name": "#25 PW"
+  },
+  "2283": {
+    "type": "general_equipment",
+    "name": "#26 PW"
+  },
+  "2284": {
+    "type": "general_equipment",
+    "name": "#27 PW"
+  },
+  "2285": {
+    "type": "general_equipment",
+    "name": "#28 PW"
+  },
+  "2286": {
+    "type": "general_equipment",
+    "name": "#30 PW"
+  },
+  "2287": {
+    "type": "general_equipment",
+    "name": "#29 PW"
+  },
+  "2288": {
+    "type": "general_equipment",
+    "name": "Thermostats"
+  },
+  "2289": {
+    "type": "spray_booth",
+    "name": "Norvell #22 ALL"
+  },
+  "2290": {
+    "type": "general_equipment",
+    "name": "#12 CA"
+  },
+  "2291": {
+    "type": "sun_bed",
+    "name": "Passion 40/3 #15 Pro"
+  },
+  "2296": {
+    "type": "general_equipment",
+    "name": "Eco washer"
+  },
+  "2297": {
+    "type": "general_equipment",
+    "name": "Eco washer - GL"
+  },
+  "2298": {
+    "type": "general_equipment",
+    "name": "Eco washer CP"
+  },
+  "2299": {
+    "type": "general_equipment",
+    "name": "Eco washer WW"
+  },
+  "2300": {
+    "type": "spray_booth",
+    "name": "VersaSpa Pro #19 NE"
+  },
+  "2301": {
+    "type": "sun_bed",
+    "name": "Vitality TLT #24 NE"
+  },
+  "2302": {
+    "type": "general_equipment",
+    "name": "#24 NE"
+  },
+  "2304": {
+    "type": "spray_booth",
+    "name": "Poly #14 NE"
+  },
+  "2305": {
+    "type": "spray_booth",
+    "name": "Beauty Angel #15 MO"
+  },
+  "2306": {
+    "type": "general_equipment",
+    "name": "#15 MO"
+  },
+  "2307": {
+    "type": "spray_booth",
+    "name": "VersaSpa Pro #23 MO"
+  },
+  "2308": {
+    "type": "general_equipment",
+    "name": "#23 MO"
+  },
+  "2309": {
+    "type": "sun_bed",
+    "name": "Sunrise Hybrid 7200 Stand Up #27 MO"
+  },
+  "2310": {
+    "type": "general_equipment",
+    "name": "#27 MO"
+  },
+  "2311": {
+    "type": "sun_bed",
+    "name": "Vitality TLT3 #29"
+  },
+  "2312": {
+    "type": "general_equipment",
+    "name": "#29 MO"
+  },
+  "2313": {
+    "type": "general_equipment",
+    "name": "Thermostats"
+  },
+  "2314": {
+    "type": "general_equipment",
+    "name": "Thermostats"
+  },
+  "2315": {
+    "type": "general_equipment",
+    "name": "#23 CP"
+  },
+  "2316": {
+    "type": "sun_bed",
+    "name": "Vitality TLT #23 CP"
+  },
+  "2319": {
+    "type": "general_equipment",
+    "name": "Technology"
+  },
+  "2320": {
+    "type": "general_equipment",
+    "name": "#25 AD"
+  },
+  "2321": {
+    "type": "spray_booth",
+    "name": "Revive Lay Down #25 AD"
+  },
+  "2322": {
+    "type": "general_equipment",
+    "name": "#26 AD"
+  },
+  "2323": {
+    "type": "spray_booth",
+    "name": "Wellness Wave System #26 AD"
+  },
+  "2324": {
+    "type": "general_equipment",
+    "name": "# 20 CP"
+  },
+  "2325": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #20 CP"
+  },
+  "2326": {
+    "type": "general_equipment",
+    "name": "#17 CP"
+  },
+  "2327": {
+    "type": "spray_booth",
+    "name": "Beauty Angel #17 CP"
+  },
+  "2328": {
+    "type": "spray_booth",
+    "name": "Wave System #16 CP"
+  },
+  "2329": {
+    "type": "general_equipment",
+    "name": "#13 CP"
+  },
+  "2331": {
+    "type": "spray_booth",
+    "name": "Versa Pro #23 SH"
+  },
+  "2335": {
+    "type": "general_equipment",
+    "name": "Technology LE"
+  },
+  "2336": {
+    "type": "general_equipment",
+    "name": "Cameras LE"
+  },
+  "2337": {
+    "type": "general_equipment",
+    "name": "TMAX LE"
+  },
+  "2338": {
+    "type": "general_equipment",
+    "name": "Internet LE"
+  },
+  "2339": {
+    "type": "general_equipment",
+    "name": "Computers LE"
+  },
+  "2340": {
+    "type": "general_equipment",
+    "name": "Phone LE"
+  },
+  "2341": {
+    "type": "general_equipment",
+    "name": "#14 LE"
+  },
+  "2342": {
+    "type": "sun_bed",
+    "name": "Sun Angel Duo #14 - LE"
+  },
+  "2344": {
+    "type": "general_equipment",
+    "name": "#22 AD"
+  },
+  "2345": {
+    "type": "sun_bed",
+    "name": "Passion #22 AD"
+  },
+  "2346": {
+    "type": "general_equipment",
+    "name": "AC/Heat MK "
+  },
+  "2349": {
+    "type": "general_equipment",
+    "name": "Technology MK"
+  },
+  "2350": {
+    "type": "general_equipment",
+    "name": "Cameras MK"
+  },
+  "2351": {
+    "type": "general_equipment",
+    "name": "TMAX MK"
+  },
+  "2352": {
+    "type": "general_equipment",
+    "name": "Internet MK"
+  },
+  "2353": {
+    "type": "general_equipment",
+    "name": "Computer MK"
+  },
+  "2354": {
+    "type": "general_equipment",
+    "name": "Phone MK"
+  },
+  "2355": {
+    "type": "general_equipment",
+    "name": "#16 MK"
+  },
+  "2356": {
+    "type": "sun_bed",
+    "name": "Sunrise 7200 Hybrid Stand up # 16 MK"
+  },
+  "2357": {
+    "type": "general_equipment",
+    "name": "#17 MK"
+  },
+  "2359": {
+    "type": "sun_bed",
+    "name": "Vitality TLT #17 MK"
+  },
+  "2360": {
+    "type": "general_equipment",
+    "name": "#18 MK"
+  },
+  "2361": {
+    "type": "sun_bed",
+    "name": "Affinity 800 #18 MK"
+  },
+  "2362": {
+    "type": "general_equipment",
+    "name": "#19 MK"
+  },
+  "2363": {
+    "type": "sun_bed",
+    "name": "Open Sun 1050 #19 MK"
+  },
+  "2364": {
+    "type": "general_equipment",
+    "name": "#20 MK"
+  },
+  "2365": {
+    "type": "sun_bed",
+    "name": "Sunrise 480 Standup #20 MK"
+  },
+  "2366": {
+    "type": "general_equipment",
+    "name": "#21 MK"
+  },
+  "2367": {
+    "type": "spray_booth",
+    "name": "Versa Pro #21 MK"
+  },
+  "2368": {
+    "type": "general_equipment",
+    "name": "#22 MK"
+  },
+  "2369": {
+    "type": "spray_booth",
+    "name": "Versa Pro #22 MK"
+  },
+  "2370": {
+    "type": "general_equipment",
+    "name": "#23 MK"
+  },
+  "2371": {
+    "type": "spray_booth",
+    "name": "Wave #23 MK"
+  },
+  "2372": {
+    "type": "general_equipment",
+    "name": "#24 MK"
+  },
+  "2373": {
+    "type": "spray_booth",
+    "name": "Skin Wellness Pro #24 MK"
+  },
+  "2374": {
+    "type": "general_equipment",
+    "name": "#25 MK"
+  },
+  "2375": {
+    "type": "spray_booth",
+    "name": "Beauty Angel 7200 #16 TY"
+  },
+  "2376": {
+    "type": "general_equipment",
+    "name": "#26 MK"
+  },
+  "2377": {
+    "type": "spray_booth",
+    "name": "Skin Wellness Pod #26 MK"
+  },
+  "2378": {
+    "type": "general_equipment",
+    "name": "#27 MK"
+  },
+  "2379": {
+    "type": "spray_booth",
+    "name": "Skin Wellness Pro #27 MK"
+  },
+  "2380": {
+    "type": "general_equipment",
+    "name": "#15 LE"
+  },
+  "2381": {
+    "type": "sun_bed",
+    "name": "Sunrise 480 Stand up #15 LE"
+  },
+  "2382": {
+    "type": "general_equipment",
+    "name": "#16 LE"
+  },
+  "2383": {
+    "type": "sun_bed",
+    "name": "Passion #16 LE"
+  },
+  "2384": {
+    "type": "general_equipment",
+    "name": "#18 LE"
+  },
+  "2385": {
+    "type": "spray_booth",
+    "name": "Versa Pro #18 LE"
+  },
+  "2386": {
+    "type": "general_equipment",
+    "name": "#19 LE"
+  },
+  "2387": {
+    "type": "spray_booth",
+    "name": "Skin Wellness Pod #19 LE"
+  },
+  "2388": {
+    "type": "general_equipment",
+    "name": "#20 LE"
+  },
+  "2389": {
+    "type": "spray_booth",
+    "name": "Versa Pro #20 LE"
+  },
+  "2390": {
+    "type": "general_equipment",
+    "name": "#21 LE"
+  },
+  "2391": {
+    "type": "spray_booth",
+    "name": "Skin Wellness Pod #21 LE"
+  },
+  "2392": {
+    "type": "general_equipment",
+    "name": "#22 LE"
+  },
+  "2393": {
+    "type": "spray_booth",
+    "name": "Wave #22 LE"
+  },
+  "2394": {
+    "type": "general_equipment",
+    "name": "#23 LE"
+  },
+  "2395": {
+    "type": "sun_bed",
+    "name": "Vitality PLT #23 LE"
+  },
+  "2396": {
+    "type": "general_equipment",
+    "name": "#24 LE"
+  },
+  "2397": {
+    "type": "sun_bed",
+    "name": "Open Sun 1050 #24 LE"
+  },
+  "2398": {
+    "type": "general_equipment",
+    "name": "#25 LE"
+  },
+  "2399": {
+    "type": "spray_booth",
+    "name": "Beauty Angel #23 RW"
+  },
+  "2400": {
+    "type": "general_equipment",
+    "name": "#26 LE"
+  },
+  "2401": {
+    "type": "spray_booth",
+    "name": "Beauty Angel #26 LE"
+  },
+  "2402": {
+    "type": "general_equipment",
+    "name": "#27 LE"
+  },
+  "2403": {
+    "type": "sun_bed",
+    "name": "Sunrise Hybrid 7200 Stand up #27 LE"
+  },
+  "2404": {
+    "type": "general_equipment",
+    "name": "#28 LE"
+  },
+  "2405": {
+    "type": "general_equipment",
+    "name": "#29 LE"
+  },
+  "2406": {
+    "type": "general_equipment",
+    "name": "#30 LE"
+  },
+  "2407": {
+    "type": "sun_bed",
+    "name": "Vitality TLT #28 LE"
+  },
+  "2409": {
+    "type": "sun_bed",
+    "name": "Vitailty TLT #30 LE"
+  },
+  "2410": {
+    "type": "general_equipment",
+    "name": "#17 LE"
+  },
+  "2411": {
+    "type": "spray_booth",
+    "name": "Versa Pro #17 LE"
+  },
+  "2412": {
+    "type": "general_equipment",
+    "name": "#13 ALL"
+  },
+  "2413": {
+    "type": "spray_booth",
+    "name": "Fit Burn #13 ALL"
+  },
+  "2415": {
+    "type": "general_equipment",
+    "name": "#16 YM"
+  },
+  "2416": {
+    "type": "general_equipment",
+    "name": "#17 YM"
+  },
+  "2418": {
+    "type": "general_equipment",
+    "name": "Washer YM #1 - Label unit #1 w marker"
+  },
+  "2419": {
+    "type": "general_equipment",
+    "name": "Dryer  - Label unit #1 w marker"
+  },
+  "2420": {
+    "type": "general_equipment",
+    "name": "#18 YM"
+  },
+  "2421": {
+    "type": "general_equipment",
+    "name": "#19 YM"
+  },
+  "2422": {
+    "type": "general_equipment",
+    "name": "#20 YM"
+  },
+  "2423": {
+    "type": "general_equipment",
+    "name": "#21 YM"
+  },
+  "2424": {
+    "type": "general_equipment",
+    "name": "#22 YM"
+  },
+  "2425": {
+    "type": "general_equipment",
+    "name": "#23 YM"
+  },
+  "2426": {
+    "type": "general_equipment",
+    "name": "#24 YM"
+  },
+  "2427": {
+    "type": "general_equipment",
+    "name": "#25 YM"
+  },
+  "2428": {
+    "type": "general_equipment",
+    "name": "#26 YM"
+  },
+  "2429": {
+    "type": "general_equipment",
+    "name": "#27 YM"
+  },
+  "2430": {
+    "type": "general_equipment",
+    "name": "#28 YM"
+  },
+  "2431": {
+    "type": "general_equipment",
+    "name": "#29 YM"
+  },
+  "2432": {
+    "type": "general_equipment",
+    "name": "#30 YM"
+  },
+  "2433": {
+    "type": "spray_booth",
+    "name": "Beauty Angel 7200 #30 YM"
+  },
+  "2434": {
+    "type": "spray_booth",
+    "name": "Beauty Angel 7200 #28 YM"
+  },
+  "2435": {
+    "type": "sun_bed",
+    "name": "Vitality TLT #26 YM"
+  },
+  "2436": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #17 YM"
+  },
+  "2437": {
+    "type": "spray_booth",
+    "name": "VersaSpa Pro #19"
+  },
+  "2438": {
+    "type": "spray_booth",
+    "name": "VersaSpa Pro #20"
+  },
+  "2439": {
+    "type": "general_equipment",
+    "name": "Eco Washer YM #2- Label unit on wall #2"
+  },
+  "2440": {
+    "type": "spray_booth",
+    "name": "Wellsystem Wave #29 YM"
+  },
+  "2441": {
+    "type": "spray_booth",
+    "name": "Massage Chair 2 YM"
+  },
+  "2443": {
+    "type": "general_equipment",
+    "name": "#26 ES"
+  },
+  "2444": {
+    "type": "spray_booth",
+    "name": "Wellsystem Wave #12 ES"
+  },
+  "2445": {
+    "type": "spray_booth",
+    "name": "Wave #10 KLR"
+  },
+  "2449": {
+    "type": "general_equipment",
+    "name": "#2 UT"
+  },
+  "2450": {
+    "type": "sun_bed",
+    "name": "Vitality TLT #2 UT"
+  },
+  "2452": {
+    "type": "general_equipment",
+    "name": "#3 UT"
+  },
+  "2453": {
+    "type": "sun_bed",
+    "name": "Prestige 1600 #3 UT"
+  },
+  "2454": {
+    "type": "sun_bed",
+    "name": "Prestige 1400 #4 UT"
+  },
+  "2455": {
+    "type": "general_equipment",
+    "name": "#4 UT"
+  },
+  "2456": {
+    "type": "general_equipment",
+    "name": "#5 UT"
+  },
+  "2457": {
+    "type": "general_equipment",
+    "name": "#6 UT"
+  },
+  "2458": {
+    "type": "sun_bed",
+    "name": "Sunrise 7200 Hybrid Standup #5 UT"
+  },
+  "2459": {
+    "type": "spray_booth",
+    "name": "Cocoon #6 UT"
+  },
+  "2460": {
+    "type": "spray_booth",
+    "name": "Poly #6 UT"
+  },
+  "2461": {
+    "type": "general_equipment",
+    "name": "#7 UT"
+  },
+  "2462": {
+    "type": "sun_bed",
+    "name": "Sunrise 480 Stand Up #7 UT"
+  },
+  "2463": {
+    "type": "general_equipment",
+    "name": "#8 UT"
+  },
+  "2464": {
+    "type": "spray_booth",
+    "name": "VersaSpa Pro #8 UT"
+  },
+  "2465": {
+    "type": "general_equipment",
+    "name": "#9 UT"
+  },
+  "2466": {
+    "type": "spray_booth",
+    "name": "VersaSpa Pro #9 UT"
+  },
+  "2467": {
+    "type": "general_equipment",
+    "name": "#10 UT"
+  },
+  "2468": {
+    "type": "spray_booth",
+    "name": "Revive stand up #10 UT"
+  },
+  "2469": {
+    "type": "general_equipment",
+    "name": "#11 UT"
+  },
+  "2470": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #11 UT"
+  },
+  "2471": {
+    "type": "general_equipment",
+    "name": "#12 UT"
+  },
+  "2472": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #12 UT"
+  },
+  "2473": {
+    "type": "general_equipment",
+    "name": "#13 UT"
+  },
+  "2474": {
+    "type": "spray_booth",
+    "name": "Revive Lay Down #13 UT"
+  },
+  "2476": {
+    "type": "general_equipment",
+    "name": "Washer UT "
+  },
+  "2477": {
+    "type": "general_equipment",
+    "name": "Eco Washer UT "
+  },
+  "2478": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher UT "
+  },
+  "2479": {
+    "type": "general_equipment",
+    "name": "Dryer 2 UT"
+  },
+  "2480": {
+    "type": "general_equipment",
+    "name": "Dryer 1 UT"
+  },
+  "2481": {
+    "type": "general_equipment",
+    "name": "Breaker Panels UT"
+  },
+  "2482": {
+    "type": "general_equipment",
+    "name": "Panel 1 UT"
+  },
+  "2483": {
+    "type": "general_equipment",
+    "name": "Panel 2 UT"
+  },
+  "2484": {
+    "type": "general_equipment",
+    "name": "Technology UT"
+  },
+  "2485": {
+    "type": "general_equipment",
+    "name": "Cameras UT"
+  },
+  "2486": {
+    "type": "general_equipment",
+    "name": "TMAX UT"
+  },
+  "2487": {
+    "type": "general_equipment",
+    "name": "Internet UT"
+  },
+  "2488": {
+    "type": "general_equipment",
+    "name": "Computers UT"
+  },
+  "2489": {
+    "type": "general_equipment",
+    "name": "Phone UT"
+  },
+  "2490": {
+    "type": "sun_bed",
+    "name": "Vitality TLT #3 DAL"
+  },
+  "2491": {
+    "type": "sun_bed",
+    "name": "Vitality TLT #4 DAL"
+  },
+  "2493": {
+    "type": "spray_booth",
+    "name": "Massage Chair #1"
+  },
+  "2494": {
+    "type": "spray_booth",
+    "name": "Massage Chair #2"
+  },
+  "2495": {
+    "type": "general_equipment",
+    "name": "AC/Heat - PW #2"
+  },
+  "2496": {
+    "type": "general_equipment",
+    "name": "AC/Heat - PW #3"
+  },
+  "2497": {
+    "type": "general_equipment",
+    "name": "AC/Heat - PW #4"
+  },
+  "2498": {
+    "type": "general_equipment",
+    "name": "AC/Heat - PW #5"
+  },
+  "2499": {
+    "type": "general_equipment",
+    "name": "AC/Heat - GL #1"
+  },
+  "2500": {
+    "type": "general_equipment",
+    "name": "AC/Heat AD #1"
+  },
+  "2501": {
+    "type": "general_equipment",
+    "name": "AC/Heat AD #2"
+  },
+  "2502": {
+    "type": "general_equipment",
+    "name": "AC/Heat - UP #1 "
+  },
+  "2503": {
+    "type": "general_equipment",
+    "name": "Dryer ROC"
+  },
+  "2504": {
+    "type": "general_equipment",
+    "name": "Breaker Panel #1"
+  },
+  "2505": {
+    "type": "general_equipment",
+    "name": "Braker Panel #2"
+  },
+  "2506": {
+    "type": "general_equipment",
+    "name": "Breaker Panel #3"
+  },
+  "2507": {
+    "type": "general_equipment",
+    "name": "Dumpster Combination Lock"
+  },
+  "2508": {
+    "type": "general_equipment",
+    "name": "AC/Heat DAL #2"
+  },
+  "2509": {
+    "type": "general_equipment",
+    "name": "AC/Heat DAL #3"
+  },
+  "2510": {
+    "type": "general_equipment",
+    "name": "AC/Heat DAL #4"
+  },
+  "2511": {
+    "type": "general_equipment",
+    "name": "Roper Dryer - Copy"
+  },
+  "2513": {
+    "type": "general_equipment",
+    "name": "Washer/Dryer Set NW 1 "
+  },
+  "2514": {
+    "type": "general_equipment",
+    "name": "Eco Washer NW 1"
+  },
+  "2515": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher NW"
+  },
+  "2516": {
+    "type": "general_equipment",
+    "name": "Washer NW 1"
+  },
+  "2517": {
+    "type": "general_equipment",
+    "name": "Dryer 1 NW"
+  },
+  "2518": {
+    "type": "general_equipment",
+    "name": "Breaker Panels NW"
+  },
+  "2519": {
+    "type": "general_equipment",
+    "name": "Panel 1 NW"
+  },
+  "2520": {
+    "type": "general_equipment",
+    "name": "Panel 2 NW "
+  },
+  "2521": {
+    "type": "general_equipment",
+    "name": "AC/Heat NW"
+  },
+  "2523": {
+    "type": "sun_bed",
+    "name": "Prestige 1100 #20 ES"
+  },
+  "2524": {
+    "type": "sun_bed",
+    "name": "Vitality TLT #22 ES"
+  },
+  "2525": {
+    "type": "sun_bed",
+    "name": "KBL 8000 Hybrid Sun #23 ES"
+  },
+  "2526": {
+    "type": "sun_bed",
+    "name": "Vitality TLT #24 ES"
+  },
+  "2527": {
+    "type": "sun_bed",
+    "name": "Vitality TLT #25 ES"
+  },
+  "2528": {
+    "type": "spray_booth",
+    "name": "Revive stand up #26 ES"
+  },
+  "2531": {
+    "type": "general_equipment",
+    "name": "#19 ES "
+  },
+  "2532": {
+    "type": "spray_booth",
+    "name": "VersaSpa Pro #19 ES"
+  },
+  "2533": {
+    "type": "general_equipment",
+    "name": "AC/Heat HV #2"
+  },
+  "2534": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher #2 NE"
+  },
+  "2535": {
+    "type": "general_equipment",
+    "name": "Eco Washer FS #2 EXL"
+  },
+  "2536": {
+    "type": "general_equipment",
+    "name": "AC/Heat LE #2"
+  },
+  "2537": {
+    "type": "spray_booth",
+    "name": "VersaSpa Pro #14 NW"
+  },
+  "2538": {
+    "type": "sun_bed",
+    "name": "Ergoline Excellence #19 FS"
+  },
+  "2539": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #11 CP"
+  },
+  "2540": {
+    "type": "sun_bed",
+    "name": "Passion #13 SOKC"
+  },
+  "2541": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #22 SP"
+  },
+  "2542": {
+    "type": "general_equipment",
+    "name": "AC/Heat - LE #1 "
+  },
+  "2550": {
+    "type": "general_equipment",
+    "name": "#15 NW "
+  },
+  "2551": {
+    "type": "spray_booth",
+    "name": "VersaSpa Pro #15 NW "
+  },
+  "2552": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #21 NW"
+  },
+  "2557": {
+    "type": "general_equipment",
+    "name": "#20 NW"
+  },
+  "2558": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #20 NW"
+  },
+  "2559": {
+    "type": "general_equipment",
+    "name": "#22"
+  },
+  "2560": {
+    "type": "general_equipment",
+    "name": "#25"
+  },
+  "2561": {
+    "type": "sun_bed",
+    "name": "Hybrid Standup #25 NW"
+  },
+  "2562": {
+    "type": "general_equipment",
+    "name": "#26 NW"
+  },
+  "2564": {
+    "type": "general_equipment",
+    "name": "#27 NW "
+  },
+  "2565": {
+    "type": "spray_booth",
+    "name": "Beauty Angel 7200 #27 NW "
+  },
+  "2566": {
+    "type": "general_equipment",
+    "name": "#30 NW"
+  },
+  "2567": {
+    "type": "sun_bed",
+    "name": "Vitality TLT #30 NW"
+  },
+  "2569": {
+    "type": "general_equipment",
+    "name": "Washer MK"
+  },
+  "2570": {
+    "type": "general_equipment",
+    "name": "Eco Washer MK"
+  },
+  "2571": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher MK"
+  },
+  "2572": {
+    "type": "general_equipment",
+    "name": "Dryer 2 MK"
+  },
+  "2573": {
+    "type": "general_equipment",
+    "name": "Dryer 1 MK"
+  },
+  "2574": {
+    "type": "general_equipment",
+    "name": "Breaker Panels MK"
+  },
+  "2575": {
+    "type": "general_equipment",
+    "name": "Panel 1 MK"
+  },
+  "2576": {
+    "type": "general_equipment",
+    "name": "Panel 2 MK"
+  },
+  "2579": {
+    "type": "general_equipment",
+    "name": "Technology CP"
+  },
+  "2580": {
+    "type": "general_equipment",
+    "name": "Cameras CP"
+  },
+  "2581": {
+    "type": "general_equipment",
+    "name": "TMAX CP"
+  },
+  "2582": {
+    "type": "general_equipment",
+    "name": "Internet CP"
+  },
+  "2583": {
+    "type": "general_equipment",
+    "name": "Computers CP"
+  },
+  "2584": {
+    "type": "general_equipment",
+    "name": "Phone CP"
+  },
+  "2585": {
+    "type": "sun_bed",
+    "name": "Vitality TLT #1 ROA"
+  },
+  "2586": {
+    "type": "sun_bed",
+    "name": "Vitality TLT  #8 TPA"
+  },
+  "2587": {
+    "type": "sun_bed",
+    "name": "Vitality TLT #12 TPA"
+  },
+  "2588": {
+    "type": "spray_booth",
+    "name": "Massage Chair 1 SP"
+  },
+  "2589": {
+    "type": "spray_booth",
+    "name": "Massage Chair 2 SP"
+  },
+  "2591": {
+    "type": "general_equipment",
+    "name": "Washer WW"
+  },
+  "2592": {
+    "type": "general_equipment",
+    "name": "Dryer WW"
+  },
+  "2593": {
+    "type": "general_equipment",
+    "name": "#24 NH"
+  },
+  "2594": {
+    "type": "spray_booth",
+    "name": "Well System Wave #24 NH"
+  },
+  "2596": {
+    "type": "spray_booth",
+    "name": "Revive Lay Down #23 PW"
+  },
+  "2597": {
+    "type": "sun_bed",
+    "name": "Vitality  TLT3 #25 GL"
+  },
+  "2598": {
+    "type": "general_equipment",
+    "name": "Washer/Dryer KLR - 2"
+  },
+  "2599": {
+    "type": "general_equipment",
+    "name": "Eco Washer KLR - 2"
+  },
+  "2600": {
+    "type": "general_equipment",
+    "name": "Washer MK - 2"
+  },
+  "2601": {
+    "type": "general_equipment",
+    "name": "Eco Washer MK - 2"
+  },
+  "2602": {
+    "type": "general_equipment",
+    "name": "Washer/Dryer SH - 2"
+  },
+  "2603": {
+    "type": "general_equipment",
+    "name": "Eco Washer SH - 2"
+  },
+  "2604": {
+    "type": "general_equipment",
+    "name": "Computer #2 YM"
+  },
+  "2605": {
+    "type": "general_equipment",
+    "name": "Computer #3 YM"
+  },
+  "2606": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #27 AD"
+  },
+  "2607": {
+    "type": "general_equipment",
+    "name": "#27 AD"
+  },
+  "2608": {
+    "type": "sun_bed",
+    "name": "Vitality TLT #30 AD"
+  },
+  "2609": {
+    "type": "general_equipment",
+    "name": "#30 AD"
+  },
+  "2610": {
+    "type": "general_equipment",
+    "name": "#12 DAL"
+  },
+  "2611": {
+    "type": "spray_booth",
+    "name": "Cocoon #12 DAL"
+  },
+  "2612": {
+    "type": "spray_booth",
+    "name": "Poly #12 DAL"
+  },
+  "2614": {
+    "type": "spray_booth",
+    "name": "Versa Pro # 16 WX"
+  },
+  "2615": {
+    "type": "general_equipment",
+    "name": "#16 WX"
+  },
+  "2616": {
+    "type": "general_equipment",
+    "name": "#17 WX"
+  },
+  "2617": {
+    "type": "general_equipment",
+    "name": "#18 WX"
+  },
+  "2618": {
+    "type": "general_equipment",
+    "name": "#19 WX"
+  },
+  "2619": {
+    "type": "general_equipment",
+    "name": "#20 WX"
+  },
+  "2620": {
+    "type": "general_equipment",
+    "name": "#21 WX"
+  },
+  "2621": {
+    "type": "general_equipment",
+    "name": "#22 WX"
+  },
+  "2622": {
+    "type": "general_equipment",
+    "name": "#23 WX"
+  },
+  "2623": {
+    "type": "general_equipment",
+    "name": "#24 WX"
+  },
+  "2624": {
+    "type": "general_equipment",
+    "name": "#25 WX"
+  },
+  "2625": {
+    "type": "general_equipment",
+    "name": "#26 WX"
+  },
+  "2626": {
+    "type": "general_equipment",
+    "name": "#27 WX"
+  },
+  "2627": {
+    "type": "general_equipment",
+    "name": "#28 WX"
+  },
+  "2628": {
+    "type": "general_equipment",
+    "name": "#29 WX"
+  },
+  "2629": {
+    "type": "general_equipment",
+    "name": "#30 WX"
+  },
+  "2630": {
+    "type": "sun_bed",
+    "name": "Sunrise Hybrid 7200 #30 WX"
+  },
+  "2632": {
+    "type": "spray_booth",
+    "name": "Beauty Angel 7200 #29 WX"
+  },
+  "2633": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #28 WX"
+  },
+  "2634": {
+    "type": "spray_booth",
+    "name": "Beauty Angel 7200 #27 WX"
+  },
+  "2636": {
+    "type": "sun_bed",
+    "name": "Prestige 1100 #25 WX"
+  },
+  "2637": {
+    "type": "spray_booth",
+    "name": "Well System Wave #24 WX"
+  },
+  "2638": {
+    "type": "sun_bed",
+    "name": "Sunrise 480 Stand Up #23 WX"
+  },
+  "2639": {
+    "type": "sun_bed",
+    "name": "Vitality TLT #22 EX"
+  },
+  "2640": {
+    "type": "sun_bed",
+    "name": "Ergoline Excellence 880 #21 WX"
+  },
+  "2641": {
+    "type": "sun_bed",
+    "name": "Vitality TLT #20"
+  },
+  "2642": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #19 WX"
+  },
+  "2643": {
+    "type": "spray_booth",
+    "name": "Versa Pro #17 WX"
+  },
+  "2648": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher #1 WX"
+  },
+  "2649": {
+    "type": "general_equipment",
+    "name": "AC/Heat #1 WX"
+  },
+  "2650": {
+    "type": "general_equipment",
+    "name": "Washer/Dryer WX"
+  },
+  "2652": {
+    "type": "general_equipment",
+    "name": "Washer #1 WX"
+  },
+  "2653": {
+    "type": "general_equipment",
+    "name": "Dryer #1 WX"
+  },
+  "2655": {
+    "type": "general_equipment",
+    "name": "Eco Washer #1 WX"
+  },
+  "2658": {
+    "type": "general_equipment",
+    "name": "Breaker Panels WX"
+  },
+  "2659": {
+    "type": "general_equipment",
+    "name": "Panel 1 #1 WX"
+  },
+  "2660": {
+    "type": "general_equipment",
+    "name": "Panel #2 WX? How many does this store have?"
+  },
+  "2662": {
+    "type": "general_equipment",
+    "name": "Technology WX"
+  },
+  "2663": {
+    "type": "general_equipment",
+    "name": "Cameras WX"
+  },
+  "2664": {
+    "type": "general_equipment",
+    "name": "TMAX WX"
+  },
+  "2665": {
+    "type": "general_equipment",
+    "name": "Internet WX"
+  },
+  "2666": {
+    "type": "general_equipment",
+    "name": "Computers WX"
+  },
+  "2667": {
+    "type": "general_equipment",
+    "name": "Computer #1  (Main) WX"
+  },
+  "2668": {
+    "type": "general_equipment",
+    "name": "Computer #2 WX"
+  },
+  "2671": {
+    "type": "general_equipment",
+    "name": "Phones WX"
+  },
+  "2672": {
+    "type": "general_equipment",
+    "name": "Washer #2 WX"
+  },
+  "2673": {
+    "type": "general_equipment",
+    "name": "Eco Washer #2 WX"
+  },
+  "2674": {
+    "type": "general_equipment",
+    "name": "Dryer #2 WX"
+  },
+  "2675": {
+    "type": "general_equipment",
+    "name": "AC/Heat #4 WX"
+  },
+  "2676": {
+    "type": "general_equipment",
+    "name": "AC/Heat #3 WX"
+  },
+  "2677": {
+    "type": "general_equipment",
+    "name": "AC/Heat #2 WX"
+  },
+  "2679": {
+    "type": "sun_bed",
+    "name": "KBL 6800 #4 ROA"
+  },
+  "2680": {
+    "type": "spray_booth",
+    "name": "Cocoon #21 Pro"
+  },
+  "2681": {
+    "type": "general_equipment",
+    "name": "Distilled Water System - CONTACT LOCAL REP. Do not make ticket here! - FS"
+  },
+  "2682": {
+    "type": "sun_bed",
+    "name": "Open Sun 1050 #"
+  },
+  "2683": {
+    "type": "sun_bed",
+    "name": "Open Sun 1050 #11 BF"
+  },
+  "2684": {
+    "type": "sun_bed",
+    "name": "Open Sun 1050 #26 Pro"
+  },
+  "2687": {
+    "type": "general_equipment",
+    "name": "#15 Pro"
+  },
+  "2689": {
+    "type": "general_equipment",
+    "name": "#16 Pro"
+  },
+  "2690": {
+    "type": "general_equipment",
+    "name": "#17 Pro"
+  },
+  "2691": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #17 Pro"
+  },
+  "2692": {
+    "type": "general_equipment",
+    "name": "#18 Pro"
+  },
+  "2693": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #18 Pro"
+  },
+  "2694": {
+    "type": "general_equipment",
+    "name": "#19 Pro"
+  },
+  "2695": {
+    "type": "spray_booth",
+    "name": "Revive Lay Down #19 Pro"
+  },
+  "2696": {
+    "type": "general_equipment",
+    "name": "#20 Pro"
+  },
+  "2697": {
+    "type": "spray_booth",
+    "name": "Beauty Angel #20 Pro"
+  },
+  "2698": {
+    "type": "general_equipment",
+    "name": "#21 Pro"
+  },
+  "2699": {
+    "type": "spray_booth",
+    "name": "Poly #21 Pro"
+  },
+  "2701": {
+    "type": "general_equipment",
+    "name": "#22 Pro"
+  },
+  "2702": {
+    "type": "spray_booth",
+    "name": "VersaSpa Pro #22 Pro"
+  },
+  "2703": {
+    "type": "general_equipment",
+    "name": "#23 Pro"
+  },
+  "2706": {
+    "type": "general_equipment",
+    "name": "AC/Heat Pro"
+  },
+  "2707": {
+    "type": "general_equipment",
+    "name": "Washer Pro"
+  },
+  "2708": {
+    "type": "general_equipment",
+    "name": "Eco Washer Pro"
+  },
+  "2713": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher Pro"
+  },
+  "2714": {
+    "type": "general_equipment",
+    "name": "Dryer Pro 2 (coming soon)"
+  },
+  "2716": {
+    "type": "general_equipment",
+    "name": "Braker Panel Pro"
+  },
+  "2718": {
+    "type": "general_equipment",
+    "name": "Appliance Pro"
+  },
+  "2719": {
+    "type": "spray_booth",
+    "name": "VersaSpa Pro #23 Pro"
+  },
+  "2720": {
+    "type": "general_equipment",
+    "name": "#24 Pro - Empty"
+  },
+  "2722": {
+    "type": "general_equipment",
+    "name": "#25 Pro"
+  },
+  "2723": {
+    "type": "spray_booth",
+    "name": "Wellsystem Wave #25 Pro"
+  },
+  "2724": {
+    "type": "general_equipment",
+    "name": "#26 Pro"
+  },
+  "2725": {
+    "type": "general_equipment",
+    "name": "#27 Pro"
+  },
+  "2726": {
+    "type": "sun_bed",
+    "name": "Sunrise Hybrid 7200 Stand Up #27 Pro"
+  },
+  "2727": {
+    "type": "general_equipment",
+    "name": "#28 Pro"
+  },
+  "2728": {
+    "type": "sun_bed",
+    "name": "Vitality TLT #28 Pro"
+  },
+  "2729": {
+    "type": "general_equipment",
+    "name": "#29 Pro"
+  },
+  "2731": {
+    "type": "general_equipment",
+    "name": "#30 Pro"
+  },
+  "2732": {
+    "type": "general_equipment",
+    "name": "Technology Pro"
+  },
+  "2733": {
+    "type": "general_equipment",
+    "name": "Cameras Pro"
+  },
+  "2734": {
+    "type": "general_equipment",
+    "name": "TMAX  Pro"
+  },
+  "2735": {
+    "type": "general_equipment",
+    "name": "Internet Pro"
+  },
+  "2736": {
+    "type": "general_equipment",
+    "name": "Computers Pro"
+  },
+  "2737": {
+    "type": "general_equipment",
+    "name": "Computer 1 Pro"
+  },
+  "2738": {
+    "type": "general_equipment",
+    "name": "Computer 2  Pro"
+  },
+  "2740": {
+    "type": "general_equipment",
+    "name": "Computer 3  Pro"
+  },
+  "2741": {
+    "type": "general_equipment",
+    "name": "Phones  Pro"
+  },
+  "2742": {
+    "type": "general_equipment",
+    "name": "Forklift"
+  },
+  "2743": {
+    "type": "sun_bed",
+    "name": "Vitality TLT #19 WW"
+  },
+  "2744": {
+    "type": "sun_bed",
+    "name": "Vitality TLT #20 WW"
+  },
+  "2745": {
+    "type": "general_equipment",
+    "name": "Van 4 Info"
+  },
+  "2746": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #20 PW"
+  },
+  "2747": {
+    "type": "general_equipment",
+    "name": "AC/Heat WW - 1"
+  },
+  "2748": {
+    "type": "general_equipment",
+    "name": "AC/Heat WW - 2"
+  },
+  "2749": {
+    "type": "general_equipment",
+    "name": "AC/Heat WW - 3"
+  },
+  "2750": {
+    "type": "general_equipment",
+    "name": "AC/Heat MO - 4"
+  },
+  "2751": {
+    "type": "general_equipment",
+    "name": "AC/Heat MO - 5"
+  },
+  "2752": {
+    "type": "sun_bed",
+    "name": "Open Sun 1050 #14"
+  },
+  "2753": {
+    "type": "general_equipment",
+    "name": "#14 PW"
+  },
+  "2754": {
+    "type": "spray_booth",
+    "name": "Wellsystem #12 CS"
+  },
+  "2755": {
+    "type": "general_equipment",
+    "name": "Van Info"
+  },
+  "2756": {
+    "type": "general_equipment",
+    "name": "Van 2 Info "
+  },
+  "2757": {
+    "type": "general_equipment",
+    "name": "Van 3 Info "
+  },
+  "2758": {
+    "type": "sun_bed",
+    "name": "Inspiration 550 #26 WX"
+  },
+  "2759": {
+    "type": "general_equipment",
+    "name": "Washer/Dryer LE"
+  },
+  "2760": {
+    "type": "general_equipment",
+    "name": "Eco Washer LE"
+  },
+  "2762": {
+    "type": "general_equipment",
+    "name": "Dryer #1 LE"
+  },
+  "2763": {
+    "type": "general_equipment",
+    "name": "Dryer #2 LE"
+  },
+  "2765": {
+    "type": "sun_bed",
+    "name": "Vitality TLT #27 YM"
+  },
+  "2766": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher #1 PW"
+  },
+  "2768": {
+    "type": "sun_bed",
+    "name": "Vitality TLT #26 ROC"
+  },
+  "2769": {
+    "type": "spray_booth",
+    "name": "Well System Wave #20 Hul"
+  },
+  "2789": {
+    "type": "general_equipment",
+    "name": "Old beds"
+  },
+  "2790": {
+    "type": "general_equipment",
+    "name": "New Salon Template"
+  },
+  "2792": {
+    "type": "general_equipment",
+    "name": "AC/Heat TY  # 1"
+  },
+  "2793": {
+    "type": "general_equipment",
+    "name": "Washer TY #1"
+  },
+  "2794": {
+    "type": "general_equipment",
+    "name": "Eco Washer TY #1"
+  },
+  "2796": {
+    "type": "general_equipment",
+    "name": "AC/Heat TY #2"
+  },
+  "2798": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher #1 TY"
+  },
+  "2799": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher "
+  },
+  "2800": {
+    "type": "general_equipment",
+    "name": "Dryer TY #1"
+  },
+  "2801": {
+    "type": "general_equipment",
+    "name": "Breaker Panel  TY #1 "
+  },
+  "2802": {
+    "type": "general_equipment",
+    "name": "Braker Panel TY #2"
+  },
+  "2804": {
+    "type": "spray_booth",
+    "name": "Revive Lay Down #15 HV"
+  },
+  "2805": {
+    "type": "spray_booth",
+    "name": "Revive Lay Down #25 MK"
+  },
+  "2807": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher DT #1"
+  },
+  "2808": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher DT #2 "
+  },
+  "2811": {
+    "type": "general_equipment",
+    "name": "AC/Heat DT 1"
+  },
+  "2812": {
+    "type": "general_equipment",
+    "name": "Washer DT"
+  },
+  "2813": {
+    "type": "general_equipment",
+    "name": "Eco Washer DT"
+  },
+  "2816": {
+    "type": "general_equipment",
+    "name": "Dryer DT"
+  },
+  "2818": {
+    "type": "general_equipment",
+    "name": "AC/Heat DT 2"
+  },
+  "2820": {
+    "type": "general_equipment",
+    "name": "Breaker Panels DT"
+  },
+  "2824": {
+    "type": "general_equipment",
+    "name": "Distilled Water System - CONTACT LOCAL REP. Do not make ticket here! - DT"
+  },
+  "2826": {
+    "type": "general_equipment",
+    "name": "#12 DT"
+  },
+  "2827": {
+    "type": "general_equipment",
+    "name": "#13 DT"
+  },
+  "2828": {
+    "type": "general_equipment",
+    "name": "#14 DT - Empty"
+  },
+  "2829": {
+    "type": "general_equipment",
+    "name": "#15 DT"
+  },
+  "2830": {
+    "type": "general_equipment",
+    "name": "#16 DT"
+  },
+  "2831": {
+    "type": "general_equipment",
+    "name": "#17 DT"
+  },
+  "2832": {
+    "type": "general_equipment",
+    "name": "#18 DT"
+  },
+  "2833": {
+    "type": "general_equipment",
+    "name": "#19 DT"
+  },
+  "2834": {
+    "type": "general_equipment",
+    "name": "#20 DT"
+  },
+  "2835": {
+    "type": "general_equipment",
+    "name": "#21 DT"
+  },
+  "2836": {
+    "type": "general_equipment",
+    "name": "#22 DT"
+  },
+  "2837": {
+    "type": "general_equipment",
+    "name": "#23 DT"
+  },
+  "2838": {
+    "type": "general_equipment",
+    "name": "#24 DT"
+  },
+  "2839": {
+    "type": "general_equipment",
+    "name": "#25 DT"
+  },
+  "2840": {
+    "type": "spray_booth",
+    "name": "VersaSpa Pro #12 DT"
+  },
+  "2841": {
+    "type": "spray_booth",
+    "name": "VersaSpa Pro #13 DT"
+  },
+  "2843": {
+    "type": "sun_bed",
+    "name": "Sunrise 480 Stand Up #15 DT"
+  },
+  "2844": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #16 DT"
+  },
+  "2846": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #20 DT"
+  },
+  "2847": {
+    "type": "spray_booth",
+    "name": "Well System Wave #19 DT"
+  },
+  "2848": {
+    "type": "spray_booth",
+    "name": "Revive Lay Down #17 DT"
+  },
+  "2849": {
+    "type": "sun_bed",
+    "name": "Vitality TLT #23 DT"
+  },
+  "2850": {
+    "type": "sun_bed",
+    "name": "Vitality TLT #24 DT"
+  },
+  "2851": {
+    "type": "sun_bed",
+    "name": "Sunrise Hybrid 7200 Stand Up #25 DT"
+  },
+  "2853": {
+    "type": "general_equipment",
+    "name": "Technology DT"
+  },
+  "2854": {
+    "type": "general_equipment",
+    "name": "Cameras DT"
+  },
+  "2855": {
+    "type": "general_equipment",
+    "name": "TMAX DT"
+  },
+  "2856": {
+    "type": "general_equipment",
+    "name": "Internet DT"
+  },
+  "2857": {
+    "type": "general_equipment",
+    "name": "Computers DT"
+  },
+  "2858": {
+    "type": "general_equipment",
+    "name": "Computer DT 1"
+  },
+  "2859": {
+    "type": "general_equipment",
+    "name": "Computer DT 2 "
+  },
+  "2862": {
+    "type": "general_equipment",
+    "name": "Phones DT"
+  },
+  "2864": {
+    "type": "sun_bed",
+    "name": "Sunrise Hybrid 7200 #23 TY"
+  },
+  "2865": {
+    "type": "spray_booth",
+    "name": "Revive Lay Down #15 TY"
+  },
+  "2866": {
+    "type": "sun_bed",
+    "name": "Sunrise 480 #19 TY"
+  },
+  "2867": {
+    "type": "sun_bed",
+    "name": "Vitality TLT #24 TY"
+  },
+  "2868": {
+    "type": "sun_bed",
+    "name": "Spirit 42/3 #20 TY"
+  },
+  "2869": {
+    "type": "sun_bed",
+    "name": "Prestige 1600 #21 TY"
+  },
+  "2870": {
+    "type": "sun_bed",
+    "name": "Open Sun 1050 #22 TY"
+  },
+  "2872": {
+    "type": "general_equipment",
+    "name": "#25 TY"
+  },
+  "2873": {
+    "type": "general_equipment",
+    "name": "#24 TY"
+  },
+  "2874": {
+    "type": "general_equipment",
+    "name": "#23 TY"
+  },
+  "2875": {
+    "type": "general_equipment",
+    "name": "#22 TY"
+  },
+  "2876": {
+    "type": "general_equipment",
+    "name": "#21 TY"
+  },
+  "2877": {
+    "type": "general_equipment",
+    "name": "#20 TY"
+  },
+  "2878": {
+    "type": "general_equipment",
+    "name": "#19 TY"
+  },
+  "2879": {
+    "type": "general_equipment",
+    "name": "#18 TY"
+  },
+  "2880": {
+    "type": "general_equipment",
+    "name": "#17 TY"
+  },
+  "2881": {
+    "type": "general_equipment",
+    "name": "#16 TY"
+  },
+  "2882": {
+    "type": "general_equipment",
+    "name": "#15 TY"
+  },
+  "2883": {
+    "type": "general_equipment",
+    "name": "#14 TY"
+  },
+  "2884": {
+    "type": "general_equipment",
+    "name": "#13 TY"
+  },
+  "2885": {
+    "type": "general_equipment",
+    "name": "#12 TY"
+  },
+  "2886": {
+    "type": "general_equipment",
+    "name": "#11 TY"
+  },
+  "2887": {
+    "type": "spray_booth",
+    "name": "VersaSpa Pro #11 TY"
+  },
+  "2888": {
+    "type": "spray_booth",
+    "name": "VersaSpa Pro #12 TY"
+  },
+  "2889": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #13 TY"
+  },
+  "2890": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #18 TY"
+  },
+  "2891": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #14 TY"
+  },
+  "2892": {
+    "type": "general_equipment",
+    "name": "Dryer TY #2"
+  },
+  "2893": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher #2 TY"
+  },
+  "2894": {
+    "type": "general_equipment",
+    "name": "Washer TY #2"
+  },
+  "2895": {
+    "type": "general_equipment",
+    "name": "Eco Washer TY #2"
+  },
+  "2896": {
+    "type": "general_equipment",
+    "name": "Computers TY"
+  },
+  "2897": {
+    "type": "general_equipment",
+    "name": "Computer 1 TY"
+  },
+  "2898": {
+    "type": "general_equipment",
+    "name": "Computer 2 TY"
+  },
+  "2901": {
+    "type": "general_equipment",
+    "name": "Computer 3 TY"
+  },
+  "2902": {
+    "type": "general_equipment",
+    "name": "Lockbox Unit A"
+  },
+  "2903": {
+    "type": "general_equipment",
+    "name": "Lockbox Unit B"
+  },
+  "2904": {
+    "type": "general_equipment",
+    "name": "#11 HV"
+  },
+  "2905": {
+    "type": "sun_bed",
+    "name": "Passion 40/3 #15 WL"
+  },
+  "2906": {
+    "type": "general_equipment",
+    "name": "#28 MK"
+  },
+  "2907": {
+    "type": "general_equipment",
+    "name": "#29 MK"
+  },
+  "2908": {
+    "type": "general_equipment",
+    "name": "#30 MK"
+  },
+  "2909": {
+    "type": "spray_booth",
+    "name": "Beauty Angel 7200 #28 MK"
+  },
+  "2910": {
+    "type": "sun_bed",
+    "name": "Vitality TLT #29 MK"
+  },
+  "2911": {
+    "type": "sun_bed",
+    "name": "KBL P9 HybridSun #30 MK"
+  },
+  "2913": {
+    "type": "general_equipment",
+    "name": "AC/Heat 1 RW "
+  },
+  "2915": {
+    "type": "general_equipment",
+    "name": "Maytag Washer RW"
+  },
+  "2916": {
+    "type": "general_equipment",
+    "name": "Eco Washer  RW"
+  },
+  "2917": {
+    "type": "general_equipment",
+    "name": "Maytag Dryer 1 RW"
+  },
+  "2918": {
+    "type": "general_equipment",
+    "name": "Maytag Dryer 2 RW"
+  },
+  "2919": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher 1 RW"
+  },
+  "2920": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher 2  RW"
+  },
+  "2921": {
+    "type": "general_equipment",
+    "name": "AC/Heat 2 RW"
+  },
+  "2923": {
+    "type": "general_equipment",
+    "name": "Breaker Panels RW"
+  },
+  "2924": {
+    "type": "general_equipment",
+    "name": "Panel 1  RW"
+  },
+  "2925": {
+    "type": "general_equipment",
+    "name": "Panel 2 RW"
+  },
+  "2927": {
+    "type": "general_equipment",
+    "name": "AC/Heat 1 WF"
+  },
+  "2929": {
+    "type": "general_equipment",
+    "name": "Maytag Washer RW - Copy"
+  },
+  "2930": {
+    "type": "general_equipment",
+    "name": "Eco Washer  WF"
+  },
+  "2931": {
+    "type": "general_equipment",
+    "name": "Maytag Dryer 1 WF"
+  },
+  "2932": {
+    "type": "general_equipment",
+    "name": "Maytag Dryer 2 WF"
+  },
+  "2933": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher 1 WF"
+  },
+  "2934": {
+    "type": "general_equipment",
+    "name": "Fire Extinguisher 2  WF"
+  },
+  "2935": {
+    "type": "general_equipment",
+    "name": "AC/Heat 2 WF"
+  },
+  "2936": {
+    "type": "general_equipment",
+    "name": "Breaker Panels WF"
+  },
+  "2937": {
+    "type": "general_equipment",
+    "name": "Panel 1  WF"
+  },
+  "2938": {
+    "type": "general_equipment",
+    "name": "Panel 2 WF"
+  },
+  "2954": {
+    "type": "general_equipment",
+    "name": "13 WF"
+  },
+  "2955": {
+    "type": "general_equipment",
+    "name": "14 WF"
+  },
+  "2956": {
+    "type": "general_equipment",
+    "name": "15 WF"
+  },
+  "2957": {
+    "type": "general_equipment",
+    "name": "16 WF"
+  },
+  "2958": {
+    "type": "general_equipment",
+    "name": "17 WF"
+  },
+  "2959": {
+    "type": "general_equipment",
+    "name": "18 WF"
+  },
+  "2960": {
+    "type": "general_equipment",
+    "name": "19 WF"
+  },
+  "2961": {
+    "type": "general_equipment",
+    "name": "20 WF"
+  },
+  "2962": {
+    "type": "general_equipment",
+    "name": "21 WF"
+  },
+  "2963": {
+    "type": "general_equipment",
+    "name": "22 WF"
+  },
+  "2964": {
+    "type": "general_equipment",
+    "name": "23 WF"
+  },
+  "2965": {
+    "type": "general_equipment",
+    "name": "24 WF"
+  },
+  "2966": {
+    "type": "general_equipment",
+    "name": "25 WF"
+  },
+  "2967": {
+    "type": "sun_bed",
+    "name": "Sunrise 480 Stand Up #14 WF"
+  },
+  "2968": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #16 WF"
+  },
+  "2969": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #18 WF"
+  },
+  "2970": {
+    "type": "spray_booth",
+    "name": "Revive Lay Down #20 WF"
+  },
+  "2972": {
+    "type": "sun_bed",
+    "name": "Vitality TLT #25 WF"
+  },
+  "2973": {
+    "type": "sun_bed",
+    "name": "Vitality TLT #24 WF"
+  },
+  "2975": {
+    "type": "sun_bed",
+    "name": "Sunrise 7200 Hybrid Stand Up #21 WF"
+  },
+  "2977": {
+    "type": "spray_booth",
+    "name": "Well System Wave #17"
+  },
+  "2978": {
+    "type": "spray_booth",
+    "name": "VersaSpa Pro #13 WF"
+  },
+  "2980": {
+    "type": "spray_booth",
+    "name": "VersaSpa Pro #15 WF"
+  },
+  "2981": {
+    "type": "general_equipment",
+    "name": "Technology WF"
+  },
+  "2982": {
+    "type": "general_equipment",
+    "name": "TMAX WF"
+  },
+  "2983": {
+    "type": "general_equipment",
+    "name": "Internet YM - Copy"
+  },
+  "2984": {
+    "type": "general_equipment",
+    "name": "Computer #1  WF"
+  },
+  "2985": {
+    "type": "general_equipment",
+    "name": "Phones WF"
+  },
+  "2986": {
+    "type": "general_equipment",
+    "name": "Cameras  WF"
+  },
+  "2988": {
+    "type": "general_equipment",
+    "name": "Computer #2 WF"
+  },
+  "2989": {
+    "type": "general_equipment",
+    "name": "Computer #3 WF"
+  },
+  "2991": {
+    "type": "general_equipment",
+    "name": "13 WF - Copy"
+  },
+  "2992": {
+    "type": "spray_booth",
+    "name": "VersaSpa Pro #13 RW"
+  },
+  "2993": {
+    "type": "general_equipment",
+    "name": "14 RW"
+  },
+  "2994": {
+    "type": "sun_bed",
+    "name": "Sunrise 480 Stand Up #16 RW"
+  },
+  "2995": {
+    "type": "general_equipment",
+    "name": "15 RW"
+  },
+  "2997": {
+    "type": "general_equipment",
+    "name": "16 RW"
+  },
+  "2998": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #19 RW"
+  },
+  "2999": {
+    "type": "general_equipment",
+    "name": "17 RW"
+  },
+  "3000": {
+    "type": "spray_booth",
+    "name": "Well System Wave #17 RW"
+  },
+  "3001": {
+    "type": "general_equipment",
+    "name": "18 RW"
+  },
+  "3003": {
+    "type": "general_equipment",
+    "name": "19 RW"
+  },
+  "3005": {
+    "type": "general_equipment",
+    "name": "20  RW"
+  },
+  "3006": {
+    "type": "spray_booth",
+    "name": "Revive Lay Down #15 RW"
+  },
+  "3007": {
+    "type": "general_equipment",
+    "name": "21  RW"
+  },
+  "3008": {
+    "type": "sun_bed",
+    "name": "Sunrise 7200 Hybrid Stand Up #25  RW"
+  },
+  "3009": {
+    "type": "general_equipment",
+    "name": "22  RW"
+  },
+  "3011": {
+    "type": "general_equipment",
+    "name": "23  RW"
+  },
+  "3013": {
+    "type": "general_equipment",
+    "name": "24  RW"
+  },
+  "3014": {
+    "type": "sun_bed",
+    "name": "Vitality TLT #24 RW"
+  },
+  "3015": {
+    "type": "general_equipment",
+    "name": "25  RW"
+  },
+  "3016": {
+    "type": "sun_bed",
+    "name": "Vitality TLT #22  RW"
+  },
+  "3017": {
+    "type": "spray_booth",
+    "name": "VersaSpa Pro #14 RW"
+  },
+  "3018": {
+    "type": "sun_bed",
+    "name": "Spirit 42/3 #18 RW"
+  },
+  "3019": {
+    "type": "sun_bed",
+    "name": "Prestige 1600 #20 RW"
+  },
+  "3020": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #21 RW"
+  },
+  "3021": {
+    "type": "general_equipment",
+    "name": "Technology  RW"
+  },
+  "3022": {
+    "type": "general_equipment",
+    "name": "TMAX  RW"
+  },
+  "3023": {
+    "type": "general_equipment",
+    "name": "Internet  RW"
+  },
+  "3024": {
+    "type": "general_equipment",
+    "name": "Computer #1  RW"
+  },
+  "3025": {
+    "type": "general_equipment",
+    "name": "Phones  RW"
+  },
+  "3026": {
+    "type": "general_equipment",
+    "name": "Cameras  RW"
+  },
+  "3027": {
+    "type": "general_equipment",
+    "name": "Computer #2  RW"
+  },
+  "3028": {
+    "type": "general_equipment",
+    "name": "Computer #3  RW"
+  },
+  "3029": {
+    "type": "spray_booth",
+    "name": "Revive Lay Down #7 ROA"
+  },
+  "3031": {
+    "type": "sun_bed",
+    "name": "Spirit 42/3 #23 WF"
+  },
+  "3032": {
+    "type": "general_equipment",
+    "name": "Dryer Pro 1"
+  },
+  "3033": {
+    "type": "general_equipment",
+    "name": "Washer Pro 2"
+  },
+  "3034": {
+    "type": "general_equipment",
+    "name": "Eco Washer Pro 2"
+  },
+  "3035": {
+    "type": "spray_booth",
+    "name": "VersaSpa Pro #12 HV"
+  },
+  "3038": {
+    "type": "sun_bed",
+    "name": " Vitality TLT #25 HV"
+  },
+  "3039": {
+    "type": "general_equipment",
+    "name": "Technology WL"
+  },
+  "3040": {
+    "type": "general_equipment",
+    "name": "Cameras WL"
+  },
+  "3041": {
+    "type": "general_equipment",
+    "name": "TMAX WL"
+  },
+  "3042": {
+    "type": "general_equipment",
+    "name": "Internet WL"
+  },
+  "3043": {
+    "type": "general_equipment",
+    "name": "Computers WL"
+  },
+  "3044": {
+    "type": "general_equipment",
+    "name": "Computer 3 WL"
+  },
+  "3045": {
+    "type": "general_equipment",
+    "name": "Computer 2 WL"
+  },
+  "3046": {
+    "type": "general_equipment",
+    "name": "Computer 1 WL"
+  },
+  "3048": {
+    "type": "general_equipment",
+    "name": "Phones WL"
+  },
+  "3050": {
+    "type": "sun_bed",
+    "name": "Fire Extinguisher #1 WL"
+  },
+  "3051": {
+    "type": "sun_bed",
+    "name": "Fire Extinguisher #2 WL"
+  },
+  "3054": {
+    "type": "general_equipment",
+    "name": "AC/Heat WL 1"
+  },
+  "3055": {
+    "type": "general_equipment",
+    "name": "Washer/Dryer WL"
+  },
+  "3056": {
+    "type": "general_equipment",
+    "name": "Eco Washer #1 WL"
+  },
+  "3057": {
+    "type": "general_equipment",
+    "name": "Maytag front load washer #2 WL"
+  },
+  "3058": {
+    "type": "general_equipment",
+    "name": "Maytag Dryer #1 WL"
+  },
+  "3059": {
+    "type": "general_equipment",
+    "name": "Maytag front load washer #1 WL"
+  },
+  "3060": {
+    "type": "general_equipment",
+    "name": "Eco Washer #2 WL"
+  },
+  "3061": {
+    "type": "general_equipment",
+    "name": "AC/Heat WL 2"
+  },
+  "3063": {
+    "type": "general_equipment",
+    "name": "Breaker Panels WL"
+  },
+  "3064": {
+    "type": "general_equipment",
+    "name": "Panel WL 2"
+  },
+  "3065": {
+    "type": "general_equipment",
+    "name": "Panel WL 1"
+  },
+  "3067": {
+    "type": "general_equipment",
+    "name": "Distilled Water System - CONTACT LOCAL REP. Only make ticket here if local rep has not resolved problem within 48hrs! WL"
+  },
+  "3068": {
+    "type": "general_equipment",
+    "name": "Maytag Dryer #2 WL"
+  },
+  "3071": {
+    "type": "general_equipment",
+    "name": "#15 WL"
+  },
+  "3072": {
+    "type": "general_equipment",
+    "name": "#16 WL"
+  },
+  "3073": {
+    "type": "general_equipment",
+    "name": "#17 WL"
+  },
+  "3074": {
+    "type": "general_equipment",
+    "name": "#18 WL"
+  },
+  "3075": {
+    "type": "general_equipment",
+    "name": "#19 WL"
+  },
+  "3076": {
+    "type": "general_equipment",
+    "name": "#20 WL"
+  },
+  "3077": {
+    "type": "general_equipment",
+    "name": "#21 WL"
+  },
+  "3078": {
+    "type": "general_equipment",
+    "name": "#22 WL"
+  },
+  "3079": {
+    "type": "general_equipment",
+    "name": "#23 WL"
+  },
+  "3080": {
+    "type": "general_equipment",
+    "name": "#24 WL"
+  },
+  "3081": {
+    "type": "general_equipment",
+    "name": "#25 WL"
+  },
+  "3082": {
+    "type": "general_equipment",
+    "name": "#26 WL"
+  },
+  "3083": {
+    "type": "general_equipment",
+    "name": "#27 WL"
+  },
+  "3084": {
+    "type": "general_equipment",
+    "name": "#28 WL"
+  },
+  "3085": {
+    "type": "general_equipment",
+    "name": "#29 WL"
+  },
+  "3086": {
+    "type": "general_equipment",
+    "name": "#30 WL"
+  },
+  "3087": {
+    "type": "sun_bed",
+    "name": " Vitality TLT #30 WL"
+  },
+  "3088": {
+    "type": "sun_bed",
+    "name": " Vitality TLT #29 WL"
+  },
+  "3089": {
+    "type": "sun_bed",
+    "name": "Sunrise Hybrid 7200 Stand Up #28 WL"
+  },
+  "3092": {
+    "type": "spray_booth",
+    "name": "Wellsystem #25 WL"
+  },
+  "3093": {
+    "type": "sun_bed",
+    "name": "Open Sun 1050 #24 WL"
+  },
+  "3095": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #22 WL"
+  },
+  "3096": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #21 WL"
+  },
+  "3097": {
+    "type": "spray_booth",
+    "name": "Revive Lay Down #20 WL"
+  },
+  "3098": {
+    "type": "sun_bed",
+    "name": "Sunrise 480 Stand Up #19 WL"
+  },
+  "3099": {
+    "type": "spray_booth",
+    "name": "VersaSpa Pro #18 WL"
+  },
+  "3100": {
+    "type": "spray_booth",
+    "name": "VersaSpa Pro #17 WL"
+  },
+  "3101": {
+    "type": "spray_booth",
+    "name": "Skin Wellness #16 WL"
+  },
+  "3104": {
+    "type": "spray_booth",
+    "name": "Massage Chair #1 WL"
+  },
+  "3105": {
+    "type": "spray_booth",
+    "name": "Massage Chair #2 WL"
+  },
+  "3106": {
+    "type": "spray_booth",
+    "name": "Revive Lay Down #15 ES"
+  },
+  "3107": {
+    "type": "spray_booth",
+    "name": "Revive Lay Down #25 LE"
+  },
+  "3108": {
+    "type": "spray_booth",
+    "name": "Revive Lay Down #12 KLR"
+  },
+  "3109": {
+    "type": "sun_bed",
+    "name": " Vitality TLT #25 HUL"
+  },
+  "3110": {
+    "type": "spray_booth",
+    "name": "New Sauna Coming Soon!"
+  },
+  "3111": {
+    "type": "general_equipment",
+    "name": "Technology TY"
+  },
+  "3112": {
+    "type": "general_equipment",
+    "name": "Cameras TY"
+  },
+  "3113": {
+    "type": "general_equipment",
+    "name": "TMAX TY"
+  },
+  "3114": {
+    "type": "general_equipment",
+    "name": "Internet  TY"
+  },
+  "3115": {
+    "type": "general_equipment",
+    "name": "Computers  TY"
+  },
+  "3116": {
+    "type": "general_equipment",
+    "name": "Computer 1  TY"
+  },
+  "3117": {
+    "type": "general_equipment",
+    "name": "Computer 2  TY"
+  },
+  "3118": {
+    "type": "general_equipment",
+    "name": "Computer 3  TY"
+  },
+  "3120": {
+    "type": "general_equipment",
+    "name": "Phones TY"
+  },
+  "3121": {
+    "type": "general_equipment",
+    "name": "Dryer NE"
+  },
+  "3122": {
+    "type": "general_equipment",
+    "name": "Washer"
+  },
+  "3123": {
+    "type": "general_equipment",
+    "name": "Dryer"
+  },
+  "3124": {
+    "type": "sun_bed",
+    "name": "Vitality TLT #39 ALL"
+  },
+  "3125": {
+    "type": "general_equipment",
+    "name": "Dryer CP"
+  },
+  "3126": {
+    "type": "general_equipment",
+    "name": "AC/Heat- 2 CP"
+  },
+  "3127": {
+    "type": "spray_booth",
+    "name": "Massage Chair 1 DAL"
+  },
+  "3128": {
+    "type": "spray_booth",
+    "name": "Massage Chair 2 DAL"
+  },
+  "3129": {
+    "type": "spray_booth",
+    "name": "Massage Chair 1 GL"
+  },
+  "3130": {
+    "type": "spray_booth",
+    "name": "Massage Chair 2 GL"
+  },
+  "3131": {
+    "type": "general_equipment",
+    "name": "Washer GL"
+  },
+  "3132": {
+    "type": "general_equipment",
+    "name": "Dryer GL"
+  },
+  "3133": {
+    "type": "spray_booth",
+    "name": "Massage Chair HV 1"
+  },
+  "3134": {
+    "type": "spray_booth",
+    "name": "Massage Chair HV 2"
+  },
+  "3135": {
+    "type": "sun_bed",
+    "name": " Vitality TLT #23 HUL"
+  },
+  "3136": {
+    "type": "spray_booth",
+    "name": "Massage Chair 1 KLR"
+  },
+  "3137": {
+    "type": "spray_booth",
+    "name": "Massage Chair 2 KLR"
+  },
+  "3138": {
+    "type": "general_equipment",
+    "name": "Washer LE"
+  },
+  "3139": {
+    "type": "spray_booth",
+    "name": "Revive Lay Down #11 WW"
+  },
+  "3141": {
+    "type": "general_equipment",
+    "name": "Fujimi Massage Chair 1 CP"
+  },
+  "3142": {
+    "type": "general_equipment",
+    "name": "Fujimi Massage Chair 2 CP"
+  },
+  "3143": {
+    "type": "general_equipment",
+    "name": "Washer/Dryer Unimac Stacked ES"
+  },
+  "3144": {
+    "type": "general_equipment",
+    "name": "Eco Washer ES - Copy"
+  },
+  "3145": {
+    "type": "general_equipment",
+    "name": "#28 EW"
+  },
+  "3146": {
+    "type": "general_equipment",
+    "name": "#29 EW"
+  },
+  "3147": {
+    "type": "general_equipment",
+    "name": "#30 EW"
+  },
+  "3149": {
+    "type": "spray_booth",
+    "name": "Wellsystem Wavew #26 EW"
+  },
+  "3150": {
+    "type": "spray_booth",
+    "name": "Revive Lay Down #24 EW"
+  },
+  "3151": {
+    "type": "spray_booth",
+    "name": "VersaSpa Pro #21 EW"
+  },
+  "3152": {
+    "type": "general_equipment",
+    "name": "Dryer ROA"
+  }
+}

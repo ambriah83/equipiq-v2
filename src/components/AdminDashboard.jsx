@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { BarChart, Bar, LineChart, Line, PieChart, Pie, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
-import { AlertCircle, CheckCircle, Upload, Search, TrendingUp, Users, MessageSquare, Database, Trash2, Edit, Eye, FileText, X, ChevronRight, Filter } from 'lucide-react';
+import { AlertCircle, CheckCircle, Upload, Search, TrendingUp, Users, MessageSquare, Database, Trash2, Edit, Eye, FileText, X, ChevronRight, Filter, Brain } from 'lucide-react';
 import KnowledgeBaseManager from './KnowledgeBaseManager';
+import FineTuningManager from './FineTuningManager';
 
 const AdminDashboard = ({ supabase, user }) => {
   const [activeTab, setActiveTab] = useState('overview');
@@ -15,6 +16,26 @@ const AdminDashboard = ({ supabase, user }) => {
   });
   const [recentQueries, setRecentQueries] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [isAdmin, setIsAdmin] = useState(false);
+  const [checkingAccess, setCheckingAccess] = useState(true);
+
+  // Check admin access
+  useEffect(() => {
+    const checkAdminAccess = async () => {
+      try {
+        const { data, error } = await supabase.rpc('is_admin');
+        if (error) throw error;
+        setIsAdmin(data === true);
+      } catch (error) {
+        console.error('Error checking admin access:', error);
+        setIsAdmin(false);
+      } finally {
+        setCheckingAccess(false);
+      }
+    };
+    
+    checkAdminAccess();
+  }, [supabase]);
 
   // Fetch real data from Supabase
   useEffect(() => {
@@ -71,11 +92,21 @@ const AdminDashboard = ({ supabase, user }) => {
     { id: 'overview', label: 'Overview', icon: TrendingUp },
     { id: 'queries', label: 'Queries', icon: MessageSquare },
     { id: 'knowledge', label: 'Knowledge Base', icon: Database },
+    { id: 'finetuning', label: 'Fine-tuning', icon: Brain },
     { id: 'users', label: 'Users', icon: Users }
   ];
 
+  // Show loading spinner while checking access
+  if (checkingAccess) {
+    return (
+      <div className="flex-1 flex items-center justify-center">
+        <div className="w-8 h-8 border-4 border-blue-600 border-t-transparent rounded-full animate-spin"></div>
+      </div>
+    );
+  }
+
   // Check if user is admin
-  if (user?.email !== 'ambriahatcher@gmail.com') {
+  if (!isAdmin) {
     return (
       <div className="flex-1 flex items-center justify-center">
         <div className="text-center">
@@ -271,6 +302,11 @@ const AdminDashboard = ({ supabase, user }) => {
             {/* Knowledge Base Tab */}
             {activeTab === 'knowledge' && (
               <KnowledgeBaseManager supabase={supabase} />
+            )}
+
+            {/* Fine-tuning Tab */}
+            {activeTab === 'finetuning' && (
+              <FineTuningManager supabase={supabase} />
             )}
 
             {/* Users Tab */}
