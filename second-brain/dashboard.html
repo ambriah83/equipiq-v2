@@ -60,13 +60,15 @@
     display: grid; place-items: center;
     color: var(--accent);
   }
-  .osname { font-family: var(--font-display); font-size: 17px; letter-spacing: .04em; }
+  .osname { font-family: var(--font-display); font-size: 18px; letter-spacing: .04em; }
   .osname b { color: var(--accent); font-weight: 600; }
   .osowner { font-family: var(--font-mono); font-size: 10px; color: var(--ink-dim); letter-spacing: .12em; text-transform: uppercase; }
   .osbar .meta { margin-left: auto; font-family: var(--font-mono); font-size: 10px; color: var(--ink-dim); text-align: right; line-height: 1.5; }
   .osbar .meta b { color: var(--ink); font-weight: 500; }
 
   .col { display: flex; flex-direction: column; gap: 14px; min-width: 0; }
+  .col > .panel:last-child { flex: 1 1 auto; display: flex; flex-direction: column; }
+  .col > .panel:last-child > *:nth-child(2) { flex: 1; }
 
   .panel {
     background: var(--panel);
@@ -129,7 +131,7 @@
   .legend .sw { width: 8px; height: 8px; border-radius: 50%; flex: none; }
   .hint {
     position: absolute; right: 14px; bottom: 12px;
-    font-family: var(--font-mono); font-size: 9px; color: var(--ink-faint);
+    font-family: var(--font-mono); font-size: 9px; color: var(--ink-dim);
     text-align: right; line-height: 1.6;
   }
   #tooltip {
@@ -167,7 +169,7 @@
   .apps-list { display: flex; flex-direction: column; gap: 2px; }
   .apps-list .app {
     display: flex; align-items: center; gap: 10px;
-    padding: 7px 8px; border-radius: 6px; color: var(--ink);
+    padding: 7px 8px; margin: 0 -8px; border-radius: 6px; color: var(--ink);
   }
   .apps-list .app:hover { background: var(--accent-soft); }
   .apps-list .ico {
@@ -183,44 +185,106 @@
   .tzrow { display: flex; gap: 14px; margin-bottom: 12px; flex-wrap: wrap; }
   .tz { font-family: var(--font-mono); font-size: 10px; color: var(--ink-dim); }
   .tz b { display: block; color: var(--ink); font-size: 12px; font-weight: 500; font-variant-numeric: tabular-nums; }
-  .weeks { display: grid; grid-template-columns: repeat(13, 1fr); gap: 3px; margin-bottom: 12px; }
+  .weeks { display: grid; grid-template-columns: 22px repeat(13, 1fr); gap: 3px; margin-bottom: 12px; align-items: center; }
+  .weeks .q { font-family: var(--font-mono); font-size: 8px; letter-spacing: .08em; color: var(--ink-faint); }
   .weeks i { display: block; aspect-ratio: 1; background: var(--panel-edge); border-radius: 1px; }
   .weeks i.on { background: var(--olive); }
   .weeks i.now { background: var(--accent); }
   .agenda { border-top: 1px solid var(--panel-edge); padding-top: 10px; display: flex; flex-direction: column; gap: 6px; }
-  .agenda .ev { display: flex; justify-content: space-between; font-size: 12px; }
-  .agenda .ev .t { font-family: var(--font-mono); font-size: 10.5px; color: var(--ink-dim); font-variant-numeric: tabular-nums; }
+  .agenda .ev { display: grid; grid-template-columns: 1fr auto 40px; gap: 8px; align-items: center; font-size: 12px; }
+  .agenda .ev.past { opacity: .45; }
+  .agenda .ev .tag {
+    font-family: var(--font-mono); font-size: 8px; letter-spacing: .1em;
+    color: var(--accent); border: 1px solid rgba(229,138,58,.5);
+    padding: 1px 5px; border-radius: 3px;
+  }
+  .agenda .ev .t { font-family: var(--font-mono); font-size: 10.5px; color: var(--ink-dim); font-variant-numeric: tabular-nums; text-align: right; }
 
-  .stats { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-  .stat { border: 1px solid var(--panel-edge); border-radius: 7px; padding: 10px 12px; }
-  .stat b { display: block; font-family: var(--font-display); font-size: 21px; font-weight: 600; color: var(--ink); font-variant-numeric: tabular-nums; }
-  .stat span { font-family: var(--font-mono); font-size: 9px; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-dim); }
+  .stats { display: flex; flex-direction: column; gap: 12px; }
+  .stat-hero b { display: block; font-family: var(--font-display); font-size: 32px; font-weight: 600; color: var(--ink); font-variant-numeric: tabular-nums; line-height: 1.05; }
+  .stat-hero span { font-family: var(--font-mono); font-size: 9px; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-dim); }
+  .stat-hero .sub { font-family: var(--font-mono); font-size: 10px; color: var(--ink-faint); margin-top: 5px; }
+  .stat-row { display: flex; justify-content: space-between; border-top: 1px solid var(--panel-edge); padding-top: 10px; }
+  .stat-min b { display: block; font-family: var(--font-display); font-size: 15px; font-weight: 600; color: var(--ink); font-variant-numeric: tabular-nums; }
+  .stat-min span { font-family: var(--font-mono); font-size: 8.5px; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-dim); }
+  .dept-bars { border-top: 1px solid var(--panel-edge); padding-top: 10px; display: flex; flex-direction: column; gap: 7px; }
+  .dept-bars .db { display: grid; grid-template-columns: 62px 1fr 44px; gap: 8px; align-items: center; }
+  .dept-bars .db span { font-family: var(--font-mono); font-size: 9px; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-dim); }
+  .dept-bars .db .n { text-align: right; color: var(--ink); font-variant-numeric: tabular-nums; }
+  .dept-bars .bar { height: 4px; border-radius: 2px; background: var(--panel-edge); overflow: hidden; }
+  .dept-bars .bar i { display: block; height: 100%; border-radius: 2px; }
 
   .inbox-num { font-family: var(--font-display); font-size: 34px; font-weight: 600; color: var(--ink); line-height: 1; }
-  .inbox-note { font-size: 11px; color: var(--ink-dim); margin-top: 8px; line-height: 1.6; }
+  .inbox-note { font-size: 11px; color: var(--ink-dim); margin-top: 8px; line-height: 1.8; }
+  .inbox-note code {
+    font-family: var(--font-mono); font-size: 9.5px; color: var(--ink-dim);
+    background: var(--ground); border: 1px solid var(--panel-edge);
+    padding: 1px 6px; border-radius: 4px;
+  }
 
-  .deck { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-  .deck .card { border: 1px solid var(--panel-edge); border-radius: 7px; padding: 10px 12px; display: flex; flex-direction: column; gap: 7px; }
-  .deck .sk { font-family: var(--font-mono); font-size: 11.5px; color: var(--ink); word-break: break-all; }
+  .deck { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr); gap: 10px; }
+  .deck .card { min-width: 0; border: 1px solid var(--panel-edge); border-radius: 7px; padding: 10px 12px; display: flex; flex-direction: column; gap: 8px; }
+  .deck .sk { font-family: var(--font-mono); font-size: 11px; color: var(--ink); overflow-wrap: break-word; line-height: 1.45; }
   .deck .sk::before { content: "/"; color: var(--accent); }
+  .deck .foot { display: flex; flex-direction: column; gap: 7px; margin-top: auto; min-width: 0; }
   .deck select {
+    appearance: none; -webkit-appearance: none;
     background: var(--ground); color: var(--ink-dim);
     border: 1px solid var(--panel-edge); border-radius: 4px;
-    font-family: var(--font-mono); font-size: 9px; padding: 2px 4px;
+    font-family: var(--font-mono); font-size: 9px; padding: 3px 15px 3px 6px;
+    min-width: 0; flex: 1 1 0;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7' height='5'%3E%3Cpath d='M0 0l3.5 5L7 0z' fill='%238e8b7e'/%3E%3C/svg%3E");
+    background-repeat: no-repeat; background-position: right 5px center;
   }
-  .deck .opts { display: flex; gap: 5px; }
+  .deck select:focus { outline: none; border-color: var(--accent); }
+  .deck .opts { display: flex; gap: 5px; min-width: 0; }
+  .deck .run { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .routines { display: flex; flex-direction: column; }
   .routines .rt {
-    display: grid; grid-template-columns: 44px 1fr auto; gap: 10px; align-items: center;
-    padding: 7px 6px; border-radius: 5px; font-size: 12px;
+    display: grid; grid-template-columns: 44px 1fr auto; gap: 10px; align-items: start;
+    padding: 11px 6px; border-radius: 5px; font-size: 12px;
   }
   .routines .rt.next { background: var(--accent-soft); }
-  .routines .tm { font-family: var(--font-mono); font-size: 11px; color: var(--ink-dim); font-variant-numeric: tabular-nums; }
+  .routines .tm { font-family: var(--font-mono); font-size: 11px; color: var(--ink-dim); font-variant-numeric: tabular-nums; padding-top: 2px; }
   .routines .rt.next .tm { color: var(--accent); }
-  .routines .rn { font-family: var(--font-mono); font-size: 8.5px; letter-spacing: .1em; color: var(--ink-faint); display: block; }
-  .routines .st { font-family: var(--font-mono); font-size: 9px; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-faint); }
+  .routines .rn { font-family: var(--font-mono); font-size: 8.5px; letter-spacing: .1em; color: var(--ink-faint); display: block; margin-top: 4px; }
+  .routines .st { font-family: var(--font-mono); font-size: 9px; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-faint); padding-top: 2px; }
   .routines .rt.next .st { color: var(--accent); }
   .routines .rt.fired .st { color: var(--good); }
+  .routines .rt-line { margin-top: auto; padding-top: 14px; }
+  .routines .rt-line .lbl {
+    font-family: var(--font-mono); font-size: 8px; letter-spacing: .16em;
+    text-transform: uppercase; color: var(--ink-faint); margin-bottom: 8px;
+  }
+  .routines .track { position: relative; height: 4px; border-radius: 2px; background: var(--panel-edge); margin: 0 2px 18px; }
+  .routines .track .tick {
+    position: absolute; top: 50%; width: 7px; height: 7px;
+    transform: translate(-50%, -50%) rotate(45deg); border-radius: 1px;
+    background: var(--ink-faint);
+  }
+  .routines .track .tick.fired { background: var(--good); }
+  .routines .track .tick.next { background: var(--accent); box-shadow: 0 0 6px rgba(229,138,58,.8); }
+  .routines .track .tick .tt {
+    position: absolute; top: 10px; left: 50%; transform: translateX(-50%) rotate(-45deg);
+    font-family: var(--font-mono); font-size: 8px; color: var(--ink-faint); white-space: nowrap;
+  }
+  .routines .track .nowline {
+    position: absolute; top: -4px; bottom: -4px; width: 1px;
+    background: var(--ink); opacity: .55;
+  }
+  .routines .rt-foot {
+    padding-top: 12px; border-top: 1px solid var(--panel-edge);
+    font-family: var(--font-mono); font-size: 9.5px; letter-spacing: .14em;
+    text-transform: uppercase; color: var(--ink-dim); text-align: center;
+  }
+  .routines .rt-foot b { color: var(--accent); font-weight: 500; }
+  .deck-more {
+    grid-column: 1 / -1; font-family: var(--font-mono); font-size: 9px;
+    letter-spacing: .1em; text-transform: uppercase; color: var(--ink-faint);
+    text-align: center; padding-top: 2px;
+  }
+  .inbox-wire { font-size: 10px; color: var(--ink-faint); margin-top: 6px; }
+  .panel h2 .tag.quiet { background: var(--olive); }
 
   #toast {
     position: fixed; bottom: 22px; left: 50%; transform: translateX(-50%);
@@ -301,7 +365,7 @@
       <div class="inbox-note" id="inboxNote"></div>
     </section>
     <section class="panel">
-      <h2><span class="dot"></span>Skills Deck</h2>
+      <h2><span class="dot"></span>Skills Deck<span class="tag quiet" id="deckTag"></span></h2>
       <div class="deck" id="skillsDeck"></div>
     </section>
     <section class="panel">
@@ -338,25 +402,38 @@
   /* ================= widgets ================= */
   const cfg = DATA ? DATA.config : null;
   if (cfg) {
+    function relTime(iso) {
+      const s = (Date.now() - new Date(iso).getTime()) / 1000;
+      if (s < 90) return 'just now';
+      if (s < 5400) return `${Math.round(s / 60)} min ago`;
+      if (s < 129600) return `${Math.round(s / 3600)} h ago`;
+      return `${Math.round(s / 86400)} d ago`;
+    }
     $('osName').innerHTML = (cfg.osName || 'Agentic OS').replace(/^(\S+)/, '<b>$1</b>');
     document.title = cfg.osName || 'Agentic OS';
     $('osOwner').textContent = `${cfg.owner || ''} | ${cfg.org || ''}`;
     $('scanMeta').innerHTML =
       `<b>${DATA.meta.totalFiles.toLocaleString()}</b> files mapped &middot; <b>${DATA.skills.length}</b> skills &middot; <b>${DATA.apps.length}</b> apps<br>` +
-      `scanned ${new Date(DATA.meta.scannedAt).toLocaleString()} in ${DATA.meta.durationMs} ms`;
+      `scanned ${relTime(DATA.meta.scannedAt)} in ${DATA.meta.durationMs} ms`;
 
     $('microApps').innerHTML = (cfg.microApps || []).map((a) =>
       `<a class="app" href="${a.href || '#'}"><span class="ico">${a.name.slice(0, 1)}</span>` +
       `<span><span class="nm">${a.name}</span><br><span class="ds">${a.desc || ''}</span></span></a>`).join('');
 
     const home = (cfg.timezones || []).find((z) => z.home) || (cfg.timezones || [])[0] || { tz: undefined, label: 'LOCAL' };
+    function tzOffsetLabel(tz) {
+      const now = new Date();
+      const at = (z) => new Date(now.toLocaleString('en-US', { timeZone: z }));
+      const h = Math.round(((at(tz) - at(home.tz)) / 36e5) * 2) / 2;
+      return (h >= 0 ? '+' : '−') + Math.abs(h) + 'H';
+    }
     function tick() {
       const now = new Date();
-      $('clockBig').textContent = now.toLocaleTimeString('en-US', { timeZone: home.tz, hour12: true, hour: 'numeric', minute: '2-digit', second: '2-digit' });
+      $('clockBig').textContent = now.toLocaleTimeString('en-GB', { timeZone: home.tz, hour12: false, hour: '2-digit', minute: '2-digit', second: '2-digit' });
       const wk = isoWeek(now);
-      $('clockSub').textContent = `WK${wk} | ${now.toLocaleDateString('en-US', { timeZone: home.tz, month: 'short', day: 'numeric', year: 'numeric', weekday: 'short' })} · ${home.label}`;
+      $('clockSub').textContent = `WK${wk} · ${now.toLocaleDateString('en-US', { timeZone: home.tz, month: 'short', day: 'numeric', year: 'numeric', weekday: 'short' })} · ${home.label}`;
       $('tzRow').innerHTML = (cfg.timezones || []).filter((z) => !z.home).map((z) =>
-        `<span class="tz">${z.label} &#8600;<b>${now.toLocaleTimeString('en-US', { timeZone: z.tz, hour12: true, hour: 'numeric', minute: '2-digit' })}</b></span>`).join('');
+        `<span class="tz">${z.label} ${tzOffsetLabel(z.tz)}<b>${now.toLocaleTimeString('en-GB', { timeZone: z.tz, hour12: false, hour: '2-digit', minute: '2-digit' })}</b></span>`).join('');
     }
     function isoWeek(d) {
       const x = new Date(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()));
@@ -368,38 +445,78 @@
     setInterval(tick, 1000);
 
     const wk = isoWeek(new Date());
-    $('weekGrid').innerHTML = Array.from({ length: 52 }, (_, i) =>
-      `<i class="${i + 1 < wk ? 'on' : ''}${i + 1 === wk ? ' now' : ''}"></i>`).join('');
+    let wg = '';
+    for (let q = 0; q < 4; q++) {
+      wg += `<span class="q">Q${q + 1}</span>`;
+      for (let i = 0; i < 13; i++) {
+        const w = q * 13 + i + 1;
+        wg += `<i class="${w < wk ? 'on' : ''}${w === wk ? ' now' : ''}"></i>`;
+      }
+    }
+    $('weekGrid').innerHTML = wg;
 
-    $('agenda').innerHTML = (cfg.agenda || []).map((e) =>
-      `<div class="ev"><span>${e.name}</span><span class="t">${e.time}</span></div>`).join('') ||
+    const nowHM0 = new Date().toLocaleTimeString('en-GB', { timeZone: home.tz, hour: '2-digit', minute: '2-digit' });
+    const agendaList = (cfg.agenda || []).slice().sort((a, b) => a.time.localeCompare(b.time));
+    const nowIdx = agendaList.reduce((acc, e, i) => (e.time <= nowHM0 ? i : acc), -1);
+    const nextAg = agendaList.findIndex((e) => e.time > nowHM0);
+    $('agenda').innerHTML = agendaList.map((e, i) => {
+      const isNow = i === nowIdx;
+      const isNext = i === nextAg;
+      const cls = e.time <= nowHM0 && !isNow ? 'past' : '';
+      const tag = isNow ? '<span class="tag">now</span>' : (isNext ? '<span class="tag">next</span>' : '<span></span>');
+      return `<div class="ev ${cls}"><span>${e.name}</span>${tag}<span class="t">${e.time}</span></div>`;
+    }).join('') ||
       '<div class="ev"><span style="color:var(--ink-dim)">Add items in os.config.json &rarr; agenda</span></div>';
 
     const s = DATA.meta;
-    $('brainStats').innerHTML = [
-      [s.totalFiles.toLocaleString(), 'files indexed'],
-      [DATA.departments.filter((d) => d.count).length, 'departments'],
-      [DATA.skills.length, 'skills'],
-      [DATA.apps.length, 'apps connected'],
-    ].map(([v, l]) => `<div class="stat"><b>${v}</b><span>${l}</span></div>`).join('');
+    const liveDepts = DATA.departments.filter((d) => d.count);
+    const maxDept = Math.max(...liveDepts.map((d) => d.count), 1);
+    $('brainStats').innerHTML =
+      `<div class="stat-hero"><b>${s.totalFiles.toLocaleString()}</b><span>files indexed</span>` +
+      `<div class="sub">scanned ${relTime(s.scannedAt)} &middot; ${s.durationMs} ms</div></div>` +
+      `<div class="stat-row">` +
+      `<div class="stat-min"><b>${liveDepts.length}</b><span>depts</span></div>` +
+      `<div class="stat-min"><b>${DATA.skills.length}</b><span>skills</span></div>` +
+      `<div class="stat-min"><b>${DATA.apps.length}</b><span>apps</span></div>` +
+      `</div>` +
+      `<div class="dept-bars">` +
+      liveDepts.map((d) =>
+        `<div class="db"><span>${d.name}</span>` +
+        `<span class="bar"><i style="width:${Math.max(4, (d.count / maxDept) * 100)}%;background:${d.color}"></i></span>` +
+        `<span class="n">${d.count.toLocaleString()}</span></div>`).join('') +
+      `</div>`;
 
     const inbox = cfg.emailPanel || {};
-    $('inboxCount').textContent = inbox.count ?? 0;
-    $('inboxNote').textContent = inbox.note || '';
-    if (inbox.sample) $('inboxTag').hidden = false;
+    const inboxCount = inbox.count ?? 0;
+    $('inboxCount').textContent = inboxCount;
+    if (inbox.sample && inboxCount > 0) $('inboxTag').hidden = false;
+    if (inboxCount === 0) {
+      $('inboxNote').innerHTML = 'No messages yet — connect Gmail to populate.' +
+        '<div class="inbox-wire">wire: a routine that writes <code>brain/inbox.json</code></div>';
+    } else {
+      $('inboxNote').textContent = inbox.note || '';
+    }
 
-    const deckNames = (cfg.skillsDeck && cfg.skillsDeck.length)
-      ? cfg.skillsDeck
-      : DATA.skills.slice(0, 4).map((k) => k.name);
+    // only skills the scan actually found may appear, so the deck never
+    // contradicts the header's census; the config order pins favorites first
+    const scannedNames = DATA.skills.map((k) => k.name);
+    const pinned = (cfg.skillsDeck || []).filter((n) => scannedNames.includes(n));
+    const deckNames = [...new Set([...pinned, ...scannedNames])].slice(0, 4);
+    $('deckTag').textContent = `${deckNames.length} of ${scannedNames.length}`;
     $('skillsDeck').innerHTML = deckNames.map((name) => `
       <div class="card">
-        <span class="sk">${name}</span>
-        <div class="opts">
-          <select class="mdl"><option>opus</option><option>sonnet</option><option>haiku</option></select>
-          <select class="eff"><option>high</option><option>xhigh</option></select>
+        <span class="sk">${name.replace(/-/g, '-<wbr>')}</span>
+        <div class="foot">
+          <div class="opts">
+            <select class="mdl"><option>opus</option><option>sonnet</option><option>haiku</option></select>
+            <select class="eff"><option>high</option><option>xhigh</option></select>
+          </div>
+          <button class="run" data-skill="${name}">&#9654; copy run cmd</button>
         </div>
-        <button class="run" data-skill="${name}">&#9654; copy run cmd</button>
-      </div>`).join('');
+      </div>`).join('') +
+      (scannedNames.length > deckNames.length
+        ? `<div class="deck-more">+${scannedNames.length - deckNames.length} more &mdash; search the brain</div>`
+        : '');
     $('skillsDeck').addEventListener('click', (e) => {
       const btn = e.target.closest('.run');
       if (!btn) return;
@@ -410,6 +527,18 @@
     const nowHM = new Date().toLocaleTimeString('en-GB', { timeZone: home.tz, hour: '2-digit', minute: '2-digit' });
     const routines = (cfg.routines || []).slice().sort((a, b) => a.time.localeCompare(b.time));
     const nextIdx = routines.findIndex((r) => r.time > nowHM);
+    const toMin = (t) => { const [h, m] = t.split(':').map(Number); return h * 60 + m; };
+    let foot = '<div class="rt-foot">quiet until tomorrow</div>';
+    if (nextIdx >= 0) {
+      const mins = toMin(routines[nextIdx].time) - toMin(nowHM);
+      foot = `<div class="rt-foot">next fire in <b>${Math.floor(mins / 60)}h ${String(mins % 60).padStart(2, '0')}m</b></div>`;
+    }
+    const ticks = routines.map((r, i) => {
+      const cls = i === nextIdx ? 'next' : (r.time <= nowHM ? 'fired' : '');
+      return `<span class="tick ${cls}" style="left:${(toMin(r.time) / 1440 * 100).toFixed(1)}%"><span class="tt">${r.time}</span></span>`;
+    }).join('');
+    const line = `<div class="rt-line"><div class="lbl">today &middot; 24h track</div>` +
+      `<div class="track">${ticks}<span class="nowline" style="left:${(toMin(nowHM) / 1440 * 100).toFixed(1)}%"></span></div></div>`;
     $('routines').innerHTML = routines.map((r, i) => {
       const fired = r.time <= nowHM;
       const cls = i === nextIdx ? 'next' : (fired ? 'fired' : '');
@@ -417,7 +546,7 @@
       return `<div class="rt ${cls}"><span class="tm">${r.time}</span>` +
         `<span>${r.name}<span class="rn">${r.runner || ''}</span></span>` +
         `<span class="st">${st}</span></div>`;
-    }).join('');
+    }).join('') + line + foot;
   }
 
   /* ================= the brain graph ================= */
@@ -445,7 +574,9 @@
   // world-space node tables filled by layout()
   let fileDots = [];   // {x,y,file,color}
   let ringNodes = [];  // {x,y,r,label,sub,type}
-  let W = 0, H = 0, R = 0, CX = 0, CY = 0;
+  let routineAngles = [];
+  let W = 0, H = 0, R = 0, CX = 0, CY = 0, RIN = 0, ROUT = 0;
+  const normAngle = (a) => ((a + Math.PI) % (Math.PI * 2) + Math.PI * 2) % (Math.PI * 2) - Math.PI;
   let view = { x: 0, y: 0, k: 1 };
   let staticLayer = null;
   let query = '';
@@ -462,7 +593,12 @@
     ringNodes = [];
 
     // --- memory sectors: dotted concentric arcs per department ---
-    const rIn = R * 0.30, rOut = R * 0.66;
+    // compress the band when the workspace is small so density stays rich
+    // and the low-count render reads as a miniature of the big one
+    const rIn = R * 0.30;
+    const bandScale = Math.min(1, Math.max(0.45, files.length / 1200));
+    const rOut = rIn + (R * 0.66 - rIn) * bandScale;
+    RIN = rIn; ROUT = rOut;
     const GAP = 0.10; // radians between sectors
     const total = files.length || 1;
     let angle = -Math.PI / 2;
@@ -494,29 +630,44 @@
           });
         }
       });
+      d._a0 = angle;
+      d._a1 = angle + span;
       d._mid = angle + span / 2;
       angle += span + GAP * scale;
     });
 
-    // --- skills ring ---
+    // --- skills ring (half-step rotation keeps 12 o'clock clear for the label) ---
     const rSk = R * 0.20;
+    const skR = skills.length < 8 ? 6.5 : 4;
     skills.forEach((sk, i) => {
-      const a = -Math.PI / 2 + (i / Math.max(1, skills.length)) * Math.PI * 2;
-      ringNodes.push({ x: CX + Math.cos(a) * rSk, y: CY + Math.sin(a) * rSk, r: 4, type: 'skill', label: '/' + sk.name, sub: sk.desc || sk.path, color: '#e58a3a' });
+      const a = -Math.PI / 2 + ((i + 0.5) / Math.max(1, skills.length)) * Math.PI * 2;
+      ringNodes.push({ x: CX + Math.cos(a) * rSk, y: CY + Math.sin(a) * rSk, r: skR, type: 'skill', label: '/' + sk.name, sub: sk.desc || sk.path, color: '#e58a3a' });
     });
 
     // --- routines ring ---
     const rRt = R * 0.78;
+    routineAngles = [];
     routines.forEach((rt, i) => {
-      const a = -Math.PI / 2 + (i / Math.max(1, routines.length)) * Math.PI * 2 + 0.25;
-      ringNodes.push({ x: CX + Math.cos(a) * rRt, y: CY + Math.sin(a) * rRt, r: 5, type: 'routine', label: rt.name, sub: `${rt.time} · ${rt.runner || ''}`, color: '#d9b36c' });
+      const a = -Math.PI / 2 + ((i + 0.5) / Math.max(1, routines.length)) * Math.PI * 2 + 0.25;
+      routineAngles.push(a);
+      ringNodes.push({ x: CX + Math.cos(a) * rRt, y: CY + Math.sin(a) * rRt, r: 6, type: 'routine', label: rt.name, sub: `${rt.time} · ${rt.runner || ''}`, color: '#d9b36c', time: rt.time });
     });
 
-    // --- applications ring ---
+    // --- applications ring (half-step rotation keeps 12 o'clock clear) ---
     const rAp = R * 0.92;
+    const takenMonos = new Set();
+    const monoFor = (name) => {
+      const words = name.split(/[^A-Za-z0-9]+/).filter(Boolean);
+      let m = (words.length > 1 ? words[0][0] + words[1][0] : name.slice(0, 2)).toUpperCase();
+      for (let i = 1; takenMonos.has(m) && i < name.length; i++) {
+        m = (name[0] + name[i]).toUpperCase();
+      }
+      takenMonos.add(m);
+      return m;
+    };
     apps.forEach((ap, i) => {
-      const a = -Math.PI / 2 + (i / Math.max(1, apps.length)) * Math.PI * 2;
-      ringNodes.push({ x: CX + Math.cos(a) * rAp, y: CY + Math.sin(a) * rAp, r: 9, type: 'app', label: ap.name, sub: ap.kind || '', color: '#7fa8c9', mono: ap.name.replace(/[^A-Za-z0-9]/g, '').slice(0, 2).toUpperCase() });
+      const a = -Math.PI / 2 + ((i + 0.5) / Math.max(1, apps.length)) * Math.PI * 2;
+      ringNodes.push({ x: CX + Math.cos(a) * rAp, y: CY + Math.sin(a) * rAp, r: 11, type: 'app', label: ap.name, sub: ap.kind || '', color: '#7fa8c9', mono: monoFor(ap.name) });
     });
 
     drawStatic();
@@ -543,7 +694,7 @@
     const rings = [
       { r: R * 0.92, color: 'rgba(127,168,201,.35)', label: 'APPLICATIONS', lc: '#7fa8c9' },
       { r: R * 0.78, color: 'rgba(217,179,108,.32)', label: 'ROUTINES', lc: '#d9b36c' },
-      { r: R * 0.66, color: 'rgba(142,139,126,.18)', label: 'MEMORY', lc: '#8e8b7e' },
+      { r: ROUT + 6, color: 'rgba(142,139,126,.18)', label: 'MEMORY', lc: '#8e8b7e' },
       { r: R * 0.20, color: 'rgba(229,138,58,.4)', label: 'SKILLS', lc: '#e58a3a' },
     ];
     for (const ring of rings) {
@@ -559,7 +710,40 @@
       c.textAlign = 'center';
       // letter-spaced arc label at 12 o'clock
       const label = ring.label.split('').join(' ');
-      c.fillText(label, CX, CY - ring.r - 5);
+      const lw = c.measureText(label).width;
+      c.fillStyle = '#0b0b09';
+      c.fillRect(CX - lw / 2 - 8, CY - ring.r - 14, lw + 16, 18);
+      c.fillStyle = ring.lc;
+      c.fillText(label, CX, CY - ring.r - 2);
+    }
+
+    // sector wedge tints, boundary rays and arc guides so the band
+    // structure reads at any file count
+    for (const d of depts) {
+      c.beginPath();
+      c.arc(CX, CY, ROUT + 6, d._a0, d._a1);
+      c.arc(CX, CY, RIN - 6, d._a1, d._a0, true);
+      c.closePath();
+      c.fillStyle = d.color;
+      c.globalAlpha = 0.05;
+      c.fill();
+      c.globalAlpha = 1;
+      c.strokeStyle = 'rgba(228,220,203,.10)';
+      c.lineWidth = 0.6;
+      for (const a of [d._a0, d._a1]) {
+        c.beginPath();
+        c.moveTo(CX + Math.cos(a) * (RIN - 6), CY + Math.sin(a) * (RIN - 6));
+        c.lineTo(CX + Math.cos(a) * (ROUT + 6), CY + Math.sin(a) * (ROUT + 6));
+        c.stroke();
+      }
+      c.strokeStyle = d.color;
+      c.globalAlpha = 0.10;
+      for (let r = RIN; r <= ROUT; r += 13) {
+        c.beginPath();
+        c.arc(CX, CY, r, d._a0, d._a1);
+        c.stroke();
+      }
+      c.globalAlpha = 1;
     }
 
     // faint texture chords
@@ -573,23 +757,51 @@
       c.beginPath(); c.moveTo(a.x, a.y); c.lineTo(b.x, b.y); c.stroke();
     }
 
-    // file dots
+    // file dots — larger with a lifting outline when the map is sparse
+    const dotR = fileDots.length < 1200 ? 3.1 : 2.5;
     for (const d of fileDots) {
       c.beginPath();
-      c.arc(d.x, d.y, 2.5, 0, Math.PI * 2);
+      c.arc(d.x, d.y, dotR, 0, Math.PI * 2);
       c.fillStyle = d.color;
       c.globalAlpha = 0.95;
       c.fill();
+      if (dotR > 2.6) {
+        c.globalAlpha = 0.35;
+        c.strokeStyle = '#e4dccb';
+        c.lineWidth = 0.5;
+        c.stroke();
+      }
     }
     c.globalAlpha = 1;
 
-    // department labels at sector midpoints
+    // department labels pinned just outside the band, with leader ticks;
+    // labels near 12 o'clock are nudged clear of the ring-label stack
     c.font = '600 10px "Chakra Petch", sans-serif';
     for (const d of depts) {
-      const lx = CX + Math.cos(d._mid) * (R * 0.70);
-      const ly = CY + Math.sin(d._mid) * (R * 0.70);
-      c.fillStyle = 'rgba(11,11,9,.7)';
+      let am = d._mid;
+      const delta = normAngle(am + Math.PI / 2);
+      if (Math.abs(delta) < 0.45) am = -Math.PI / 2 + Math.sign(delta || 1) * 0.45;
+      // also stay clear of routine markers, always moving further from the
+      // 12 o'clock label stack so the two keep-outs can't fight
+      for (const ra of routineAngles) {
+        if (Math.abs(normAngle(am - ra)) < 0.24) {
+          const side = Math.sign(normAngle(am + Math.PI / 2)) || 1;
+          am = ra + side * 0.27;
+        }
+      }
+      const cos = Math.cos(am), sin = Math.sin(am);
+      c.strokeStyle = d.color;
+      c.globalAlpha = 0.6;
+      c.lineWidth = 1;
+      c.beginPath();
+      c.moveTo(CX + cos * (ROUT + 8), CY + sin * (ROUT + 8));
+      c.lineTo(CX + cos * (ROUT + 16), CY + sin * (ROUT + 16));
+      c.stroke();
+      c.globalAlpha = 1;
+      const lx = CX + cos * (ROUT + 26);
+      const ly = CY + sin * (ROUT + 26);
       const tw = c.measureText(d.name.toUpperCase()).width;
+      c.fillStyle = 'rgba(11,11,9,.8)';
       c.fillRect(lx - tw / 2 - 4, ly - 8, tw + 8, 14);
       c.fillStyle = d.color;
       c.textAlign = 'center';
@@ -606,36 +818,59 @@
         c.lineWidth = 1.2;
         c.stroke();
         c.fillStyle = nd.color;
-        c.font = '500 7px "IBM Plex Mono", monospace';
+        c.font = '500 8.5px "IBM Plex Mono", monospace';
         c.textAlign = 'center';
-        c.fillText(nd.mono, nd.x, nd.y + 2.5);
+        c.fillText(nd.mono, nd.x, nd.y + 3);
       } else if (nd.type === 'routine') {
         c.save();
         c.translate(nd.x, nd.y);
+        c.shadowColor = 'rgba(217,179,108,.8)';
+        c.shadowBlur = 8;
         c.rotate(Math.PI / 4);
         c.fillStyle = nd.color;
-        c.fillRect(-3.2, -3.2, 6.4, 6.4);
+        c.fillRect(-3.8, -3.8, 7.6, 7.6);
         c.restore();
+        if (nd.time) {
+          c.fillStyle = 'rgba(217,179,108,.75)';
+          c.font = '500 8px "IBM Plex Mono", monospace';
+          c.textAlign = 'center';
+          c.fillText(nd.time, nd.x, nd.y + 16);
+        }
       } else {
+        c.save();
+        c.shadowColor = 'rgba(229,138,58,.9)';
+        c.shadowBlur = nd.r > 5 ? 10 : 5;
         c.beginPath();
         c.arc(nd.x, nd.y, nd.r, 0, Math.PI * 2);
         c.fillStyle = nd.color;
         c.fill();
+        c.restore();
       }
     }
 
-    // center router node
+    // center router node with layered glow
+    const glow = c.createRadialGradient(CX, CY, 4, CX, CY, 80);
+    glow.addColorStop(0, 'rgba(229,138,58,.22)');
+    glow.addColorStop(1, 'rgba(229,138,58,0)');
+    c.fillStyle = glow;
+    c.beginPath();
+    c.arc(CX, CY, 80, 0, Math.PI * 2);
+    c.fill();
+    c.save();
+    c.shadowColor = 'rgba(229,138,58,.9)';
+    c.shadowBlur = 22;
     c.beginPath();
     c.arc(CX, CY, 17, 0, Math.PI * 2);
     c.fillStyle = '#e58a3a';
     c.fill();
+    c.restore();
     c.fillStyle = '#0b0b09';
     c.font = '600 9px "Chakra Petch", sans-serif';
     c.textAlign = 'center';
     c.fillText('CC', CX, CY + 3);
     c.fillStyle = '#e4dccb';
     c.font = '600 10px "Chakra Petch", sans-serif';
-    c.fillText('CLAUDE.MD', CX, CY + 32);
+    c.fillText('CLAUDE.MD', CX, CY + 34);
   }
 
   function draw() {
