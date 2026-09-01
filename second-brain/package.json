@@ -1,0 +1,6 @@
+{
+  "name": "second-brain",
+  "private": true,
+  "type": "commonjs",
+  "description": "Portable second-brain toolkit: scan.js (indexer), brain.js (deterministic retrieval), dashboard.html (Agentic OS)."
+}

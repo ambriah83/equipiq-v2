@@ -1,0 +1,58 @@
+{
+  "osName": "EARTH Agentic OS",
+  "owner": "Ambria",
+  "org": "Earth Nail Spa",
+  "workspaceRoot": "..",
+  "timezones": [
+    { "label": "CENTRAL", "tz": "America/Chicago", "home": true },
+    { "label": "PACIFIC", "tz": "America/Los_Angeles" },
+    { "label": "EASTERN", "tz": "America/New_York" },
+    { "label": "MANILA", "tz": "Asia/Manila" }
+  ],
+  "departments": [
+    { "id": "product",  "name": "Product",  "color": "#7FA8A0", "match": ["src/", "index.html", "tailwind.config", "vite.config", "postcss.config", "package"] },
+    { "id": "data",     "name": "Data",     "color": "#C97B5A", "match": ["data/", "supabase/", "netlify/", "equipiq.json"] },
+    { "id": "docs",     "name": "Docs",     "color": "#D9B36C", "match": ["docs/", ".md", ".txt"] },
+    { "id": "ops",      "name": "Ops",      "color": "#A3A380", "match": ["scripts/", ".sh", ".bat"] },
+    { "id": "general",  "name": "General",  "color": "#8E8B82", "match": [] }
+  ],
+  "apps": [
+    { "name": "Gmail", "kind": "MCP" },
+    { "name": "Google Calendar", "kind": "MCP" },
+    { "name": "Google Drive", "kind": "MCP" },
+    { "name": "HubSpot", "kind": "MCP" },
+    { "name": "Webflow", "kind": "MCP" },
+    { "name": "Zoho Desk", "kind": "MCP" },
+    { "name": "Twilio", "kind": "MCP" },
+    { "name": "ElevenLabs", "kind": "MCP" },
+    { "name": "Higgsfield", "kind": "MCP" },
+    { "name": "Adobe", "kind": "MCP" },
+    { "name": "Canva", "kind": "MCP" },
+    { "name": "Unsplash", "kind": "MCP" },
+    { "name": "Indeed", "kind": "MCP" },
+    { "name": "Earth Ops", "kind": "MCP" },
+    { "name": "GitHub", "kind": "MCP" },
+    { "name": "Boulevard", "kind": "API" },
+    { "name": "Basecamp", "kind": "CLI" },
+    { "name": "Alliance HCM", "kind": "API" }
+  ],
+  "routines": [
+    { "time": "07:30", "name": "Morning brief — books + chats sweep", "runner": "DESKTOP", "status": "queued" },
+    { "time": "12:00", "name": "Guest services queue check", "runner": "DESKTOP", "status": "queued" },
+    { "time": "16:30", "name": "Book optimizer pass — tomorrow", "runner": "DESKTOP", "status": "queued" },
+    { "time": "21:30", "name": "Nightly scorecard email", "runner": "CLOUD", "status": "queued" }
+  ],
+  "microApps": [
+    { "name": "Second Brain", "desc": "Your whole workspace as a living map", "href": "#brain" },
+    { "name": "EquipIQ", "desc": "Equipment intelligence app", "href": "https://github.com/ambriah83/equipiq-v2" },
+    { "name": "Client Comm HQ", "desc": "Review replies + standards", "href": "#" },
+    { "name": "Waitlist Release HQ", "desc": "Weekly membership releases", "href": "#" }
+  ],
+  "skillsDeck": ["earth-book-optimizer", "earth-google-chat", "earth-client-communication", "morning"],
+  "emailPanel": { "sample": true, "count": 0, "note": "Connect via Gmail MCP + a routine that writes brain/inbox.json" },
+  "agenda": [
+    { "time": "09:00", "name": "Front desk huddle" },
+    { "time": "14:00", "name": "Review book optimizer output" },
+    { "time": "18:00", "name": "Close-out sweep" }
+  ]
+}
